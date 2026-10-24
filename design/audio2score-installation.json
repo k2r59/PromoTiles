@@ -1,0 +1,38 @@
+{
+  "server": "audio2score",
+  "installed": true,
+  "registered": true,
+  "source": "https://github.com/David7ce/audio2score-mcp",
+  "commit": "f13bb18e25e6c047118a7846346539aeb6ac075d",
+  "root": "/Volumes/EXT/ApplicationData/Codex/mcp/audio2score-mcp",
+  "config": "/Users/k2r59/.codex/config.toml",
+  "tools": [
+    "transcribe_audio",
+    "midi_to_score",
+    "score_to_notes"
+  ],
+  "validation": {
+    "status": "passed",
+    "tools": [
+      "transcribe_audio",
+      "midi_to_score",
+      "score_to_notes"
+    ],
+    "midi_note_count": 5,
+    "detected_pitches": [
+      69,
+      72,
+      76,
+      81,
+      88
+    ],
+    "expected_pitches": [
+      69,
+      72,
+      76
+    ],
+    "artifacts": "/Volumes/EXT/ApplicationData/Codex/mcp/audio2score-mcp/local-validation/run-_k2qo18j",
+    "scope": "MCP handshake and MP3 to MIDI, JSON and MusicXML. Synthetic test, not full-song transcription quality."
+  },
+  "note": "Serveur vérifié via un client MCP local. Le chat courant peut nécessiter un rechargement des serveurs MCP. Les notes JSON exportées sont en temps musicaux, pas directement en secondes."
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Dans les yeux d’Émilie",
+  "artist": "Joe Dassin",
+  "source": "MP3 fourni par l’utilisateur",
+  "referenceUrl": "https://www.youtube.com/watch?v=ZJJCs-Y--_s",
+  "audioSha256": "ad35be9ae3f0ab6d25506a92a9c2242fd40f67ab46e1b903c35cf9b0b36c8ac6",
+  "durationSeconds": 222.052426,
+  "estimatedBpm": 151.999,
+  "rawTranscribedNotes": 2231,
+  "modes": [
+    {
+      "mode": "facile",
+      "notes": 216,
+      "holds": 0,
+      "doubleHits": 0,
+      "laneCounts": {
+        "1": 56,
+        "2": 62,
+        "3": 52,
+        "0": 46
+      },
+      "maxPointsProvisional": 1500
+    },
+    {
+      "mode": "normal",
+      "notes": 415,
+      "holds": 8,
+      "doubleHits": 0,
+      "laneCounts": {
+        "1": 110,
+        "2": 103,
+        "3": 106,
+        "0": 96
+      },
+      "maxPointsProvisional": 2250
+    },
+    {
+      "mode": "difficile",
+      "notes": 701,
+      "holds": 25,
+      "doubleHits": 28,
+      "laneCounts": {
+        "1": 190,
+        "2": 155,
+        "0": 164,
+        "3": 192
+      },
+      "maxPointsProvisional": 3000
+    }
+  ],
+  "validation": "Timing, lane conflicts, maximum two active fingers, MIDI round-trip and progressive density checked.",
+  "limitations": [
+    "Transcription automatique du mix complet, sans séparation voix/instruments.",
+    "Partitions adaptées automatiquement ; mélodie et synchronisation à valider à l’écoute et en jeu.",
+    "Difficulté intrinsèque et coefficients de score provisoires.",
+    "PWA locale jouable ; qualité musicale et équilibre à valider sur téléphone."
+  ]
+}

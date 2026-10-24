@@ -1,0 +1,69 @@
+{
+  "company": "Promodev",
+  "status": "Prototype PWA local jouable, animé et testé. Un morceau et trois niveaux intégrés ; concours connecté et MongoDB à réaliser. État détaillé dans REPRISE.md.",
+  "confirmed": {
+    "product": "Concours musical entre collègues, jeu de rythme inspiré de Piano Tiles, mobile PWA",
+    "visual": "Nuit polaire, Noël, rendu luxe et nombreux effets spectaculaires",
+    "music": "Pas de chansons de Noël ; choix du morceau par le joueur",
+    "scoring": "La difficulté intrinsèque du morceau ET le mode sélectionné modifient les points",
+    "modes": [
+      "facile",
+      "normal",
+      "difficile"
+    ],
+    "stack": {
+      "frontend": "Vue.js",
+      "backend": "JavaScript compatible Node.js sur Cloudflare Workers",
+      "database": "MongoDB",
+      "hosting": "Cloudflare Workers"
+    }
+  },
+  "proposed": {
+    "effects": [
+      "Boule à neige avec profondeur et mouvement doux",
+      "Aurores boréales lentes",
+      "Reflets mobiles sur le cristal",
+      "Halo et fines particules à chaque note réussie",
+      "Intensification visuelle graduelle des combos",
+      "Révélation du podium et célébration des records"
+    ],
+    "effectConstraints": [
+      "Ne pas masquer les notes ni la ligne de frappe",
+      "Adapter la qualité à la puissance du téléphone",
+      "Respecter la préférence de réduction des mouvements"
+    ],
+    "scoring": {
+      "status": "Barème illustratif à équilibrer avec les pistes réelles",
+      "formula": "round(performance_normalized_0_1000 * song_coefficient * mode_coefficient)",
+      "performance": "Mesure bornée entre 0 et 1000, intégrant précision, notes réussies et combos. Normalisée pour éviter qu'un nombre de notes supérieur ajoute un second multiplicateur implicite.",
+      "modeCoefficients": {
+        "facile": 1,
+        "normal": 1.5,
+        "difficile": 2
+      },
+      "example": {
+        "songCoefficient": 1.5,
+        "maxScores": {
+          "facile": 1500,
+          "normal": 2250,
+          "difficile": 3000
+        }
+      },
+      "gameplay": "Créer une partition adaptée à chaque mode, avec densité, motifs et/ou tolérance de timing distincts.",
+      "server": "Le backend doit appliquer le barème autoritatif ; ne pas faire confiance aux coefficients ou au total transmis par le navigateur."
+    },
+    "musicCatalog": "Un morceau intégré : Dans les yeux d’Émilie, Joe Dassin. Autres titres à ajouter.",
+    "architecture": "Backend JavaScript compatible Node.js sur Cloudflare Workers et MongoDB demandés. Connexion et architecture à valider ; aucune connexion réelle testée."
+  },
+  "pending": [
+    "Catalogue à plusieurs morceaux et validation musicale des partitions",
+    "Barème final et pondération précision/combo",
+    "Règle d'agrégation du classement et départage",
+    "Authentification des collègues",
+    "Connexion MongoDB et configuration Cloudflare"
+  ],
+  "sources": [
+    "https://developers.cloudflare.com/workers/databases/third-party-integrations/mongodb/",
+    "https://developers.cloudflare.com/workers/runtime-apis/nodejs/"
+  ]
+}

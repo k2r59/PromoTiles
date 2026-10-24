@@ -1,0 +1,34 @@
+{
+  "transcribe_audio": {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "/Volumes/EXT/Dev/pianoTiles/audio/joe-dassin-dans-les-yeux-emilie/source/song.mid",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "result": "/Volumes/EXT/Dev/pianoTiles/audio/joe-dassin-dans-les-yeux-emilie/source/song.mid"
+    },
+    "isError": false,
+    "resultType": "complete"
+  },
+  "score_to_notes": {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "/Volumes/EXT/Dev/pianoTiles/audio/joe-dassin-dans-les-yeux-emilie/source/song.notes.json",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "result": "/Volumes/EXT/Dev/pianoTiles/audio/joe-dassin-dans-les-yeux-emilie/source/song.notes.json"
+    },
+    "isError": false,
+    "resultType": "complete"
+  }
+}

@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.wrangler/
+.env
+.env.*
+!.env.example
+.DS_Store
+artifacts/
+
+# Environnements et sorties locales
+.venv/
+__pycache__/
+*.pyc
+*.log
+# Copies audio et paquets régénérables ; le MP3 utilisé reste dans public/music/
+audio/**/source/*.mp3
+audio/**/exports/*.mp3
+audio/**/*.zip
+audio/**/*.info.json
+# Captures du navigateur entier ; les vues recadrées sont conservées
+design/*-native.png
