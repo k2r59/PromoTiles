@@ -481,6 +481,12 @@ Le build et le déploiement à blanc ont réussi. L’audit npm a indiqué zéro
 
 Le build peut émettre un avertissement `inlineDynamicImports` déprécié provenant de l’outillage PWA. Il n’a pas empêché la compilation. La dépendance Three.js est encore déclarée pour l’étude archivée ; elle n’est plus importée par le globe de l’application.
 
+### Vérification de la reprise depuis Git
+
+Une copie propre du dépôt a été clonée dans un dossier temporaire distinct sur le Mac d’origine. `npm ci`, les 22 tests et le build de production ont réussi depuis cette copie, sans récupérer `node_modules`, `dist` ni les doublons audio ignorés. Ce contrôle confirme que les ressources nécessaires sont versionnées ; il ne remplace pas un essai sur le second Mac. Le contrôle syntaxique des scripts Python et la concordance des JSON publics avec les exports et l’empreinte du MP3 ont également réussi.
+
+La relecture du dossier a été manuelle : le correcteur rédactionnel facultatif ne pouvait pas démarrer, car sa dépendance spaCy était absente.
+
 ### Contrôles dans Safari sur Mac
 
 L’accueil a été contrôlé à 320 × 568, 390 × 844 et 1280 × 900. La variante compacte laisse le bouton principal accessible. Le dialogue d’aide, la sélection, les retours de frappe, la pause, la reprise, les préférences et l’actualisation de la PWA ont été exercés.
