@@ -1,6 +1,8 @@
 import { fail, normalizeEmail } from './auth.js'
 import { loginEmail } from './login-email.js'
 const MINUTE=60000, SESSION_MS=7*86400000
+// Explicit delivery alias only. Challenges, sessions and profiles retain the login email.
+const codeRecipient=email=>email==='test@promo.dev'?'herve.colard@promo.dev':email
 const encoder=new TextEncoder()
 export async function digest(value){return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',encoder.encode(value))),b=>b.toString(16).padStart(2,'0')).join('')}
 function randomToken(){return Array.from(crypto.getRandomValues(new Uint8Array(32)),b=>b.toString(16).padStart(2,'0')).join('')}
@@ -48,7 +50,7 @@ export async function authRoute(request,env,readBody,now=Date.now()){
   await env.DB.prepare('UPDATE auth_codes SET consumed=1 WHERE email=?').bind(email).run()
   await env.DB.prepare('INSERT INTO auth_codes(id,email,digest,expires) VALUES(?,?,?,?)').bind(id,email,await digest(env.AUTH_PEPPER+':'+id+':'+code),expires).run()
   try{
-   await env.EMAIL.send({from:{email:env.AUTH_FROM||'connexion@noel.promo.dev',name:'promoTiles · Promo.dev'},to:email,...loginEmail(code)})
+   await env.EMAIL.send({from:{email:env.AUTH_FROM||'connexion@noel.promo.dev',name:'promoTiles · Promo.dev'},to:codeRecipient(email),...loginEmail(code)})
   }catch{
    await env.DB.prepare('UPDATE auth_codes SET consumed=1 WHERE id=?').bind(id).run()
    throw fail(503,'L’e-mail n’a pas pu être envoyé. Réessayez dans une minute.')

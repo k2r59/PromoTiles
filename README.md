@@ -64,4 +64,4 @@ npm run test:cloudflare
 npm run build
 ```
 
-52 tests couvrent notamment les 300 partitions, les plafonds de score, les tenues, les reprises, la provenance des attaques, l’API partagée et la neige. Captures dans `design/previews/`. Contexte historique et changements récents dans [REPRISE.md](REPRISE.md). Les évaluations des agents ne remplacent pas un essai humain sur téléphone ni la validation du plaisir de jeu.
+53 tests couvrent notamment les 300 partitions, les plafonds de score, les tenues, les reprises, la provenance des attaques, l’API partagée et la neige. Captures dans `design/previews/`. Contexte historique et changements récents dans [REPRISE.md](REPRISE.md). Les évaluations des agents ne remplacent pas un essai humain sur téléphone ni la validation du plaisir de jeu.

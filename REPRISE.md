@@ -705,3 +705,10 @@ Bouton « Télécharger le diagnostic » retiré des préférences et de l’éc
 - Vérifications : 52 tests réussis, intégration Miniflare/D1 réussie, build PWA ; login local, collision pseudo, sélection/persistance avatar, partie démarrée puis mise en pause. Dotations contrôlées à 1280×720, 390×844 et 320×568 sans débordement. Pas de nouvelle mesure thermique sur appareil physique pour ces ajouts.
 - Production : shell, manifeste, icônes et avatars HTTP 200 ; API privée et musique sans session HTTP 401. Le manifeste expose bien `promoTiles`. Captures : `design/previews/christmas-avatars-mobile.png`, `prizes-mobile.png`, `login-email-mobile.png` (code fictif d’aperçu).
 - Le dossier préexistant `macos/Eveil/` concerne EasyWake et est indépendant du jeu ; ne pas l’inclure dans le commit PromoTiles.
+
+
+## 27. Alias de réception pour le compte test — 25 octobre 2026
+
+- À la demande utilisateur, les codes de `test@promo.dev` sont livrés à `herve.colard@promo.dev`. L’identité persistée demeure `test@promo.dev`, distincte du compte personnel d’Hervé. Comparaison exacte après normalisation ; aucun paramètre client ne peut modifier le destinataire.
+- Test de régression : destinataire redirigé, challenge/session/profil sous la bonne adresse, comptes séparés, limite d’envoi conservée, autres adresses inchangées et paramètres de destinataire injectés ignorés. 53 tests réussis, build réussi.
+- Worker déployé : `bec18872-2e70-46ee-b433-358a26f1c8e5`. Aucun compte de production créé pour ce contrôle ; les tests utilisent une base éphémère.

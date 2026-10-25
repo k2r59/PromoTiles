@@ -140,6 +140,37 @@ test('native email login protects data, consumes OTP once, revokes logout and li
 })
 
 
+test('test email delivery alias preserves a separate account and cannot redirect other identities',async()=>{
+ const DB=database(),mail=[],env={DB,AUTH_MODE:'native',AUTH_PEPPER:'test-only-pepper',EMAIL:{send:async m=>mail.push(m)}}
+ const worker=createWorker({now:()=>1000000})
+ const call=(path,data,cookie)=>worker.fetch(new Request('https://noel.promo.dev/api/'+path,{method:data?'POST':'GET',headers:{'Content-Type':'application/json',...(cookie?{Cookie:cookie}:{})},body:data?JSON.stringify(data):undefined}),env)
+ async function login(email){
+  const sent=await call('auth/code',{email,to:'intruder@evil.dev',recipient:'intruder@evil.dev'})
+  assert.equal(sent.status,200)
+  const {challenge}=await sent.json(),message=mail.at(-1)
+  const signed=await call('auth/verify',{challenge,code:message.text.match(/\d{6}/)[0]})
+  assert.equal(signed.status,200)
+  const cookie=signed.headers.get('Set-Cookie').split(';')[0]
+  return {message,profile:await(await call('me',undefined,cookie)).json()}
+ }
+ try{
+  const alias=await login(' TEST@PROMO.DEV ')
+  assert.equal(alias.message.to,'herve.colard@promo.dev')
+  assert.equal(alias.profile.email,'test@promo.dev')
+  assert.equal(DB.raw.prepare('SELECT email FROM auth_codes').get().email,'test@promo.dev')
+  assert.equal(DB.raw.prepare('SELECT email FROM auth_sessions').get().email,'test@promo.dev')
+  assert.equal((await call('auth/code',{email:'test@promo.dev'})).status,429)
+  const owner=await login('herve.colard@promo.dev')
+  assert.equal(owner.message.to,'herve.colard@promo.dev')
+  assert.equal(owner.profile.email,'herve.colard@promo.dev')
+  assert.notEqual(owner.profile.id,alias.profile.id)
+  const ordinary=await login('test.other@promo.dev')
+  assert.equal(ordinary.message.to,'test.other@promo.dev')
+  assert.equal(ordinary.profile.email,'test.other@promo.dev')
+  assert.equal(DB.raw.prepare('SELECT COUNT(*) n FROM players').get().n,3)
+ }finally{DB.raw.close()}
+})
+
 test('score audit rejects copied long recordings and impossible input rates without changing scoring',async()=>{
  let now=100000;const DB=database(),longChart={...chart,notes:Array.from({length:20},(_,i)=>({id:String(i),timeSeconds:1+i*.35,lane:i%4,type:'tap',durationSeconds:0}))}
  const env={DB,ASSETS:{fetch:async()=>Response.json(longChart)}},worker=createWorker({songs:[song],now:()=>now,identity:async()=>({email:'qa@promo.dev'})})

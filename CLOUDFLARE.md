@@ -49,6 +49,10 @@ Ou Workers & Pages → promodev-piano-challenge → Observability. Rechercher `c
 
 Le signalement utilisateur concerne Safari iPhone : une partie se terminait immédiatement. La version de diagnostic refuse une durée audio incohérente, un saut temporel invraisemblable et un événement `ended` prématuré ; elle ne sauvegarde pas de résultat dans ces cas. Le hash MP3 est vérifié avant le démarrage. Les traces réelles ont confirmé que le MP3 était intact (SHA-256 correct), puis que Safari ramenait sa durée de 91,298 s à 0,000177792 s après la séquence play/pause/seek du Blob. Le build mobile-3 remplace ce lecteur par Web Audio : décodage en mémoire, déverrouillage AudioContext au toucher, horloge audio pour le gameplay, sources renouvelées à chaque reprise. Une interruption du contexte met la partie en pause. Les logs de production ont ensuite confirmé plus de 48 secondes de jeu sur Safari iPhone avec progression des scores et aucune fin prématurée, avant une pause et un redémarrage du joueur. La sauvegarde distante d’une partie complète reste à observer.
 
+## Alias de réception des codes
+
+Exception demandée par Hervé : une connexion avec `test@promo.dev` envoie son code à `herve.colard@promo.dev`. La normalisation de casse/espaces est appliquée avant cette comparaison exacte. L’alias est défini exclusivement côté Worker ; le navigateur ne peut pas choisir un autre destinataire. Les challenges, sessions, limites par compte, profils et scores conservent l’identité `test@promo.dev`, distincte du compte personnel d’Hervé. Les autres adresses ne sont pas redirigées. L’adaptateur local garde son fonctionnement sans envoi réel.
+
 ## Profils, avatars et anti-triche
 
 `0002_native_auth.sql` ajoute pseudo unique, codes et sessions. `0003_avatars_anticheat.sql` ajoute l’avatar, les empreintes des performances et le journal anti-triche. Les 20 identifiants d’avatar admis sont définis dans `src/lib/avatars.js` ; le serveur rejette les autres valeurs. Les portraits sont fournis en WebP 256 px.
