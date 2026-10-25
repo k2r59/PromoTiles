@@ -1,0 +1,10 @@
+{
+  "composition": "The Entertainer — Scott Joplin (1902)",
+  "score": "Mutopia / Chris Sawer, Simon Albrecht — public domain",
+  "source": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=263",
+  "soundfont": "GeneralUser GS 2.0.3 — S. Christian Collins",
+  "soundfontSource": "https://github.com/mrbumpy409/GeneralUser-GS",
+  "soundfontSha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+  "audioSha256": "f7498ec5d0f5a285aade9d31341e36974139b1f6f055265b21aa8917200b155a",
+  "arrangement": "Intro + repeated A theme, final tonic extended; rendered locally from performance.mid."
+}

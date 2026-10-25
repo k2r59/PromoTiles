@@ -1,0 +1,9 @@
+Built-in ImageGen edit, 24 October 2026.
+Source: public/piano-snowglobe.webp
+Output: public/piano-snowglobe-clear.webp
+
+Use case: precise-object-edit.
+Asset type: transparent PNG for the existing PromoTiles interactive snow globe, square canvas.
+Input image: the sole image is the EDIT TARGET, not a loose inspiration.
+Primary request: remove ALL suspended airborne white snowflakes, floating white dots, floating specks and floating glitter from inside the glass globe. The air inside must be completely clean and empty so actual animated snowfall can be composited in code. Keep the existing snow resting on the ground and on the little evergreen branches, since this is the settled snow.
+STRICT invariants: preserve exactly the same snow globe design, same piano-key tiered Christmas tree, same golden star at its top, same spiral gold light ribbon, same small evergreen trees and presents, same dark blue and gold decorated pedestal, same glass silhouette, reflections, perspective, lighting and palette. Preserve the original framing, dimensions and position of every object, including the star near 50% x 14.5% y. Do not redesign, invent new details, move, crop, enlarge or rotate the globe. Do not add any snow in the air. Retain lights belonging to the ribbon and physical ornaments; remove disconnected floating particles. Clean dark blue interior behind the objects, with existing subtle aurora retained. True alpha transparency OUTSIDE the globe, no checkerboard and no solid background. This is a surgical cleanup of the provided image only.

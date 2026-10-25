@@ -1,0 +1,2070 @@
+{
+  "schemaVersion": 1,
+  "status": "midi-synchronised-demo-awaiting-player-feedback",
+  "songId": "scott-joplin-the-entertainer-demo-v1",
+  "title": "The Entertainer",
+  "artist": "Scott Joplin",
+  "audioFile": "piano.mp3",
+  "audioSha256": "f7498ec5d0f5a285aade9d31341e36974139b1f6f055265b21aa8917200b155a",
+  "durationSeconds": 63.250272,
+  "estimatedBpm": 72,
+  "beatOffsetSeconds": 0.833333,
+  "mode": "difficile",
+  "laneCount": 4,
+  "timingReference": "Exact rendered performance.mid ticks, 384 PPQ, 833333 microseconds/quarter; no audio trim.",
+  "countInSeconds": 3,
+  "approachTimeSeconds": 2.1,
+  "songDifficulty": {
+    "rating": 3,
+    "outOf": 5,
+    "coefficient": 1.5
+  },
+  "scoring": {
+    "maxPoints": 3000
+  },
+  "notes": [
+    {
+      "id": "difficile-0000",
+      "timeSeconds": 0.833333,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 384
+    },
+    {
+      "id": "difficile-0001",
+      "timeSeconds": 1.041666,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 480
+    },
+    {
+      "id": "difficile-0002",
+      "timeSeconds": 1.249999,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 576
+    },
+    {
+      "id": "difficile-0003",
+      "timeSeconds": 1.458333,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 672
+    },
+    {
+      "id": "difficile-0004",
+      "timeSeconds": 1.874999,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 864
+    },
+    {
+      "id": "difficile-0005",
+      "timeSeconds": 2.083333,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 79,
+      "type": "tap",
+      "sourceTick": 960
+    },
+    {
+      "id": "difficile-0006",
+      "timeSeconds": 2.499999,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 74,
+      "type": "tap",
+      "sourceTick": 1152
+    },
+    {
+      "id": "difficile-0007",
+      "timeSeconds": 2.708332,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 76,
+      "type": "tap",
+      "sourceTick": 1248
+    },
+    {
+      "id": "difficile-0008",
+      "timeSeconds": 2.916665,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 1344
+    },
+    {
+      "id": "difficile-0009",
+      "timeSeconds": 3.124999,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 69,
+      "type": "tap",
+      "sourceTick": 1440
+    },
+    {
+      "id": "difficile-0010",
+      "timeSeconds": 3.541665,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 71,
+      "type": "tap",
+      "sourceTick": 1632
+    },
+    {
+      "id": "difficile-0011",
+      "timeSeconds": 3.749998,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 67,
+      "type": "tap",
+      "sourceTick": 1728
+    },
+    {
+      "id": "difficile-0012",
+      "timeSeconds": 4.166665,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 1920
+    },
+    {
+      "id": "difficile-0013",
+      "timeSeconds": 4.374998,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 2016
+    },
+    {
+      "id": "difficile-0014",
+      "timeSeconds": 4.583331,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 60,
+      "type": "tap",
+      "sourceTick": 2112
+    },
+    {
+      "id": "difficile-0015",
+      "timeSeconds": 4.791665,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 57,
+      "type": "tap",
+      "sourceTick": 2208
+    },
+    {
+      "id": "difficile-0016",
+      "timeSeconds": 5.208331,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 59,
+      "type": "tap",
+      "sourceTick": 2400
+    },
+    {
+      "id": "difficile-0017",
+      "timeSeconds": 5.416664,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 57,
+      "type": "tap",
+      "sourceTick": 2496
+    },
+    {
+      "id": "difficile-0018",
+      "timeSeconds": 5.624998,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 56,
+      "type": "tap",
+      "sourceTick": 2592
+    },
+    {
+      "id": "difficile-0019",
+      "timeSeconds": 5.833331,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 55,
+      "type": "tap",
+      "sourceTick": 2688
+    },
+    {
+      "id": "difficile-0020",
+      "timeSeconds": 6.666664,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 79,
+      "type": "tap",
+      "sourceTick": 3072
+    },
+    {
+      "id": "difficile-0021",
+      "timeSeconds": 7.08333,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 3264
+    },
+    {
+      "id": "difficile-0022",
+      "timeSeconds": 7.291664,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 63,
+      "type": "tap",
+      "sourceTick": 3360
+    },
+    {
+      "id": "difficile-0023",
+      "timeSeconds": 7.499997,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 3456
+    },
+    {
+      "id": "difficile-0024",
+      "timeSeconds": 7.70833,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 3552
+    },
+    {
+      "id": "difficile-0025",
+      "timeSeconds": 7.916663,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 52,
+      "type": "tap",
+      "sourceTick": 3648
+    },
+    {
+      "id": "difficile-0026",
+      "timeSeconds": 8.124997,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 3744
+    },
+    {
+      "id": "difficile-0027",
+      "timeSeconds": 8.33333,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 3840
+    },
+    {
+      "id": "difficile-0028",
+      "timeSeconds": 8.749996,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 4032
+    },
+    {
+      "id": "difficile-0029",
+      "timeSeconds": 8.95833,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 4128
+    },
+    {
+      "id": "difficile-0030",
+      "timeSeconds": 9.166663,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 41,
+      "type": "tap",
+      "sourceTick": 4224
+    },
+    {
+      "id": "difficile-0031",
+      "timeSeconds": 9.583329,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 57,
+      "type": "tap",
+      "sourceTick": 4416
+    },
+    {
+      "id": "difficile-0032",
+      "timeSeconds": 9.999996,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 40,
+      "type": "tap",
+      "sourceTick": 4608
+    },
+    {
+      "id": "difficile-0033",
+      "timeSeconds": 10.208329,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 4704
+    },
+    {
+      "id": "difficile-0034",
+      "timeSeconds": 10.416662,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 4800
+    },
+    {
+      "id": "difficile-0035",
+      "timeSeconds": 10.624996,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 87,
+      "type": "tap",
+      "sourceTick": 4896
+    },
+    {
+      "id": "difficile-0036",
+      "timeSeconds": 10.833329,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 4992
+    },
+    {
+      "id": "difficile-0037",
+      "timeSeconds": 11.041662,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 5088
+    },
+    {
+      "id": "difficile-0038",
+      "timeSeconds": 11.249995,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 5184
+    },
+    {
+      "id": "difficile-0039",
+      "timeSeconds": 11.458329,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 5280
+    },
+    {
+      "id": "difficile-0040",
+      "timeSeconds": 11.666662,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 43,
+      "type": "tap",
+      "sourceTick": 5376
+    },
+    {
+      "id": "difficile-0041",
+      "timeSeconds": 11.874995,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 5472
+    },
+    {
+      "id": "difficile-0042",
+      "timeSeconds": 12.083328,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 5568
+    },
+    {
+      "id": "difficile-0043",
+      "timeSeconds": 12.499995,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 5760
+    },
+    {
+      "id": "difficile-0044",
+      "timeSeconds": 12.916661,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 52,
+      "type": "tap",
+      "sourceTick": 5952
+    },
+    {
+      "id": "difficile-0045",
+      "timeSeconds": 13.333328,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 52,
+      "type": "tap",
+      "sourceTick": 6144
+    },
+    {
+      "id": "difficile-0046",
+      "timeSeconds": 13.749994,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 6336
+    },
+    {
+      "id": "difficile-0047",
+      "timeSeconds": 13.958328,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 63,
+      "type": "tap",
+      "sourceTick": 6432
+    },
+    {
+      "id": "difficile-0048",
+      "timeSeconds": 14.166661,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 6528
+    },
+    {
+      "id": "difficile-0049",
+      "timeSeconds": 14.374994,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 6624
+    },
+    {
+      "id": "difficile-0050",
+      "timeSeconds": 14.583327,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 52,
+      "type": "tap",
+      "sourceTick": 6720
+    },
+    {
+      "id": "difficile-0051",
+      "timeSeconds": 14.791661,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 6816
+    },
+    {
+      "id": "difficile-0052",
+      "timeSeconds": 14.999994,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 6912
+    },
+    {
+      "id": "difficile-0053",
+      "timeSeconds": 15.41666,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 7104
+    },
+    {
+      "id": "difficile-0054",
+      "timeSeconds": 15.624994,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 7200
+    },
+    {
+      "id": "difficile-0055",
+      "timeSeconds": 15.833327,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 41,
+      "type": "tap",
+      "sourceTick": 7296
+    },
+    {
+      "id": "difficile-0056",
+      "timeSeconds": 16.249993,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 57,
+      "type": "tap",
+      "sourceTick": 7488
+    },
+    {
+      "id": "difficile-0057",
+      "timeSeconds": 16.66666,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 40,
+      "type": "tap",
+      "sourceTick": 7680
+    },
+    {
+      "id": "difficile-0058",
+      "timeSeconds": 17.083326,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 7872
+    },
+    {
+      "id": "difficile-0059",
+      "timeSeconds": 17.29166,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 79,
+      "type": "tap",
+      "sourceTick": 7968
+    },
+    {
+      "id": "difficile-0060",
+      "timeSeconds": 17.499993,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 78,
+      "type": "tap",
+      "sourceTick": 8064
+    },
+    {
+      "id": "difficile-0061",
+      "timeSeconds": 17.708326,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 8160
+    },
+    {
+      "id": "difficile-0062",
+      "timeSeconds": 17.916659,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 8256
+    },
+    {
+      "id": "difficile-0063",
+      "timeSeconds": 18.124993,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 8352
+    },
+    {
+      "id": "difficile-0064",
+      "timeSeconds": 18.333326,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 50,
+      "type": "tap",
+      "sourceTick": 8448
+    },
+    {
+      "id": "difficile-0065",
+      "timeSeconds": 18.541659,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 8544
+    },
+    {
+      "id": "difficile-0066",
+      "timeSeconds": 18.749992,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 8640
+    },
+    {
+      "id": "difficile-0067",
+      "timeSeconds": 18.958326,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 8736
+    },
+    {
+      "id": "difficile-0068",
+      "timeSeconds": 19.166659,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 8832
+    },
+    {
+      "id": "difficile-0069",
+      "timeSeconds": 19.583325,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 43,
+      "type": "tap",
+      "sourceTick": 9024
+    },
+    {
+      "id": "difficile-0070",
+      "timeSeconds": 19.999992,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 45,
+      "type": "tap",
+      "sourceTick": 9216
+    },
+    {
+      "id": "difficile-0071",
+      "timeSeconds": 20.416658,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 9408
+    },
+    {
+      "id": "difficile-0072",
+      "timeSeconds": 20.624992,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 63,
+      "type": "tap",
+      "sourceTick": 9504
+    },
+    {
+      "id": "difficile-0073",
+      "timeSeconds": 20.833325,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 9600
+    },
+    {
+      "id": "difficile-0074",
+      "timeSeconds": 21.041658,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 9696
+    },
+    {
+      "id": "difficile-0075",
+      "timeSeconds": 21.249991,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 52,
+      "type": "tap",
+      "sourceTick": 9792
+    },
+    {
+      "id": "difficile-0076",
+      "timeSeconds": 21.458325,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 9888
+    },
+    {
+      "id": "difficile-0077",
+      "timeSeconds": 21.666658,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 9984
+    },
+    {
+      "id": "difficile-0078",
+      "timeSeconds": 22.083324,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 10176
+    },
+    {
+      "id": "difficile-0079",
+      "timeSeconds": 22.291658,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 10272
+    },
+    {
+      "id": "difficile-0080",
+      "timeSeconds": 22.499991,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 41,
+      "type": "tap",
+      "sourceTick": 10368
+    },
+    {
+      "id": "difficile-0081",
+      "timeSeconds": 22.916657,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 57,
+      "type": "tap",
+      "sourceTick": 10560
+    },
+    {
+      "id": "difficile-0082",
+      "timeSeconds": 23.333324,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 40,
+      "type": "tap",
+      "sourceTick": 10752
+    },
+    {
+      "id": "difficile-0083",
+      "timeSeconds": 23.541657,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 10848
+    },
+    {
+      "id": "difficile-0084",
+      "timeSeconds": 23.74999,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 10944
+    },
+    {
+      "id": "difficile-0085",
+      "timeSeconds": 23.958324,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 87,
+      "type": "tap",
+      "sourceTick": 11040
+    },
+    {
+      "id": "difficile-0086",
+      "timeSeconds": 24.166657,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 11136
+    },
+    {
+      "id": "difficile-0087",
+      "timeSeconds": 24.37499,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 11232
+    },
+    {
+      "id": "difficile-0088",
+      "timeSeconds": 24.583323,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 11328
+    },
+    {
+      "id": "difficile-0089",
+      "timeSeconds": 24.791657,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 11424
+    },
+    {
+      "id": "difficile-0090",
+      "timeSeconds": 24.99999,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 43,
+      "type": "tap",
+      "sourceTick": 11520
+    },
+    {
+      "id": "difficile-0091",
+      "timeSeconds": 25.208323,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 11616
+    },
+    {
+      "id": "difficile-0092",
+      "timeSeconds": 25.416656,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 11712
+    },
+    {
+      "id": "difficile-0093",
+      "timeSeconds": 25.833323,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 11904
+    },
+    {
+      "id": "difficile-0094",
+      "timeSeconds": 26.249989,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 52,
+      "type": "tap",
+      "sourceTick": 12096
+    },
+    {
+      "id": "difficile-0095",
+      "timeSeconds": 26.666656,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 55,
+      "type": "tap",
+      "sourceTick": 12288
+    },
+    {
+      "id": "difficile-0096",
+      "timeSeconds": 27.083322,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 12480
+    },
+    {
+      "id": "difficile-0097",
+      "timeSeconds": 27.291656,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 12576
+    },
+    {
+      "id": "difficile-0098",
+      "timeSeconds": 27.499989,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 12672
+    },
+    {
+      "id": "difficile-0099",
+      "timeSeconds": 27.708322,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 12768
+    },
+    {
+      "id": "difficile-0100",
+      "timeSeconds": 27.916655,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 12864
+    },
+    {
+      "id": "difficile-0101",
+      "timeSeconds": 28.124989,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 12960
+    },
+    {
+      "id": "difficile-0102",
+      "timeSeconds": 28.333322,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 46,
+      "type": "tap",
+      "sourceTick": 13056
+    },
+    {
+      "id": "difficile-0103",
+      "timeSeconds": 28.541655,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 13152
+    },
+    {
+      "id": "difficile-0104",
+      "timeSeconds": 28.749988,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 13248
+    },
+    {
+      "id": "difficile-0105",
+      "timeSeconds": 28.958322,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 13344
+    },
+    {
+      "id": "difficile-0106",
+      "timeSeconds": 29.166655,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 13440
+    },
+    {
+      "id": "difficile-0107",
+      "timeSeconds": 29.374988,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 13536
+    },
+    {
+      "id": "difficile-0108",
+      "timeSeconds": 29.583321,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 13632
+    },
+    {
+      "id": "difficile-0109",
+      "timeSeconds": 29.791655,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 13728
+    },
+    {
+      "id": "difficile-0110",
+      "timeSeconds": 29.999988,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 44,
+      "type": "tap",
+      "sourceTick": 13824
+    },
+    {
+      "id": "difficile-0111",
+      "timeSeconds": 30.208321,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 13920
+    },
+    {
+      "id": "difficile-0112",
+      "timeSeconds": 30.416654,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 14016
+    },
+    {
+      "id": "difficile-0113",
+      "timeSeconds": 30.624988,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 14112
+    },
+    {
+      "id": "difficile-0114",
+      "timeSeconds": 30.833321,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 14208
+    },
+    {
+      "id": "difficile-0115",
+      "timeSeconds": 31.041654,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 14304
+    },
+    {
+      "id": "difficile-0116",
+      "timeSeconds": 31.249987,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 14400
+    },
+    {
+      "id": "difficile-0117",
+      "timeSeconds": 31.458321,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 14496
+    },
+    {
+      "id": "difficile-0118",
+      "timeSeconds": 31.666654,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 43,
+      "type": "tap",
+      "sourceTick": 14592
+    },
+    {
+      "id": "difficile-0119",
+      "timeSeconds": 31.874987,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 14688
+    },
+    {
+      "id": "difficile-0120",
+      "timeSeconds": 32.08332,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 14784
+    },
+    {
+      "id": "difficile-0121",
+      "timeSeconds": 32.499987,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 14976
+    },
+    {
+      "id": "difficile-0122",
+      "timeSeconds": 32.916653,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 43,
+      "type": "tap",
+      "sourceTick": 15168
+    },
+    {
+      "id": "difficile-0123",
+      "timeSeconds": 33.33332,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 45,
+      "type": "tap",
+      "sourceTick": 15360
+    },
+    {
+      "id": "difficile-0124",
+      "timeSeconds": 33.749986,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 15552
+    },
+    {
+      "id": "difficile-0125",
+      "timeSeconds": 33.95832,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 63,
+      "type": "tap",
+      "sourceTick": 15648
+    },
+    {
+      "id": "difficile-0126",
+      "timeSeconds": 34.166653,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 15744
+    },
+    {
+      "id": "difficile-0127",
+      "timeSeconds": 34.374986,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 15840
+    },
+    {
+      "id": "difficile-0128",
+      "timeSeconds": 34.583319,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 52,
+      "type": "tap",
+      "sourceTick": 15936
+    },
+    {
+      "id": "difficile-0129",
+      "timeSeconds": 34.791653,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 16032
+    },
+    {
+      "id": "difficile-0130",
+      "timeSeconds": 34.999986,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 16128
+    },
+    {
+      "id": "difficile-0131",
+      "timeSeconds": 35.416652,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 16320
+    },
+    {
+      "id": "difficile-0132",
+      "timeSeconds": 35.624986,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 16416
+    },
+    {
+      "id": "difficile-0133",
+      "timeSeconds": 35.833319,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 41,
+      "type": "tap",
+      "sourceTick": 16512
+    },
+    {
+      "id": "difficile-0134",
+      "timeSeconds": 36.249985,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 57,
+      "type": "tap",
+      "sourceTick": 16704
+    },
+    {
+      "id": "difficile-0135",
+      "timeSeconds": 36.666652,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 40,
+      "type": "tap",
+      "sourceTick": 16896
+    },
+    {
+      "id": "difficile-0136",
+      "timeSeconds": 36.874985,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 16992
+    },
+    {
+      "id": "difficile-0137",
+      "timeSeconds": 37.083318,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 17088
+    },
+    {
+      "id": "difficile-0138",
+      "timeSeconds": 37.291652,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 87,
+      "type": "tap",
+      "sourceTick": 17184
+    },
+    {
+      "id": "difficile-0139",
+      "timeSeconds": 37.499985,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 17280
+    },
+    {
+      "id": "difficile-0140",
+      "timeSeconds": 37.708318,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 17376
+    },
+    {
+      "id": "difficile-0141",
+      "timeSeconds": 37.916652,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 17472
+    },
+    {
+      "id": "difficile-0142",
+      "timeSeconds": 38.124985,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 17568
+    },
+    {
+      "id": "difficile-0143",
+      "timeSeconds": 38.333318,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 43,
+      "type": "tap",
+      "sourceTick": 17664
+    },
+    {
+      "id": "difficile-0144",
+      "timeSeconds": 38.541651,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 17760
+    },
+    {
+      "id": "difficile-0145",
+      "timeSeconds": 38.749984,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 17856
+    },
+    {
+      "id": "difficile-0146",
+      "timeSeconds": 39.166651,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 18048
+    },
+    {
+      "id": "difficile-0147",
+      "timeSeconds": 39.583317,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 52,
+      "type": "tap",
+      "sourceTick": 18240
+    },
+    {
+      "id": "difficile-0148",
+      "timeSeconds": 39.999984,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 52,
+      "type": "tap",
+      "sourceTick": 18432
+    },
+    {
+      "id": "difficile-0149",
+      "timeSeconds": 40.41665,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 18624
+    },
+    {
+      "id": "difficile-0150",
+      "timeSeconds": 40.624984,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 63,
+      "type": "tap",
+      "sourceTick": 18720
+    },
+    {
+      "id": "difficile-0151",
+      "timeSeconds": 40.833317,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 18816
+    },
+    {
+      "id": "difficile-0152",
+      "timeSeconds": 41.04165,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 18912
+    },
+    {
+      "id": "difficile-0153",
+      "timeSeconds": 41.249983,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 52,
+      "type": "tap",
+      "sourceTick": 19008
+    },
+    {
+      "id": "difficile-0154",
+      "timeSeconds": 41.458317,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 19104
+    },
+    {
+      "id": "difficile-0155",
+      "timeSeconds": 41.66665,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 19200
+    },
+    {
+      "id": "difficile-0156",
+      "timeSeconds": 42.083316,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 19392
+    },
+    {
+      "id": "difficile-0157",
+      "timeSeconds": 42.29165,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 19488
+    },
+    {
+      "id": "difficile-0158",
+      "timeSeconds": 42.499983,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 41,
+      "type": "tap",
+      "sourceTick": 19584
+    },
+    {
+      "id": "difficile-0159",
+      "timeSeconds": 42.916649,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 57,
+      "type": "tap",
+      "sourceTick": 19776
+    },
+    {
+      "id": "difficile-0160",
+      "timeSeconds": 43.333316,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 40,
+      "type": "tap",
+      "sourceTick": 19968
+    },
+    {
+      "id": "difficile-0161",
+      "timeSeconds": 43.749982,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 20160
+    },
+    {
+      "id": "difficile-0162",
+      "timeSeconds": 43.958316,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 79,
+      "type": "tap",
+      "sourceTick": 20256
+    },
+    {
+      "id": "difficile-0163",
+      "timeSeconds": 44.166649,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 78,
+      "type": "tap",
+      "sourceTick": 20352
+    },
+    {
+      "id": "difficile-0164",
+      "timeSeconds": 44.374982,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 20448
+    },
+    {
+      "id": "difficile-0165",
+      "timeSeconds": 44.583315,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 20544
+    },
+    {
+      "id": "difficile-0166",
+      "timeSeconds": 44.791649,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 20640
+    },
+    {
+      "id": "difficile-0167",
+      "timeSeconds": 44.999982,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 50,
+      "type": "tap",
+      "sourceTick": 20736
+    },
+    {
+      "id": "difficile-0168",
+      "timeSeconds": 45.208315,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 20832
+    },
+    {
+      "id": "difficile-0169",
+      "timeSeconds": 45.416648,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 20928
+    },
+    {
+      "id": "difficile-0170",
+      "timeSeconds": 45.624982,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 21024
+    },
+    {
+      "id": "difficile-0171",
+      "timeSeconds": 45.833315,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 21120
+    },
+    {
+      "id": "difficile-0172",
+      "timeSeconds": 46.249981,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 43,
+      "type": "tap",
+      "sourceTick": 21312
+    },
+    {
+      "id": "difficile-0173",
+      "timeSeconds": 46.666648,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 45,
+      "type": "tap",
+      "sourceTick": 21504
+    },
+    {
+      "id": "difficile-0174",
+      "timeSeconds": 47.083314,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 21696
+    },
+    {
+      "id": "difficile-0175",
+      "timeSeconds": 47.291648,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 63,
+      "type": "tap",
+      "sourceTick": 21792
+    },
+    {
+      "id": "difficile-0176",
+      "timeSeconds": 47.499981,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 21888
+    },
+    {
+      "id": "difficile-0177",
+      "timeSeconds": 47.708314,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 21984
+    },
+    {
+      "id": "difficile-0178",
+      "timeSeconds": 47.916647,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 52,
+      "type": "tap",
+      "sourceTick": 22080
+    },
+    {
+      "id": "difficile-0179",
+      "timeSeconds": 48.124981,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 22176
+    },
+    {
+      "id": "difficile-0180",
+      "timeSeconds": 48.333314,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 22272
+    },
+    {
+      "id": "difficile-0181",
+      "timeSeconds": 48.74998,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 22464
+    },
+    {
+      "id": "difficile-0182",
+      "timeSeconds": 48.958314,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 22560
+    },
+    {
+      "id": "difficile-0183",
+      "timeSeconds": 49.166647,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 41,
+      "type": "tap",
+      "sourceTick": 22656
+    },
+    {
+      "id": "difficile-0184",
+      "timeSeconds": 49.583313,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 57,
+      "type": "tap",
+      "sourceTick": 22848
+    },
+    {
+      "id": "difficile-0185",
+      "timeSeconds": 49.99998,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 40,
+      "type": "tap",
+      "sourceTick": 23040
+    },
+    {
+      "id": "difficile-0186",
+      "timeSeconds": 50.208313,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 23136
+    },
+    {
+      "id": "difficile-0187",
+      "timeSeconds": 50.416646,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 23232
+    },
+    {
+      "id": "difficile-0188",
+      "timeSeconds": 50.62498,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 87,
+      "type": "tap",
+      "sourceTick": 23328
+    },
+    {
+      "id": "difficile-0189",
+      "timeSeconds": 50.833313,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 23424
+    },
+    {
+      "id": "difficile-0190",
+      "timeSeconds": 51.041646,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 23520
+    },
+    {
+      "id": "difficile-0191",
+      "timeSeconds": 51.249979,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 23616
+    },
+    {
+      "id": "difficile-0192",
+      "timeSeconds": 51.458313,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 23712
+    },
+    {
+      "id": "difficile-0193",
+      "timeSeconds": 51.666646,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 43,
+      "type": "tap",
+      "sourceTick": 23808
+    },
+    {
+      "id": "difficile-0194",
+      "timeSeconds": 51.874979,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 23904
+    },
+    {
+      "id": "difficile-0195",
+      "timeSeconds": 52.083312,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 24000
+    },
+    {
+      "id": "difficile-0196",
+      "timeSeconds": 52.499979,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 24192
+    },
+    {
+      "id": "difficile-0197",
+      "timeSeconds": 52.916645,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 52,
+      "type": "tap",
+      "sourceTick": 24384
+    },
+    {
+      "id": "difficile-0198",
+      "timeSeconds": 53.333312,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 55,
+      "type": "tap",
+      "sourceTick": 24576
+    },
+    {
+      "id": "difficile-0199",
+      "timeSeconds": 53.749978,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 24768
+    },
+    {
+      "id": "difficile-0200",
+      "timeSeconds": 53.958312,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 24864
+    },
+    {
+      "id": "difficile-0201",
+      "timeSeconds": 54.166645,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 24960
+    },
+    {
+      "id": "difficile-0202",
+      "timeSeconds": 54.374978,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 25056
+    },
+    {
+      "id": "difficile-0203",
+      "timeSeconds": 54.583311,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 25152
+    },
+    {
+      "id": "difficile-0204",
+      "timeSeconds": 54.791645,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 25248
+    },
+    {
+      "id": "difficile-0205",
+      "timeSeconds": 54.999978,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 46,
+      "type": "tap",
+      "sourceTick": 25344
+    },
+    {
+      "id": "difficile-0206",
+      "timeSeconds": 55.208311,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 25440
+    },
+    {
+      "id": "difficile-0207",
+      "timeSeconds": 55.416644,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 25536
+    },
+    {
+      "id": "difficile-0208",
+      "timeSeconds": 55.624978,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 25632
+    },
+    {
+      "id": "difficile-0209",
+      "timeSeconds": 55.833311,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 25728
+    },
+    {
+      "id": "difficile-0210",
+      "timeSeconds": 56.041644,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 25824
+    },
+    {
+      "id": "difficile-0211",
+      "timeSeconds": 56.249977,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 25920
+    },
+    {
+      "id": "difficile-0212",
+      "timeSeconds": 56.458311,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 26016
+    },
+    {
+      "id": "difficile-0213",
+      "timeSeconds": 56.666644,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 44,
+      "type": "tap",
+      "sourceTick": 26112
+    },
+    {
+      "id": "difficile-0214",
+      "timeSeconds": 56.874977,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 26208
+    },
+    {
+      "id": "difficile-0215",
+      "timeSeconds": 57.08331,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 26304
+    },
+    {
+      "id": "difficile-0216",
+      "timeSeconds": 57.291644,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 26400
+    },
+    {
+      "id": "difficile-0217",
+      "timeSeconds": 57.499977,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 26496
+    },
+    {
+      "id": "difficile-0218",
+      "timeSeconds": 57.70831,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 26592
+    },
+    {
+      "id": "difficile-0219",
+      "timeSeconds": 57.916643,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 26688
+    },
+    {
+      "id": "difficile-0220",
+      "timeSeconds": 58.124977,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 26784
+    },
+    {
+      "id": "difficile-0221",
+      "timeSeconds": 58.33331,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 43,
+      "type": "tap",
+      "sourceTick": 26880
+    },
+    {
+      "id": "difficile-0222",
+      "timeSeconds": 58.541643,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 26976
+    },
+    {
+      "id": "difficile-0223",
+      "timeSeconds": 58.749976,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 27072
+    },
+    {
+      "id": "difficile-0224",
+      "timeSeconds": 59.166643,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 27264
+    },
+    {
+      "id": "difficile-0225",
+      "timeSeconds": 59.583309,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 43,
+      "type": "tap",
+      "sourceTick": 27456
+    },
+    {
+      "id": "difficile-0226",
+      "timeSeconds": 59.999976,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 36,
+      "type": "tap",
+      "sourceTick": 27648
+    }
+  ]
+}

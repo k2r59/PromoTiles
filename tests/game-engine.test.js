@@ -246,3 +246,13 @@ test('saveResult catches a throwing localStorage property getter', () => {
     else delete globalThis.localStorage
   }
 })
+
+
+test('hold release grace accepts 50ms early but not 51ms', () => {
+  for (const [early, completed] of [[.049,true],[.05,true],[.051,false]]) {
+    const engine = new GameEngine(fixture([note(1,0,1)]))
+    engine.hit(0,1); engine.release(0,2-early); engine.advance(3)
+    assert.equal(engine.result().holdsCompleted, completed ? 1 : 0)
+    assert.equal(engine.result().holdsBroken, completed ? 0 : 1)
+  }
+})

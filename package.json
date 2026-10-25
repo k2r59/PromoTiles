@@ -4,26 +4,37 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
+    "dev": "node tools/dev.mjs",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
     "test": "node --test tests/*.test.js",
     "deploy:check": "npm run build && wrangler deploy --dry-run",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && wrangler deploy",
+    "start": "node server/native.mjs",
+    "server": "node server/native.mjs",
+    "cf:dev": "npm run build && wrangler dev",
+    "db:migrate:local": "wrangler d1 migrations apply promotiles-noel --local",
+    "db:migrate:remote": "wrangler d1 migrations apply promotiles-noel --remote",
+    "test:cloudflare": "node tests/d1.integration.mjs"
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.3.0",
     "@fontsource/manrope": "^5.3.0",
     "@lucide/vue": "^1.61.0",
+    "jose": "^6.2.13",
     "three": "^0.186.1",
     "vue": "^3.5.44",
+    "workbox-cacheable-response": "^7.4.1",
     "workbox-core": "^7.4.1",
+    "workbox-expiration": "^7.4.1",
     "workbox-precaching": "^7.4.1",
     "workbox-range-requests": "^7.4.1",
-    "workbox-routing": "^7.4.1"
+    "workbox-routing": "^7.4.1",
+    "workbox-strategies": "^7.4.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.10",
+    "miniflare": "^5.20261019.2-beta",
     "sharp": "^0.35.5",
     "vite": "^8.3.5",
     "vite-plugin-pwa": "^2.0.0",

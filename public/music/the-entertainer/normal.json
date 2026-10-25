@@ -1,0 +1,1602 @@
+{
+  "schemaVersion": 1,
+  "status": "midi-synchronised-demo-awaiting-player-feedback",
+  "songId": "scott-joplin-the-entertainer-demo-v1",
+  "title": "The Entertainer",
+  "artist": "Scott Joplin",
+  "audioFile": "piano.mp3",
+  "audioSha256": "f7498ec5d0f5a285aade9d31341e36974139b1f6f055265b21aa8917200b155a",
+  "durationSeconds": 63.250272,
+  "estimatedBpm": 72,
+  "beatOffsetSeconds": 0.833333,
+  "mode": "normal",
+  "laneCount": 4,
+  "timingReference": "Exact rendered performance.mid ticks, 384 PPQ, 833333 microseconds/quarter; no audio trim.",
+  "countInSeconds": 3,
+  "approachTimeSeconds": 2.5,
+  "songDifficulty": {
+    "rating": 3,
+    "outOf": 5,
+    "coefficient": 1.5
+  },
+  "scoring": {
+    "maxPoints": 2250
+  },
+  "notes": [
+    {
+      "id": "normal-0000",
+      "timeSeconds": 0.833333,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 384
+    },
+    {
+      "id": "normal-0001",
+      "timeSeconds": 1.041666,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 480
+    },
+    {
+      "id": "normal-0002",
+      "timeSeconds": 1.249999,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 576
+    },
+    {
+      "id": "normal-0003",
+      "timeSeconds": 1.458333,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 672
+    },
+    {
+      "id": "normal-0004",
+      "timeSeconds": 1.874999,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 864
+    },
+    {
+      "id": "normal-0005",
+      "timeSeconds": 2.083333,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 79,
+      "type": "tap",
+      "sourceTick": 960
+    },
+    {
+      "id": "normal-0006",
+      "timeSeconds": 2.499999,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 74,
+      "type": "tap",
+      "sourceTick": 1152
+    },
+    {
+      "id": "normal-0007",
+      "timeSeconds": 2.708332,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 76,
+      "type": "tap",
+      "sourceTick": 1248
+    },
+    {
+      "id": "normal-0008",
+      "timeSeconds": 2.916665,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 1344
+    },
+    {
+      "id": "normal-0009",
+      "timeSeconds": 3.124999,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 69,
+      "type": "tap",
+      "sourceTick": 1440
+    },
+    {
+      "id": "normal-0010",
+      "timeSeconds": 3.541665,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 71,
+      "type": "tap",
+      "sourceTick": 1632
+    },
+    {
+      "id": "normal-0011",
+      "timeSeconds": 3.749998,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 67,
+      "type": "tap",
+      "sourceTick": 1728
+    },
+    {
+      "id": "normal-0012",
+      "timeSeconds": 4.166665,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 1920
+    },
+    {
+      "id": "normal-0013",
+      "timeSeconds": 4.374998,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 2016
+    },
+    {
+      "id": "normal-0014",
+      "timeSeconds": 4.583331,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 60,
+      "type": "tap",
+      "sourceTick": 2112
+    },
+    {
+      "id": "normal-0015",
+      "timeSeconds": 4.791665,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 57,
+      "type": "tap",
+      "sourceTick": 2208
+    },
+    {
+      "id": "normal-0016",
+      "timeSeconds": 5.208331,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 59,
+      "type": "tap",
+      "sourceTick": 2400
+    },
+    {
+      "id": "normal-0017",
+      "timeSeconds": 5.416664,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 57,
+      "type": "tap",
+      "sourceTick": 2496
+    },
+    {
+      "id": "normal-0018",
+      "timeSeconds": 5.624998,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 56,
+      "type": "tap",
+      "sourceTick": 2592
+    },
+    {
+      "id": "normal-0019",
+      "timeSeconds": 5.833331,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 55,
+      "type": "tap",
+      "sourceTick": 2688
+    },
+    {
+      "id": "normal-0020",
+      "timeSeconds": 6.666664,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 79,
+      "type": "tap",
+      "sourceTick": 3072
+    },
+    {
+      "id": "normal-0021",
+      "timeSeconds": 7.08333,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 3264
+    },
+    {
+      "id": "normal-0022",
+      "timeSeconds": 7.291664,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 63,
+      "type": "tap",
+      "sourceTick": 3360
+    },
+    {
+      "id": "normal-0023",
+      "timeSeconds": 7.499997,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 3456
+    },
+    {
+      "id": "normal-0024",
+      "timeSeconds": 7.70833,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 3552
+    },
+    {
+      "id": "normal-0025",
+      "timeSeconds": 8.124997,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 3744
+    },
+    {
+      "id": "normal-0026",
+      "timeSeconds": 8.33333,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 3840
+    },
+    {
+      "id": "normal-0027",
+      "timeSeconds": 8.749996,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 4032
+    },
+    {
+      "id": "normal-0028",
+      "timeSeconds": 8.95833,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 4128
+    },
+    {
+      "id": "normal-0029",
+      "timeSeconds": 10.208329,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 4704
+    },
+    {
+      "id": "normal-0030",
+      "timeSeconds": 10.416662,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 4800
+    },
+    {
+      "id": "normal-0031",
+      "timeSeconds": 10.624996,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 87,
+      "type": "tap",
+      "sourceTick": 4896
+    },
+    {
+      "id": "normal-0032",
+      "timeSeconds": 10.833329,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 4992
+    },
+    {
+      "id": "normal-0033",
+      "timeSeconds": 11.041662,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 5088
+    },
+    {
+      "id": "normal-0034",
+      "timeSeconds": 11.249995,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 5184
+    },
+    {
+      "id": "normal-0035",
+      "timeSeconds": 11.458329,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 5280
+    },
+    {
+      "id": "normal-0036",
+      "timeSeconds": 11.874995,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 5472
+    },
+    {
+      "id": "normal-0037",
+      "timeSeconds": 12.083328,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 5568
+    },
+    {
+      "id": "normal-0038",
+      "timeSeconds": 12.499995,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 5760
+    },
+    {
+      "id": "normal-0039",
+      "timeSeconds": 13.749994,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 6336
+    },
+    {
+      "id": "normal-0040",
+      "timeSeconds": 13.958328,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 63,
+      "type": "tap",
+      "sourceTick": 6432
+    },
+    {
+      "id": "normal-0041",
+      "timeSeconds": 14.166661,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 6528
+    },
+    {
+      "id": "normal-0042",
+      "timeSeconds": 14.374994,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 6624
+    },
+    {
+      "id": "normal-0043",
+      "timeSeconds": 14.791661,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 6816
+    },
+    {
+      "id": "normal-0044",
+      "timeSeconds": 14.999994,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 6912
+    },
+    {
+      "id": "normal-0045",
+      "timeSeconds": 15.41666,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 7104
+    },
+    {
+      "id": "normal-0046",
+      "timeSeconds": 15.624994,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 7200
+    },
+    {
+      "id": "normal-0047",
+      "timeSeconds": 17.083326,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 7872
+    },
+    {
+      "id": "normal-0048",
+      "timeSeconds": 17.29166,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 79,
+      "type": "tap",
+      "sourceTick": 7968
+    },
+    {
+      "id": "normal-0049",
+      "timeSeconds": 17.499993,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 78,
+      "type": "tap",
+      "sourceTick": 8064
+    },
+    {
+      "id": "normal-0050",
+      "timeSeconds": 17.708326,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 8160
+    },
+    {
+      "id": "normal-0051",
+      "timeSeconds": 17.916659,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 8256
+    },
+    {
+      "id": "normal-0052",
+      "timeSeconds": 18.124993,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 8352
+    },
+    {
+      "id": "normal-0053",
+      "timeSeconds": 18.541659,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 8544
+    },
+    {
+      "id": "normal-0054",
+      "timeSeconds": 18.749992,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 8640
+    },
+    {
+      "id": "normal-0055",
+      "timeSeconds": 18.958326,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 8736
+    },
+    {
+      "id": "normal-0056",
+      "timeSeconds": 19.166659,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 8832
+    },
+    {
+      "id": "normal-0057",
+      "timeSeconds": 20.416658,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 9408
+    },
+    {
+      "id": "normal-0058",
+      "timeSeconds": 20.624992,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 63,
+      "type": "tap",
+      "sourceTick": 9504
+    },
+    {
+      "id": "normal-0059",
+      "timeSeconds": 20.833325,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 9600
+    },
+    {
+      "id": "normal-0060",
+      "timeSeconds": 21.041658,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 9696
+    },
+    {
+      "id": "normal-0061",
+      "timeSeconds": 21.458325,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 9888
+    },
+    {
+      "id": "normal-0062",
+      "timeSeconds": 21.666658,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 9984
+    },
+    {
+      "id": "normal-0063",
+      "timeSeconds": 22.083324,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 10176
+    },
+    {
+      "id": "normal-0064",
+      "timeSeconds": 22.291658,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 10272
+    },
+    {
+      "id": "normal-0065",
+      "timeSeconds": 23.541657,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 10848
+    },
+    {
+      "id": "normal-0066",
+      "timeSeconds": 23.74999,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 10944
+    },
+    {
+      "id": "normal-0067",
+      "timeSeconds": 23.958324,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 87,
+      "type": "tap",
+      "sourceTick": 11040
+    },
+    {
+      "id": "normal-0068",
+      "timeSeconds": 24.166657,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 11136
+    },
+    {
+      "id": "normal-0069",
+      "timeSeconds": 24.37499,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 11232
+    },
+    {
+      "id": "normal-0070",
+      "timeSeconds": 24.583323,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 11328
+    },
+    {
+      "id": "normal-0071",
+      "timeSeconds": 24.791657,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 11424
+    },
+    {
+      "id": "normal-0072",
+      "timeSeconds": 25.208323,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 11616
+    },
+    {
+      "id": "normal-0073",
+      "timeSeconds": 25.416656,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 11712
+    },
+    {
+      "id": "normal-0074",
+      "timeSeconds": 25.833323,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 11904
+    },
+    {
+      "id": "normal-0075",
+      "timeSeconds": 27.083322,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 12480
+    },
+    {
+      "id": "normal-0076",
+      "timeSeconds": 27.291656,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 12576
+    },
+    {
+      "id": "normal-0077",
+      "timeSeconds": 27.499989,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 12672
+    },
+    {
+      "id": "normal-0078",
+      "timeSeconds": 27.708322,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 12768
+    },
+    {
+      "id": "normal-0079",
+      "timeSeconds": 27.916655,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 12864
+    },
+    {
+      "id": "normal-0080",
+      "timeSeconds": 28.124989,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 12960
+    },
+    {
+      "id": "normal-0081",
+      "timeSeconds": 28.541655,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 13152
+    },
+    {
+      "id": "normal-0082",
+      "timeSeconds": 28.749988,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 13248
+    },
+    {
+      "id": "normal-0083",
+      "timeSeconds": 28.958322,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 13344
+    },
+    {
+      "id": "normal-0084",
+      "timeSeconds": 29.166655,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 13440
+    },
+    {
+      "id": "normal-0085",
+      "timeSeconds": 29.374988,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 13536
+    },
+    {
+      "id": "normal-0086",
+      "timeSeconds": 29.583321,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 13632
+    },
+    {
+      "id": "normal-0087",
+      "timeSeconds": 29.791655,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 13728
+    },
+    {
+      "id": "normal-0088",
+      "timeSeconds": 30.208321,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 13920
+    },
+    {
+      "id": "normal-0089",
+      "timeSeconds": 30.416654,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 14016
+    },
+    {
+      "id": "normal-0090",
+      "timeSeconds": 30.624988,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 14112
+    },
+    {
+      "id": "normal-0091",
+      "timeSeconds": 30.833321,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 14208
+    },
+    {
+      "id": "normal-0092",
+      "timeSeconds": 31.041654,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 14304
+    },
+    {
+      "id": "normal-0093",
+      "timeSeconds": 31.249987,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 14400
+    },
+    {
+      "id": "normal-0094",
+      "timeSeconds": 31.458321,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 14496
+    },
+    {
+      "id": "normal-0095",
+      "timeSeconds": 31.874987,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 14688
+    },
+    {
+      "id": "normal-0096",
+      "timeSeconds": 32.08332,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 14784
+    },
+    {
+      "id": "normal-0097",
+      "timeSeconds": 32.499987,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 14976
+    },
+    {
+      "id": "normal-0098",
+      "timeSeconds": 33.749986,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 15552
+    },
+    {
+      "id": "normal-0099",
+      "timeSeconds": 33.95832,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 63,
+      "type": "tap",
+      "sourceTick": 15648
+    },
+    {
+      "id": "normal-0100",
+      "timeSeconds": 34.166653,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 15744
+    },
+    {
+      "id": "normal-0101",
+      "timeSeconds": 34.374986,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 15840
+    },
+    {
+      "id": "normal-0102",
+      "timeSeconds": 34.791653,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 16032
+    },
+    {
+      "id": "normal-0103",
+      "timeSeconds": 34.999986,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 16128
+    },
+    {
+      "id": "normal-0104",
+      "timeSeconds": 35.416652,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 16320
+    },
+    {
+      "id": "normal-0105",
+      "timeSeconds": 35.624986,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 16416
+    },
+    {
+      "id": "normal-0106",
+      "timeSeconds": 36.874985,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 16992
+    },
+    {
+      "id": "normal-0107",
+      "timeSeconds": 37.083318,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 17088
+    },
+    {
+      "id": "normal-0108",
+      "timeSeconds": 37.291652,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 87,
+      "type": "tap",
+      "sourceTick": 17184
+    },
+    {
+      "id": "normal-0109",
+      "timeSeconds": 37.499985,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 17280
+    },
+    {
+      "id": "normal-0110",
+      "timeSeconds": 37.708318,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 17376
+    },
+    {
+      "id": "normal-0111",
+      "timeSeconds": 37.916652,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 17472
+    },
+    {
+      "id": "normal-0112",
+      "timeSeconds": 38.124985,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 17568
+    },
+    {
+      "id": "normal-0113",
+      "timeSeconds": 38.541651,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 17760
+    },
+    {
+      "id": "normal-0114",
+      "timeSeconds": 38.749984,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 17856
+    },
+    {
+      "id": "normal-0115",
+      "timeSeconds": 39.166651,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 18048
+    },
+    {
+      "id": "normal-0116",
+      "timeSeconds": 40.41665,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 18624
+    },
+    {
+      "id": "normal-0117",
+      "timeSeconds": 40.624984,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 63,
+      "type": "tap",
+      "sourceTick": 18720
+    },
+    {
+      "id": "normal-0118",
+      "timeSeconds": 40.833317,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 18816
+    },
+    {
+      "id": "normal-0119",
+      "timeSeconds": 41.04165,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 18912
+    },
+    {
+      "id": "normal-0120",
+      "timeSeconds": 41.458317,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 19104
+    },
+    {
+      "id": "normal-0121",
+      "timeSeconds": 41.66665,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 19200
+    },
+    {
+      "id": "normal-0122",
+      "timeSeconds": 42.083316,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 19392
+    },
+    {
+      "id": "normal-0123",
+      "timeSeconds": 42.29165,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 19488
+    },
+    {
+      "id": "normal-0124",
+      "timeSeconds": 43.749982,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 20160
+    },
+    {
+      "id": "normal-0125",
+      "timeSeconds": 43.958316,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 79,
+      "type": "tap",
+      "sourceTick": 20256
+    },
+    {
+      "id": "normal-0126",
+      "timeSeconds": 44.166649,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 78,
+      "type": "tap",
+      "sourceTick": 20352
+    },
+    {
+      "id": "normal-0127",
+      "timeSeconds": 44.374982,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 20448
+    },
+    {
+      "id": "normal-0128",
+      "timeSeconds": 44.583315,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 20544
+    },
+    {
+      "id": "normal-0129",
+      "timeSeconds": 44.791649,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 20640
+    },
+    {
+      "id": "normal-0130",
+      "timeSeconds": 45.208315,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 20832
+    },
+    {
+      "id": "normal-0131",
+      "timeSeconds": 45.416648,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 20928
+    },
+    {
+      "id": "normal-0132",
+      "timeSeconds": 45.624982,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 21024
+    },
+    {
+      "id": "normal-0133",
+      "timeSeconds": 45.833315,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 21120
+    },
+    {
+      "id": "normal-0134",
+      "timeSeconds": 47.083314,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 21696
+    },
+    {
+      "id": "normal-0135",
+      "timeSeconds": 47.291648,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 63,
+      "type": "tap",
+      "sourceTick": 21792
+    },
+    {
+      "id": "normal-0136",
+      "timeSeconds": 47.499981,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 21888
+    },
+    {
+      "id": "normal-0137",
+      "timeSeconds": 47.708314,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 21984
+    },
+    {
+      "id": "normal-0138",
+      "timeSeconds": 48.124981,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 22176
+    },
+    {
+      "id": "normal-0139",
+      "timeSeconds": 48.333314,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 22272
+    },
+    {
+      "id": "normal-0140",
+      "timeSeconds": 48.74998,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 22464
+    },
+    {
+      "id": "normal-0141",
+      "timeSeconds": 48.958314,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 22560
+    },
+    {
+      "id": "normal-0142",
+      "timeSeconds": 50.208313,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 23136
+    },
+    {
+      "id": "normal-0143",
+      "timeSeconds": 50.416646,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 23232
+    },
+    {
+      "id": "normal-0144",
+      "timeSeconds": 50.62498,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 87,
+      "type": "tap",
+      "sourceTick": 23328
+    },
+    {
+      "id": "normal-0145",
+      "timeSeconds": 50.833313,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 23424
+    },
+    {
+      "id": "normal-0146",
+      "timeSeconds": 51.041646,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 23520
+    },
+    {
+      "id": "normal-0147",
+      "timeSeconds": 51.249979,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 23616
+    },
+    {
+      "id": "normal-0148",
+      "timeSeconds": 51.458313,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 23712
+    },
+    {
+      "id": "normal-0149",
+      "timeSeconds": 51.874979,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 23904
+    },
+    {
+      "id": "normal-0150",
+      "timeSeconds": 52.083312,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 24000
+    },
+    {
+      "id": "normal-0151",
+      "timeSeconds": 52.499979,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 24192
+    },
+    {
+      "id": "normal-0152",
+      "timeSeconds": 53.749978,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 24768
+    },
+    {
+      "id": "normal-0153",
+      "timeSeconds": 53.958312,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 24864
+    },
+    {
+      "id": "normal-0154",
+      "timeSeconds": 54.166645,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 24960
+    },
+    {
+      "id": "normal-0155",
+      "timeSeconds": 54.374978,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 25056
+    },
+    {
+      "id": "normal-0156",
+      "timeSeconds": 54.583311,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 25152
+    },
+    {
+      "id": "normal-0157",
+      "timeSeconds": 54.791645,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 25248
+    },
+    {
+      "id": "normal-0158",
+      "timeSeconds": 55.208311,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 25440
+    },
+    {
+      "id": "normal-0159",
+      "timeSeconds": 55.416644,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 25536
+    },
+    {
+      "id": "normal-0160",
+      "timeSeconds": 55.624978,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 25632
+    },
+    {
+      "id": "normal-0161",
+      "timeSeconds": 55.833311,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 25728
+    },
+    {
+      "id": "normal-0162",
+      "timeSeconds": 56.041644,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 25824
+    },
+    {
+      "id": "normal-0163",
+      "timeSeconds": 56.249977,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 25920
+    },
+    {
+      "id": "normal-0164",
+      "timeSeconds": 56.458311,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 26016
+    },
+    {
+      "id": "normal-0165",
+      "timeSeconds": 56.874977,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 26208
+    },
+    {
+      "id": "normal-0166",
+      "timeSeconds": 57.08331,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 26304
+    },
+    {
+      "id": "normal-0167",
+      "timeSeconds": 57.291644,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 26400
+    },
+    {
+      "id": "normal-0168",
+      "timeSeconds": 57.499977,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 26496
+    },
+    {
+      "id": "normal-0169",
+      "timeSeconds": 57.70831,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 26592
+    },
+    {
+      "id": "normal-0170",
+      "timeSeconds": 57.916643,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 26688
+    },
+    {
+      "id": "normal-0171",
+      "timeSeconds": 58.124977,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 26784
+    },
+    {
+      "id": "normal-0172",
+      "timeSeconds": 58.541643,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 83,
+      "type": "tap",
+      "sourceTick": 26976
+    },
+    {
+      "id": "normal-0173",
+      "timeSeconds": 58.749976,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 27072
+    },
+    {
+      "id": "normal-0174",
+      "timeSeconds": 59.166643,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 27264
+    }
+  ]
+}

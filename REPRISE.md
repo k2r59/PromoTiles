@@ -6,11 +6,13 @@ Ce document transmet le contexte produit, les décisions graphiques, le fonction
 
 ## 1. État réel à connaître avant toute modification
 
-Le projet est un **prototype mobile PWA jouable en local**, construit en Vue 3. Il comprend un accueil animé, la sélection de trois niveaux, un morceau complet, un moteur à quatre colonnes, des résultats, des records locaux et un profil avec préférences. Le MP3, les partitions, les images et les polices nécessaires sont dans le dépôt.
+**Mise à jour du 24 octobre 2026 :** le catalogue actif contient maintenant 50 chansons chantées NCS, en versions de jeu de 90 secondes et 150 partitions. Le retour utilisateur « musique elle-même trop répétitive » concernait l’ancien catalogue instrumental Kevin MacLeod. Celui-ci a été retiré de l’interface et archivé localement dans `artifacts/catalog/retired/`.
 
-Le concours entre collègues reste à construire : authentification, API, MongoDB, classement partagé, catalogue de plusieurs morceaux et contrôle des scores côté serveur. Aucun déploiement public Cloudflare n’a été effectué pendant cette session. Le contrôle de déploiement à blanc a réussi.
+Le jeu inclut notes à maintenir, recherche, favoris, extraits, défi du jour, résultats, réglage de décalage audio et classement partagé Node/SQLite. Le serveur recalcule les performances ; l’identification par pseudo ne remplace pas une authentification d’entreprise. MongoDB et SSO ne sont pas intégrés. La boule à neige et la direction de Noël sont conservées.
 
-La cible utilisateur est une réalisation très proche de la maquette, avec des effets luxueux et quatre audits à 10/10. **Cette cible n’est pas atteinte.** Les dernières notes sont 9,6/10 en fidélité graphique, 9/10 pour les animations de l’accueil, 9,5/10 pour les fonctionnalités locales et 7,5/10 pour le fun/jouabilité. Ne pas convertir ces notes en promesse de perfection.
+Lire d’abord le README actualisé pour les commandes. `npm run dev` lance Vite et l’API ; `npm run build && npm start` sert la version de production avec l’API sur le port 5175. Les MP3/pochettes NCS sont présents sur cette machine mais ignorés par Git : un nouveau clone doit les régénérer selon le README. Les conditions NCS sont spécifiques, aucune licence de distribution du jeu n’est acquise. Aucun déploiement public n’a été effectué.
+
+Dernier audit : design 9,4/10, UX/UI 9,5/10, fonctionnement 10/10 sur le périmètre testé, fun 9,5/10, soit **38,4/40**. Détails et réserves dans `design/reviews/catalogue-vocal-2026-10-24.md`. Le retour utilisateur sur la nouvelle direction musicale est « Oui, nettement mieux ». Les 36 tests passent, notamment les 150 partitions et les notes longues. Les attaques viennent de l’audio ; tempo et tenues restent estimés. La cible de quatre audits à 10/10 n’est pas encore atteinte et ne doit pas être annoncée comme acquise. Les sections historiques ci-dessous décrivent aussi les états précédents (Joe Dassin, Entertainer, puis catalogue instrumental) et ne font pas autorité sur le catalogue actuel.
 
 ## 2. Reprendre sur l’autre Mac
 
@@ -412,7 +414,11 @@ Les assertions vérifient les identifiants, les bornes temporelles, les colonnes
 
 `Atmosphere.vue` associe image de fond, aurores et brume CSS à de la neige Canvas. L’animation ralentit visuellement le décor sans changer les repères de jeu. Les mouvements d’ambiance sont suspendus pendant la partie ou lorsque l’onglet est masqué, selon les propriétés transmises.
 
-`SnowGlobe.vue` utilise une image WebP transparente de 1100 × 1100, de la neige découpée dans une ellipse, des reflets et des scintillements. Le Canvas gère environ 80 ou 120 particules selon la taille, avec un DPR plafonné à 1,5. La parallaxe reste de quelques pixels. Une activation lance un tourbillon de 4,2 secondes et une lumière dorée.
+`SnowGlobe.vue` utilise désormais `piano-snowglobe-clear.webp`, une retouche ImageGen transparente sans flocons suspendus figés. L’original `piano-snowglobe.webp` est conservé. Le sapin piano, l’étoile, les cadeaux et le socle conservent la direction graphique approuvée. Au repos, aucune neige animée ne flotte. Une activation retourne la boule à 180°, puis la redresse en 1,8 seconde avant de libérer la neige. Le Canvas gère 260 ou 340 flocons selon la taille, avec un DPR plafonné à 1,5. Leur vitesse varie avec la profondeur ; ils restent dans le verre puis se déposent, sans réapparition en haut. La dernière demande a augmenté la quantité et prolongé la chute d’environ cinq secondes. `src/lib/snow-globe-physics.js` contient les trajectoires et les collisions.
+
+L’étoile possède un scintillement renforcé, un halo et des rayons lumineux. Des éclats parcourent aléatoirement les sections visibles de la guirlande, dont les chemins sont ajustés à la nouvelle image. L’image, les particules et les reflets tournent ensemble. Les clics pendant le retournement ne lancent pas d’animations concurrentes.
+
+`SkyVisitors.vue`, intégré dans `Atmosphere.vue`, fait traverser le Père Noël et quatre rennes une seule fois, cinq secondes après le chargement de la page. Le passage dure douze secondes ; une étoile filante suit trois secondes après, puis d’autres apparaissent toutes les 9 à 28 secondes avec des positions, directions, angles et durées aléatoires. Ce décor reste derrière l’interface, ne capture aucune interaction et est désactivé hors accueil, en mouvement réduit ou lorsque l’onglet est masqué. Le retour sur l’accueil ne rejoue pas le Père Noël ; un rechargement complet réinitialise la séquence.
 
 Respecter à la fois le réglage du profil et `prefers-reduced-motion`. La préférence système est réactive. L’onglet masqué suspend les boucles ; le démontage nettoie les écouteurs et les `requestAnimationFrame`. L’instrumentation temporaire est archivée dans `design/source/dev-animation-audit.js` et ne doit pas être réintroduite par défaut en production.
 
@@ -596,3 +602,106 @@ Les fichiers de compte rendu d’installation et de transcription contiennent ce
 - [ ] Aucun secret ni environnement local n’entre dans le commit.
 - [ ] Le document de reprise distingue les fonctions livrées des propositions.
 - [ ] Le commit est poussé et récupérable avant de changer de Mac.
+
+## 19. Suite sur le second Mac — 24 octobre 2026
+
+- Dépôt cloné dans `/Users/herve/Dev/promoTiles`, installation `npm ci` réussie avec Node.js 24.21.0 ; serveur Vite sur `http://localhost:5173/`, ouvert dans Arc.
+- Modifications de la boule, de sa neige, de l’étoile, de la guirlande et du ciel décrites en section 10. Aucun changement des règles du jeu.
+- Images produites avec l’outil ImageGen intégré, puis converties en WebP transparent : `public/piano-snowglobe-clear.webp` et `public/santa-sleigh.webp`. Prompts conservés dans `design/snowglobe-clear-prompt.txt` et `design/santa-sleigh-prompt.txt`.
+- Vérification : `npm test` réussit avec **25 tests** ; les trois nouveaux contrôlent le confinement des flocons, leur dépôt, leur réactivation et le retournement complet. `npm run build` réussit, précache de 31 ressources, environ 7,63 Mio. Avertissement PWA `inlineDynamicImports` inchangé.
+- Contrôles navigateur : formats 320 × 568, 390 × 844 et 1280 × 900, absence de débordement horizontal sur mobile, actions accessibles, rotation et chute de neige, passage du traîneau, première étoile filante et préférence de mouvement réduit. Aucune erreur console relevée dans le navigateur de contrôle. Capture mobile : `design/previews/snowglobe-mobile-animated.png`.
+- Les contrôles mobiles sont des contrôles de viewport sur ordinateur, pas des essais iPhone/Android physiques. Les quatre audits historiques n’ont pas été refaits et leurs notes ne sont pas actualisées. Aucun déploiement ni push Git effectué pendant cette modification.
+
+## 20. Démo The Entertainer (24 octobre 2026)
+
+Nouveau morceau par défaut pour comparer le gameplay à l'ancienne transcription Joe Dassin : **The Entertainer**, Scott Joplin, piano solo, 63 s. Le design et les animations de Noël sont conservés. Le sélecteur permet de revenir à Émilie ; les records sont maintenant filtrés par morceau et niveau.
+
+- Catalogue : `src/lib/songs.js`. `App.vue` et `Game.vue` utilisent ses chemins et métadonnées.
+- Audio et charts synchronisés depuis le même MIDI dans `public/music/the-entertainer/` : 93 / 175 / 227 touches. Tempo 72, intro + thème A deux fois et cadence. Le mode normal suit la voix mélodique, sans transcription automatique du mix.
+- Piano échantillonné rendu localement avec FluidSynth + GeneralUser GS ; sources, licence et instructions dans `audio/the-entertainer/README.md`. Reproduction : `tools/audio/build_entertainer.py`.
+- Tiles courtes pour rendre lisibles les attaques rapprochées. Horloge de jeu toujours `audio.currentTime`, clavier D/F/J/K et boutons tactiles conservés.
+- Tests : correspondance de toutes les tiles avec les véritables attaques du MIDI, empreinte audio, score parfait, records indépendants. `npm test` : 29 tests ; build Vite/PWA validé.
+- Démo à faire essayer à l'utilisateur pour évaluer le plaisir de jeu et les niveaux ; pas de calibration de latence matérielle dans cette version.
+
+
+## 21. État actuel — Cloudflare, PWA et diagnostic Safari (24 octobre 2026)
+
+Cette section prévaut sur les anciens passages décrivant un prototype sans backend. Catalogue actuel : 50 titres chantés NCS, choix musical validé par l’utilisateur. Déploiement privé effectif sur **https://noel.promo.dev**, Worker et D1, connexion Access par code e-mail réservée à `@promo.dev`, unicité de l’adresse en base. Configuration et commandes détaillées dans **CLOUDFLARE.md**. Les profils anonymes du développement local restent distincts.
+
+- Guide PWA coulissant iOS/Android/ordinateur, trois étapes, installation native lorsque disponible. Manifeste avec credentials ; routes de connexion exclues du fallback hors ligne.
+- Connexion Cloudflare personnalisée Promo.dev, fond nuit, icône de marque, textes français. Habillage commun aux applications Access du compte ; sécurité inchangée.
+- L’utilisateur confirme que le site fonctionne sur mobile, puis signale une fin immédiate au lancement sur **Safari iPhone**. Cause exacte encore à établir avec les traces du téléphone.
+- Build de diagnostic `2026-10-24-mobile-2` : événements audio/chargement/états/score, export depuis Profil, remontée filtrée dans Workers Logs. Contrôle SHA-256 du MP3, durée cohérente, protection contre fin prématurée et saut d’horloge. Une anomalie audio affiche une erreur au lieu d’enregistrer une partie non jouée.
+- Validation : 43 tests unitaires/API/partitions/identité ; test D1 dans workerd (migration, unicité, concurrence et trigger atomique) ; build et déploiement réussis. Aucun essai physique iPhone effectué par l’agent. La confirmation de résolution sur le téléphone reste nécessaire.
+- Dernier déploiement à ce stade : `a80127a3-657b-49c5-a401-70910190e97d`. Aucun push Git effectué. Ne pas annoncer le bug iPhone définitivement résolu sans nouvel essai.
+
+### Correctif Safari issu des logs réels
+
+Les diagnostics de l’iPhone ont confirmé : MP3 de 1 826 525 octets intact, durée initiale 91,298 s, puis durée 0,000177792 s et `ended` pendant le décompte après le retour au début du Blob. Le message « morceau indisponible » est la protection mobile-2. **mobile-3** remplace `HTMLAudioElement`/Blob pour les parties par `BufferAudio` : fichier décodé en mémoire, contexte déverrouillé directement au toucher, temps de jeu pris sur l’horloge audio, pause/reprise sans chercher dans un MP3 Blob. Contexte et buffer libérés en quittant la partie. Les extraits du catalogue conservent leur lecteur HTTP. Trois tests supplémentaires couvrent retour arrière, fin réelle, pause pendant déverrouillage, interruptions et mute : total **46 tests**. Les traces restent actives pour valider le nouvel essai iPhone.
+
+### Validation en direct et bouton du son
+
+Les logs de production Safari iPhone du build mobile-3 confirment une lecture stable au-delà de 48 secondes, avec entrées tactiles et progression du score (707 points avant mise en pause puis redémarrage par le joueur). Aucune fin prématurée sur ce nouvel essai ; la sauvegarde d’une partie complète en D1 n’a pas encore été observée.
+
+Le bouton du son est maintenant contrasté sur téléphone et ordinateur : cible 44 px, pictogramme 22 px, fond doré avec icône sombre lorsque le son est actif, fond marine opaque avec icône claire lorsqu’il est coupé. Les deux états ont été contrôlés dans le navigateur. Captures `design/previews/volume-mobile-on.png` et `volume-desktop-off.png`. Dernier déploiement incluant ce bouton : `fd7ae549-7850-4cb0-86f4-34672d90d6d4`.
+
+
+## 22. Interface mobile et collection validée (24 octobre 2026)
+
+L’utilisateur confirme que la lecture fonctionne désormais sur son iPhone Safari. Les modifications suivantes complètent mobile-3 :
+
+- Retours de jeu : « Parfait ! », « Bien ! », « Mauvaise touche », « Trop tôt », « Trop tard », « Raté ! », relâchement anticipé et maintien réussi. Bandeau dédié, touches et ligne de frappe colorées ; calcul des points inchangé.
+- Hauteur mobile basée sur `100dvh` : accueil, niveaux, partie, résultat, profil, classements et crédits sans défilement de page. Collection défilante. Profil réparti en trois panneaux, classements et crédits paginés. Contrôles navigateur à 320×568, 390×844 et 844×390 ; résultat atteint après une vraie partie locale complète. Guide PWA iOS étape 3 vérifié sans défilement à 320×568 ; paysage également vérifié.
+- Icône maison dans l’en-tête à gauche, alignée avec le son (44 px).
+- Après rejet du format liste horizontal, quatre maquettes imagegen ont été produites dans `design/concepts/catalog/` avec leurs prompts. L’utilisateur a choisi **03 — Affiches de nuit**, image de référence `03-affiches-de-nuit.png`. Implémentation avec les vrais titres, artistes et pochettes : cartes illustrées, dégradé sombre opaque sous les textes, contours dorés, favoris et casque doré pour les extraits. Deux colonnes sur mobile, trois sur tablette, quatre sur desktop. Cartes mobiles de 184–188 px minimum ; boutons tactiles de 44 px.
+- Barre haute allégée, recherche et filtres conservés ; progression globale et défi quotidien déplacés en bas du catalogue. Icône aléatoire centrée (texte anonyme supprimé), liens Tous/Favoris/À découvrir en 13 px mobile et 14 px desktop.
+- Aurores boréales animées dans le catalogue, étoiles filantes à trajectoire et intervalle aléatoires (première après 2–5 s, suivantes toutes les 7–19 s). Animations suspendues hors onglet, désactivées avec le réglage et la préférence de mouvement réduit ; aucune animation de fond pendant le jeu. Le Père Noël reste réservé à l’accueil avec son passage unique.
+- Vérifications : 49 tests réussis ; écoute/arrêt, favori, filtrage et recherche testés via l’interface ; absence de débordement horizontal à 320/390/1280 px, réduction des animations vérifiée. Captures `catalog-immersive-mobile.png`, `catalog-immersive-desktop.png`, `game-feedback-mobile.png`.
+
+Déploiement de cet ensemble terminé : `f7e1b8e8-e37f-4510-8826-f91de0b1dbdb` sur https://noel.promo.dev. Build/PWA et 49 tests réussis. Le bouton Actualiser recharge la nouvelle version sur les sessions déjà ouvertes. Aucun commit ni push Git demandé/effectué.
+
+### Aurores rendues plus visibles
+
+Après retour utilisateur (« pas l’impression qu’elles bougent »), remplacement des couches CSS très faibles du catalogue par `AuroraCurtains.vue` : trois rubans courbes vert/bleu/violet, déformation continue de leur forme et variation de luminosité. Canvas limité à 30 images/s et DPR 1,25 ; arrêt hors onglet et lorsque les animations sont réduites. Les cartes restent au-dessus. Contrôle visuel de deux états successifs (`aurora-motion-a.png`, `aurora-motion-b.png`), build et 49 tests réussis.
+Déployé sur noel.promo.dev : `e32df87d-4525-47da-96e1-153f28be0088`.
+
+## 23. Catalogue 100 titres, décor global et navigation (24 octobre 2026)
+
+- Catalogue porté à **100 morceaux NCS / 300 partitions** : 50 nouveaux titres sélectionnés dans la même direction musicale, avec extraits continus de 90 secondes, attaques analysées et notes à maintenir. Exemples : Why We Lose, I Remember U, Destiny, Electricity, Geometry, Throne. Les 50 entrées précédentes restent strictement identiques (révisions et scores préservés).
+- Pipeline d’extension : `tools/audio/expand_ncs.py`, `collect_ncs_covers.py`, puis `artifacts/catalog/venv/bin/python tools/audio/build_ncs.py --only-new` et `python3 tools/audio/activate_ncs.py`. Les originaux sont dans les artifacts ignorés. Catalogue, crédits, audios, pochettes et trois partitions par titre sont activés ensemble.
+- Aurores canvas désormais présentes sur toutes les vues de l’application. En jeu, intensité réduite, neige et étoiles filantes actives. Les panneaux de préparation/pause sont translucides ; HUD et pistes masqués derrière le dialogue, ce qui laisse le décor visible. Réglage animations et préférence système toujours respectés.
+- Retours « Parfait / Bien / Raté / Trop tôt / Trop tard » au centre exact de l’écran, animation d’apparition, couleurs et ondes sur la ligne de jeu. Sans interception des appuis.
+- Navigation : flèche ronde dorée de 44 px en haut à gauche de la préparation/pause pour revenir au niveau ; même flèche dans l’en-tête de sélection pour revenir aux morceaux. Liens textuels remplacés.
+- Validation : 49 tests réussis, incluant les 300 partitions et 100 empreintes audio distinctes ; build PWA réussi. Recherche, extrait et partie de Why We Lose essayés dans le navigateur. Centre du feedback mesuré à 381,5 px sur 763 px ; aucun scroll en jeu. Sélection contrôlée à 320×568 sans débordement. Captures `ready-aurora-back-mobile.png`, `game-feedback-centered-mobile.png`.
+
+Déploiement de cette version terminé sur https://noel.promo.dev : `bd31ed5e-a148-4be6-9ab2-76855d8ac433` (304 assets mis à jour). Préparation également contrôlée à 320×568 : flèche visible, contenu et dialogue sans scroll.
+
+## 24. Affichage iPhone et charge des animations (25 octobre 2026)
+
+- Zones de sécurité iOS réservées une seule fois dans la coque mobile ; barre de navigation intégrée au flux, hauteur dynamique et décor couvrant le grand viewport. Ajustements appliqués aussi au catalogue, à la préparation et au jeu.
+- Suppression de la métadonnée obsolète `apple-mobile-web-app-status-bar-style=black-translucent`. Le simulateur reproduisait après rotation un viewport raccourci de 62 px, avec une bande vide en bas. Une nouvelle installation sans cette métadonnée conserve la bonne géométrie après rotation. Une ancienne icône peut nécessiter suppression puis ajout depuis Safari pour actualiser ce réglage natif. Référence WebKit : https://www2.webkit.org/show_bug.cgi?id=317153 (commentaire 2).
+- Décors plafonnés à 30 images/s, résolution des canvas réduite sur écran tactile ; étoiles filantes sans boucle active entre les passages. Pistes arrêtées pendant les overlays et jeu plafonné à 60 images/s. Les compteurs temporaires ont montré neige/boule à 30, aurores à 20 et visiteurs à 30 pendant leur passage ; compteurs retirés avant livraison.
+- Validation dans le véritable simulateur Apple : iPhone 18 Pro Max, iOS 27.0, Safari et PWA installée, portrait/paysage/retour portrait ; lancement et reprise après pause de On & On fonctionnels. Captures dans `design/previews/iphone-pwa-safe-area-home.png` et `iphone-pwa-safe-area-game.png`. 49 tests réussis et build PWA réussi.
+- Limite : le simulateur ne mesure pas la température ni la consommation réelle d’un iPhone. Ces changements limitent le travail graphique inutile ; ils ne garantissent pas une absence de chauffe sur appareil physique.
+
+Déployé sur https://noel.promo.dev : `27bbd15e-9858-408a-b256-f2c09277224c` (6 assets mis à jour).
+
+## 25. Retrait du bouton diagnostic (25 octobre 2026)
+
+Bouton « Télécharger le diagnostic » retiré des préférences et de l’écran d’erreur audio, imports inutilisés nettoyés. Journalisation interne conservée. Build PWA réussi ; déployé sur noel.promo.dev : `6adc4d7a-2513-4ea2-9028-2e73d3564121`.
+
+
+## 26. Connexion native, profils, dotations et icône promoTiles — 25 octobre 2026
+
+- Cloudflare Access « PromoTiles Noël » retiré après confirmation ; Worker et D1 conservés. Connexion native réservée au domaine exact `@promo.dev`, OTP 6 chiffres, 10 minutes, 5 essais, limitation des envois et cookie HttpOnly Secure de 7 jours. Secret `AUTH_PEPPER` géré par Wrangler, jamais dans Git.
+- Le compte de test demandé a été supprimé avant la bascule. Ne pas supprimer un nouveau compte créé ensuite par l’utilisateur.
+- Pseudo obligatoire unique avec normalisation de casse/accents/espaces et contrainte D1 ; 20 avatars de Noël diversifiés générés, sélection obligatoire, modification dans le profil, affichage au classement et dans la navigation.
+- Anti-triche uniquement serveur : score recalculé, consommation atomique, contrôle de durée/propriété/révision, détection de rejeu exact et fréquence d’entrée incohérente. Les timings artificiellement exacts sont signalés sans sanction automatique. Aucun changement aux règles ou au design du gameplay ; aucune garantie absolue contre les bots.
+- Navigation : nouvelle icône cadeau « Dotations », vue bleu nuit/or avec trois dotations explicitement fictives (casque, enceinte, coffret gourmand).
+- PWA nommée `promoTiles`, icône sapin-piano/boule de Noël, tailles iOS/Android et variante maskable. Source générée conservée dans `design/promotiles-app-icon.png`.
+- E-mail de code habillé bleu nuit/or, illustration de l’application, code sélectionnable, version texte ; template `worker/login-email.js`. Réception du test de livraison confirmée par Hervé le 25/10. L’ancien test avait seulement été accepté/mis en file : ne pas confondre acceptation et réception.
+- `npm run dev` utilise `server/native.mjs`, même Worker avec SQLite local, codes écrits uniquement dans `data/dev-auth-email.json`. Les mails locaux ne partent pas.
+- Migrations `0002_native_auth.sql` et `0003_avatars_anticheat.sql` appliquées à D1 distante. Version déployée `7533adb3-cfe6-43a6-b285-4f81de426807`.
+- Vérifications : 52 tests réussis, intégration Miniflare/D1 réussie, build PWA ; login local, collision pseudo, sélection/persistance avatar, partie démarrée puis mise en pause. Dotations contrôlées à 1280×720, 390×844 et 320×568 sans débordement. Pas de nouvelle mesure thermique sur appareil physique pour ces ajouts.
+- Production : shell, manifeste, icônes et avatars HTTP 200 ; API privée et musique sans session HTTP 401. Le manifeste expose bien `promoTiles`. Captures : `design/previews/christmas-avatars-mobile.png`, `prizes-mobile.png`, `login-email-mobile.png` (code fictif d’aperçu).
+- Le dossier préexistant `macos/Eveil/` concerne EasyWake et est indépendant du jeu ; ne pas l’inclure dans le commit PromoTiles.

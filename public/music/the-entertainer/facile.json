@@ -1,0 +1,864 @@
+{
+  "schemaVersion": 1,
+  "status": "midi-synchronised-demo-awaiting-player-feedback",
+  "songId": "scott-joplin-the-entertainer-demo-v1",
+  "title": "The Entertainer",
+  "artist": "Scott Joplin",
+  "audioFile": "piano.mp3",
+  "audioSha256": "f7498ec5d0f5a285aade9d31341e36974139b1f6f055265b21aa8917200b155a",
+  "durationSeconds": 63.250272,
+  "estimatedBpm": 72,
+  "beatOffsetSeconds": 0.833333,
+  "mode": "facile",
+  "laneCount": 4,
+  "timingReference": "Exact rendered performance.mid ticks, 384 PPQ, 833333 microseconds/quarter; no audio trim.",
+  "countInSeconds": 3,
+  "approachTimeSeconds": 2.8,
+  "songDifficulty": {
+    "rating": 3,
+    "outOf": 5,
+    "coefficient": 1.5
+  },
+  "scoring": {
+    "maxPoints": 1500
+  },
+  "notes": [
+    {
+      "id": "facile-0000",
+      "timeSeconds": 0.833333,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 384
+    },
+    {
+      "id": "facile-0001",
+      "timeSeconds": 1.249999,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 576
+    },
+    {
+      "id": "facile-0002",
+      "timeSeconds": 2.083333,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 79,
+      "type": "tap",
+      "sourceTick": 960
+    },
+    {
+      "id": "facile-0003",
+      "timeSeconds": 2.499999,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 74,
+      "type": "tap",
+      "sourceTick": 1152
+    },
+    {
+      "id": "facile-0004",
+      "timeSeconds": 2.916665,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 1344
+    },
+    {
+      "id": "facile-0005",
+      "timeSeconds": 3.749998,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 67,
+      "type": "tap",
+      "sourceTick": 1728
+    },
+    {
+      "id": "facile-0006",
+      "timeSeconds": 4.166665,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 1920
+    },
+    {
+      "id": "facile-0007",
+      "timeSeconds": 4.583331,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 60,
+      "type": "tap",
+      "sourceTick": 2112
+    },
+    {
+      "id": "facile-0008",
+      "timeSeconds": 5.416664,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 57,
+      "type": "tap",
+      "sourceTick": 2496
+    },
+    {
+      "id": "facile-0009",
+      "timeSeconds": 5.833331,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 55,
+      "type": "tap",
+      "sourceTick": 2688
+    },
+    {
+      "id": "facile-0010",
+      "timeSeconds": 6.666664,
+      "durationSeconds": 0,
+      "lane": 3,
+      "midiPitch": 79,
+      "type": "tap",
+      "sourceTick": 3072
+    },
+    {
+      "id": "facile-0011",
+      "timeSeconds": 7.08333,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 3264
+    },
+    {
+      "id": "facile-0012",
+      "timeSeconds": 7.499997,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 3456
+    },
+    {
+      "id": "facile-0013",
+      "timeSeconds": 8.33333,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 3840
+    },
+    {
+      "id": "facile-0014",
+      "timeSeconds": 8.749996,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 4032
+    },
+    {
+      "id": "facile-0015",
+      "timeSeconds": 8.95833,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 4128
+    },
+    {
+      "id": "facile-0016",
+      "timeSeconds": 10.416662,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 4800
+    },
+    {
+      "id": "facile-0017",
+      "timeSeconds": 10.833329,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 4992
+    },
+    {
+      "id": "facile-0018",
+      "timeSeconds": 11.249995,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 5184
+    },
+    {
+      "id": "facile-0019",
+      "timeSeconds": 12.083328,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 5568
+    },
+    {
+      "id": "facile-0020",
+      "timeSeconds": 12.499995,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 5760
+    },
+    {
+      "id": "facile-0021",
+      "timeSeconds": 13.749994,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 6336
+    },
+    {
+      "id": "facile-0022",
+      "timeSeconds": 14.166661,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 6528
+    },
+    {
+      "id": "facile-0023",
+      "timeSeconds": 14.999994,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 6912
+    },
+    {
+      "id": "facile-0024",
+      "timeSeconds": 15.41666,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 7104
+    },
+    {
+      "id": "facile-0025",
+      "timeSeconds": 15.624994,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 7200
+    },
+    {
+      "id": "facile-0026",
+      "timeSeconds": 17.083326,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 7872
+    },
+    {
+      "id": "facile-0027",
+      "timeSeconds": 17.499993,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 78,
+      "type": "tap",
+      "sourceTick": 8064
+    },
+    {
+      "id": "facile-0028",
+      "timeSeconds": 17.916659,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 8256
+    },
+    {
+      "id": "facile-0029",
+      "timeSeconds": 18.749992,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 8640
+    },
+    {
+      "id": "facile-0030",
+      "timeSeconds": 19.166659,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 8832
+    },
+    {
+      "id": "facile-0031",
+      "timeSeconds": 20.416658,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 9408
+    },
+    {
+      "id": "facile-0032",
+      "timeSeconds": 20.833325,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 9600
+    },
+    {
+      "id": "facile-0033",
+      "timeSeconds": 21.666658,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 9984
+    },
+    {
+      "id": "facile-0034",
+      "timeSeconds": 22.083324,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 10176
+    },
+    {
+      "id": "facile-0035",
+      "timeSeconds": 22.291658,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 10272
+    },
+    {
+      "id": "facile-0036",
+      "timeSeconds": 23.74999,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 10944
+    },
+    {
+      "id": "facile-0037",
+      "timeSeconds": 24.166657,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 11136
+    },
+    {
+      "id": "facile-0038",
+      "timeSeconds": 24.583323,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 11328
+    },
+    {
+      "id": "facile-0039",
+      "timeSeconds": 25.416656,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 11712
+    },
+    {
+      "id": "facile-0040",
+      "timeSeconds": 25.833323,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 11904
+    },
+    {
+      "id": "facile-0041",
+      "timeSeconds": 27.083322,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 12480
+    },
+    {
+      "id": "facile-0042",
+      "timeSeconds": 27.499989,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 12672
+    },
+    {
+      "id": "facile-0043",
+      "timeSeconds": 27.916655,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 12864
+    },
+    {
+      "id": "facile-0044",
+      "timeSeconds": 28.749988,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 13248
+    },
+    {
+      "id": "facile-0045",
+      "timeSeconds": 29.166655,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 13440
+    },
+    {
+      "id": "facile-0046",
+      "timeSeconds": 29.583321,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 13632
+    },
+    {
+      "id": "facile-0047",
+      "timeSeconds": 30.416654,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 14016
+    },
+    {
+      "id": "facile-0048",
+      "timeSeconds": 30.833321,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 14208
+    },
+    {
+      "id": "facile-0049",
+      "timeSeconds": 31.249987,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 14400
+    },
+    {
+      "id": "facile-0050",
+      "timeSeconds": 32.08332,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 14784
+    },
+    {
+      "id": "facile-0051",
+      "timeSeconds": 32.499987,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 14976
+    },
+    {
+      "id": "facile-0052",
+      "timeSeconds": 33.749986,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 15552
+    },
+    {
+      "id": "facile-0053",
+      "timeSeconds": 34.166653,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 15744
+    },
+    {
+      "id": "facile-0054",
+      "timeSeconds": 34.999986,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 16128
+    },
+    {
+      "id": "facile-0055",
+      "timeSeconds": 35.416652,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 16320
+    },
+    {
+      "id": "facile-0056",
+      "timeSeconds": 35.624986,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 16416
+    },
+    {
+      "id": "facile-0057",
+      "timeSeconds": 37.083318,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 17088
+    },
+    {
+      "id": "facile-0058",
+      "timeSeconds": 37.499985,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 17280
+    },
+    {
+      "id": "facile-0059",
+      "timeSeconds": 37.916652,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 17472
+    },
+    {
+      "id": "facile-0060",
+      "timeSeconds": 38.749984,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 17856
+    },
+    {
+      "id": "facile-0061",
+      "timeSeconds": 39.166651,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 18048
+    },
+    {
+      "id": "facile-0062",
+      "timeSeconds": 40.41665,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 18624
+    },
+    {
+      "id": "facile-0063",
+      "timeSeconds": 40.833317,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 18816
+    },
+    {
+      "id": "facile-0064",
+      "timeSeconds": 41.66665,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 19200
+    },
+    {
+      "id": "facile-0065",
+      "timeSeconds": 42.083316,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 19392
+    },
+    {
+      "id": "facile-0066",
+      "timeSeconds": 42.29165,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 19488
+    },
+    {
+      "id": "facile-0067",
+      "timeSeconds": 43.749982,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 81,
+      "type": "tap",
+      "sourceTick": 20160
+    },
+    {
+      "id": "facile-0068",
+      "timeSeconds": 44.166649,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 78,
+      "type": "tap",
+      "sourceTick": 20352
+    },
+    {
+      "id": "facile-0069",
+      "timeSeconds": 44.583315,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 20544
+    },
+    {
+      "id": "facile-0070",
+      "timeSeconds": 45.416648,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 20928
+    },
+    {
+      "id": "facile-0071",
+      "timeSeconds": 45.833315,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 21120
+    },
+    {
+      "id": "facile-0072",
+      "timeSeconds": 47.083314,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 62,
+      "type": "tap",
+      "sourceTick": 21696
+    },
+    {
+      "id": "facile-0073",
+      "timeSeconds": 47.499981,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 21888
+    },
+    {
+      "id": "facile-0074",
+      "timeSeconds": 48.333314,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 22272
+    },
+    {
+      "id": "facile-0075",
+      "timeSeconds": 48.74998,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 64,
+      "type": "tap",
+      "sourceTick": 22464
+    },
+    {
+      "id": "facile-0076",
+      "timeSeconds": 48.958314,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 72,
+      "type": "tap",
+      "sourceTick": 22560
+    },
+    {
+      "id": "facile-0077",
+      "timeSeconds": 50.416646,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 23232
+    },
+    {
+      "id": "facile-0078",
+      "timeSeconds": 50.833313,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 23424
+    },
+    {
+      "id": "facile-0079",
+      "timeSeconds": 51.249979,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 23616
+    },
+    {
+      "id": "facile-0080",
+      "timeSeconds": 52.083312,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 24000
+    },
+    {
+      "id": "facile-0081",
+      "timeSeconds": 52.499979,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 24192
+    },
+    {
+      "id": "facile-0082",
+      "timeSeconds": 53.749978,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 24768
+    },
+    {
+      "id": "facile-0083",
+      "timeSeconds": 54.166645,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 24960
+    },
+    {
+      "id": "facile-0084",
+      "timeSeconds": 54.583311,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 25152
+    },
+    {
+      "id": "facile-0085",
+      "timeSeconds": 55.416644,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 25536
+    },
+    {
+      "id": "facile-0086",
+      "timeSeconds": 55.833311,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 25728
+    },
+    {
+      "id": "facile-0087",
+      "timeSeconds": 56.249977,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 25920
+    },
+    {
+      "id": "facile-0088",
+      "timeSeconds": 57.08331,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 26304
+    },
+    {
+      "id": "facile-0089",
+      "timeSeconds": 57.499977,
+      "durationSeconds": 0,
+      "lane": 0,
+      "midiPitch": 88,
+      "type": "tap",
+      "sourceTick": 26496
+    },
+    {
+      "id": "facile-0090",
+      "timeSeconds": 57.916643,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 26688
+    },
+    {
+      "id": "facile-0091",
+      "timeSeconds": 58.749976,
+      "durationSeconds": 0,
+      "lane": 2,
+      "midiPitch": 86,
+      "type": "tap",
+      "sourceTick": 27072
+    },
+    {
+      "id": "facile-0092",
+      "timeSeconds": 59.166643,
+      "durationSeconds": 0,
+      "lane": 1,
+      "midiPitch": 84,
+      "type": "tap",
+      "sourceTick": 27264
+    }
+  ]
+}

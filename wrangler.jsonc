@@ -2,5 +2,42 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "promodev-piano-challenge",
   "compatibility_date": "2026-10-24",
-  "assets": { "directory": "./dist", "not_found_handling": "single-page-application" }
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "main": "worker/index.js",
+  "account_id": "d5d57d15751e093b840fcd28077f1f1f",
+  "workers_dev": false,
+  "preview_urls": false,
+  "observability": { "enabled": true, "head_sampling_rate": 1 },
+  "routes": [
+    {
+      "pattern": "noel.promo.dev",
+      "custom_domain": true
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "promotiles-noel",
+      "database_id": "945b3c06-a680-4259-979c-3ffc2dd03e53",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "send_email": [{"name":"EMAIL","allowed_sender_addresses":["connexion@noel.promo.dev"]}],
+  "vars": {
+    "AUTH_MODE": "native",
+    "AUTH_FROM": "connexion@noel.promo.dev",
+    "ALLOWED_EMAIL_DOMAIN": "promo.dev",
+    "ACCESS_TEAM_DOMAIN": "promodev.cloudflareaccess.com",
+    "ACCESS_AUD": "36dc5b88857afa1b7d5cbf9f360b33d011bc6a00c4d4d2b71f04930b9761ccc7"
+  },
+  "triggers": {
+    "crons": [
+      "17 3 * * *"
+    ]
+  }
 }

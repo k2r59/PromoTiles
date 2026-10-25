@@ -161,3 +161,32 @@
  .selection-open,.result-open{padding-bottom:24px}
  .game-open{padding-bottom:0}
 }
+
+@media(max-width:760px){.header-controls .icon-button:first-child{display:grid}.header-controls .icon-button:nth-child(2){display:none}}
+
+@media(max-width:760px){.selection-actions{position:sticky;bottom:0;z-index:4;background:linear-gradient(0deg,#071426 80%,#071426ee);padding:12px 0 max(6px,env(safe-area-inset-bottom));margin-top:16px}.selection-actions .text-button{margin:0;min-height:40px;width:100%}.selection-screen{padding-bottom:0}}
+
+.selection-screen,.result-screen{background:linear-gradient(180deg,#07142610,#071426eb 25%,#071426f2 100%);border-radius:24px}.result-screen{padding-top:8px}.result-screen .result-crown{width:64px;height:64px;margin:10px auto}.result-crown svg{width:36px}.result-screen h1{font-size:48px;line-height:1.05;margin:9px 0}.result-screen .result-score{font-size:68px;margin:12px 0}.result-screen .result-score>span{margin-top:5px}.result-screen .result-stats{margin:15px 0;padding:15px 0}.result-screen .result-advice{margin:14px 12px}.result-screen .result-stars{margin:8px 0}.result-screen .result-song{margin:8px 0}.result-screen .shared-result{margin-top:12px;line-height:1.6}.result-open{padding-bottom:20px}.result-screen .primary-button{min-height:52px}.result-screen .secondary-button{margin-top:9px;min-height:44px}@media(max-width:600px){.result-screen h1{font-size:40px}.result-screen .result-crown{margin-top:4px;width:54px;height:54px}.result-screen .result-score{font-size:60px}.result-screen .result-stats{margin:12px 0;padding:12px 0}.selection-screen .section-intro{margin-top:12px}.result-screen{padding-bottom:18px}}
+
+.selected-artwork{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.65}.song-cover svg{position:relative;z-index:1;filter:drop-shadow(0 1px 4px #000)}.song-cover{overflow:hidden}.album-title p{overflow-wrap:anywhere}
+
+@media(max-width:600px){
+ .selection-screen h1{font-size:36px;line-height:1.02;margin:10px 0}
+ .selection-screen>.section-intro{display:none}
+ .selection-screen .section-label{margin-top:18px;margin-bottom:12px}
+ .selection-screen .song-hint{margin:8px 0 12px;font-size:11px;line-height:1.5}
+ .selection-screen .chart-summary{margin:10px 0 14px}
+ .selection-screen .selection-actions{margin-top:10px}
+}
+@media(max-width:600px){.selection-screen .mode-option{min-height:64px;padding-top:8px;padding-bottom:8px}.selection-screen .section-label{margin-top:12px;margin-bottom:10px}.selection-screen .song-hint{margin-bottom:8px}}
+
+.account-identity{padding:20px;border:1px solid #c6a97555;border-radius:14px;background:#091b30;margin:24px 0}.account-identity label{display:block;color:#e2c68e;font-size:11px;margin-bottom:12px}.account-identity input{width:100%;background:#051222;border:1px solid #8aa8c433;border-radius:8px;padding:13px;color:#d8e6ef;font-size:13px}.account-identity p{font-size:11px;color:#a9c0d4;line-height:1.8;margin-top:12px}.account-identity .text-button{font-size:11px;margin-top:8px}
+
+/* Keep the sound control legible over the sky on every viewport. */
+.header-controls .icon-button.sound-toggle{width:44px;height:44px;display:grid;color:#fff2d9;background:#102641;border:1.5px solid #e6c78f;box-shadow:0 3px 12px #0006,inset 0 1px 0 #ffffff18}
+.header-controls .sound-toggle[aria-pressed="true"]{color:#14233b;background:#f5d69a;border-color:#ffebc4}
+.header-controls .sound-toggle:hover{background:#213e60;border-color:#fff2d9}
+.header-controls .sound-toggle[aria-pressed="true"]:hover{background:#ffe6b5}
+.header-controls .sound-toggle:focus-visible{outline:3px solid #fff5df;outline-offset:4px}
+
+.nav-avatar{width:24px;height:24px;object-fit:cover;border-radius:50%;border:1px solid #e6c78f99}

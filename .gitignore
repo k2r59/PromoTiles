@@ -19,3 +19,13 @@ audio/**/*.zip
 audio/**/*.info.json
 # Captures du navigateur entier ; les vues recadrées sont conservées
 design/*-native.png
+
+# Shared local leaderboard, never commit player records
+/data/
+
+# Private internal listening assets; originals and attribution sources are reproducible.
+public/music/catalog/ncs-*/
+public/music/artwork/
+
+.dev.vars
+.dev.vars.*

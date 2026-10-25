@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "ncs-442dfd89-c291-41b4-b93a-18c0ff73c1dc",
+    "title": "On & On",
+    "artist": "Cartoon, Daniel Levi, Jéja",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-on-on-feat-daniel-levi/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-on-on-feat-daniel-levi",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 174,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 99,
+        "holds": 8,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 131,
+        "holds": 8,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 322,
+        "holds": 8,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/onandon",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "On & On (feat. Daniel Levi) — Cartoon, Daniel Levi, Jéja. Music provided by NoCopyrightSounds. https://ncs.io/onandon",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 208.013,
+    "audioSha256": "2de0f47bc90de1b65050138b23bb782b978ddc6299a8d74f34677d756eb0d394",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "bc6bb3b81d2b594f",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/442dfd89-c291-41b4-b93a-18c0ff73c1dc.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/152/1000x0/1705340894_JZ2NifV4gB_2024---CARTOON-JEYJA---On--On-ft.-Daniel-Levi.jpg",
+    "originalTitle": "On & On (feat. Daniel Levi)",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-00475073-2e06-4c49-bbd8-e1c1797d5697",
+    "title": "Make Me Move",
+    "artist": "Culture Code, KARRA",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-make-me-move-feat-karra/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-make-me-move-feat-karra",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 95,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 111,
+        "holds": 18,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 165,
+        "holds": 18,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 237,
+        "holds": 18,
+        "maxPoints": 3000
+      }
+    },
+    "description": "House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/makememove",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Make Me Move (feat. KARRA) — Culture Code, KARRA. Music provided by NoCopyrightSounds. https://ncs.io/makememove",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 197.12,
+    "audioSha256": "1b1ec8cf36b37c09bcdf1d1b6481c4d97353abf85214bf2a994783e4827297ea",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "30f36d1339013aad",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/00475073-2e06-4c49-bbd8-e1c1797d5697.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/286/1000x0/make-me-move-feat-karra-1586948717-dTsA9So1cu.jpg",
+    "originalTitle": "Make Me Move (feat. KARRA)",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-2b08f7d9-4f5f-47bd-a608-07dec1f7eaa9",
+    "title": "Royalty",
+    "artist": "Maestro Chives, Egzod, Neoni",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-royalty/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-royalty",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 160,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 94,
+        "holds": 16,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 122,
+        "holds": 16,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 306,
+        "holds": 16,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Trap · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Royalty",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Royalty — Maestro Chives, Egzod, Neoni. Music provided by NoCopyrightSounds. https://ncs.io/Royalty",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 223.582,
+    "audioSha256": "f38effee6c28b51a6e2faeb8205330fb3ef01e03e377b67022f1a18a56801865",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "16e806af8c83fe6f",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/2b08f7d9-4f5f-47bd-a608-07dec1f7eaa9.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/936/1000x0/royalty-1619082030-xBgqGZWLw9.jpg",
+    "originalTitle": "Royalty",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-29888bcd-b126-4fe3-9bc0-c0e8ad131843",
+    "title": "Why Do I?",
+    "artist": "Unknown Brain, Bri Tolani",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-why-do-i-feat-bri-tolani/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-why-do-i-feat-bri-tolani",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 174,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 111,
+        "holds": 11,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 158,
+        "holds": 11,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 410,
+        "holds": 11,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Trap · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/WhyDoI",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Why Do I? (feat. Bri Tolani) — Unknown Brain, Bri Tolani. Music provided by NoCopyrightSounds. https://ncs.io/WhyDoI",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 223.843,
+    "audioSha256": "adf0506dc01a730849dcf8dde51a4e1f6398b152a02aab3bd341598148be2a29",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "4a9330c7be9191d3",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/29888bcd-b126-4fe3-9bc0-c0e8ad131843.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/475/1000x0/why-do-i-instrumental-1586954322-r6NaRTcK0a.jpg",
+    "originalTitle": "Why Do I? (feat. Bri Tolani)",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-09a3776f-d40a-42db-a2ed-33faa6f9f507",
+    "title": "Savannah",
+    "artist": "Philly K., Diviners",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-savannah-feat-philly-k/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-savannah-feat-philly-k",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 95,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 115,
+        "holds": 5,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 153,
+        "holds": 5,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 240,
+        "holds": 5,
+        "maxPoints": 3000
+      }
+    },
+    "description": "Indie · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/savannah",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Savannah (feat. Philly K.) — Philly K., Diviners. Music provided by NoCopyrightSounds. https://ncs.io/savannah",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 195.183,
+    "audioSha256": "15e2b93a32cedb81c763a528da6aeb925f5a35d08797e691a56654eaf71adea1",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "c430df03c3be87c0",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/09a3776f-d40a-42db-a2ed-33faa6f9f507.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/183/1000x0/savannah-feat-philly-k-1586947233-VMaroHdDuG.jpg",
+    "originalTitle": "Savannah (feat. Philly K.)",
+    "subgenre": "Indie"
+  },
+  {
+    "id": "ncs-5f9248d3-6d4d-4f6e-b9f3-c4315a617665",
+    "title": "Seasons",
+    "artist": "Rival, CADMIUM, Harley Bird",
+    "genre": "Pop",
+    "audio": "/music/catalog/ncs-seasons-feat-harley-bird/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-seasons-feat-harley-bird",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 145,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 92,
+        "holds": 6,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 113,
+        "holds": 6,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 323,
+        "holds": 6,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Chill · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Seasons",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Seasons (feat. Harley Bird) — Rival, CADMIUM, Harley Bird. Music provided by NoCopyrightSounds. https://ncs.io/Seasons",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 248.276,
+    "audioSha256": "63a3257ed63072238226921dc15906b38febf7c5c916382a4175dd9ead5e8a61",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "8440671744bb1381",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/5f9248d3-6d4d-4f6e-b9f3-c4315a617665.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/469/1000x0/seasons-feat-harley-bird-1586954214-Xa67nngBDi.jpg",
+    "originalTitle": "Seasons (feat. Harley Bird)",
+    "subgenre": "Chill"
+  },
+  {
+    "id": "ncs-15c3d055-4dfc-4ce7-9c37-898e33c6be97",
+    "title": "Howling",
+    "artist": "Asena, Cartoon, Jéja",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-howling/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-howling",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 174,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 107,
+        "holds": 6,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 148,
+        "holds": 6,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 405,
+        "holds": 6,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Howling",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Howling — Asena, Cartoon, Jéja. Music provided by NoCopyrightSounds. https://ncs.io/Howling",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 204.617,
+    "audioSha256": "b1e42b1fd1bbac9d2b7ee3e52eccaba756f5faffb511f4fe8d654137e73aa894",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "055c7069f5fd84b6",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/15c3d055-4dfc-4ce7-9c37-898e33c6be97.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/748/1000x0/1705340568_sGcaX5hjn2_2024---CARTOON-JEYJA---Howling-ft.-Asena.jpg",
+    "originalTitle": "Howling",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-f603d043-7f49-4d0b-bcf7-b6f7e045cb08",
+    "title": "Dreams pt. II",
+    "artist": "Lost Sky, Sara Skinner",
+    "genre": "Bass",
+    "audio": "/music/catalog/ncs-dreams-pt-ii-feat-sara-skinner/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-dreams-pt-ii-feat-sara-skinner",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 145,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 92,
+        "holds": 10,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 131,
+        "holds": 10,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 335,
+        "holds": 10,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Dubstep · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Dreams2",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Dreams pt. II (feat. Sara Skinner) — Lost Sky, Sara Skinner. Music provided by NoCopyrightSounds. https://ncs.io/Dreams2",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 215.197,
+    "audioSha256": "fc6e242c1b0b90af33411daca9fe5a68969f9516ddb23cdcac5ed72c99e391da",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "78fb6e9cb0ea339c",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/f603d043-7f49-4d0b-bcf7-b6f7e045cb08.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/572/1000x0/dreams-pt-ii-feat-sara-skinner-1586957095-ucmzLb3h13.jpg",
+    "originalTitle": "Dreams pt. II (feat. Sara Skinner)",
+    "subgenre": "Dubstep"
+  },
+  {
+    "id": "ncs-4ab41a3f-f7e4-4ca5-868c-fda8d484805b",
+    "title": "Red Line",
+    "artist": "Anna Yvette",
+    "genre": "Pop",
+    "audio": "/music/catalog/ncs-red-line/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-red-line",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 110,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 142,
+        "holds": 13,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 200,
+        "holds": 13,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 314,
+        "holds": 13,
+        "maxPoints": 3000
+      }
+    },
+    "description": "Chill · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/RedLine",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Red Line — Anna Yvette. Music provided by NoCopyrightSounds. https://ncs.io/RedLine",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 265.787,
+    "audioSha256": "bbad59f5754a911046730f1bbbca5aff586c50cdb57bba0b8bf05e21b662a33f",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "b064a6aa6712e42e",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/4ab41a3f-f7e4-4ca5-868c-fda8d484805b.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/652/1000x0/red-line-1586958906-VkiDtzVNyx.jpg",
+    "originalTitle": "Red Line",
+    "subgenre": "Chill"
+  },
+  {
+    "id": "ncs-47bdb490-39e4-4a36-830c-15f28caa3325",
+    "title": "Feel Again",
+    "artist": "Culture Code, Harley Bird",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-feel-again-feat-harley-bird/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-feel-again-feat-harley-bird",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 125,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 152,
+        "holds": 4,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 188,
+        "holds": 4,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 307,
+        "holds": 4,
+        "maxPoints": 3000
+      }
+    },
+    "description": "House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/FeelAgain",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Feel Again (feat. Harley Bird) — Culture Code, Harley Bird. Music provided by NoCopyrightSounds. https://ncs.io/FeelAgain",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 233.587,
+    "audioSha256": "390cd63b91725253265f776cfeedd2c698a7c4ea856aeab7b66d931a5f184203",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "adc25d4cf710cf25",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/47bdb490-39e4-4a36-830c-15f28caa3325.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/457/1000x0/feel-again-feat-harley-bird-1586953869-L074LzWG7u.jpg",
+    "originalTitle": "Feel Again (feat. Harley Bird)",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-1feef04e-13dd-4d41-b68c-b28442f3d97c",
+    "title": "Perfect 10",
+    "artist": "Unknown Brain, Heather Sommer",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-perfect-10-feat-heather-sommer/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-perfect-10-feat-heather-sommer",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 180,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 106,
+        "holds": 18,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 151,
+        "holds": 18,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 324,
+        "holds": 18,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Trap · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/P10",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Perfect 10 (feat. Heather Sommer) — Unknown Brain, Heather Sommer. Music provided by NoCopyrightSounds. https://ncs.io/P10",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 204.042,
+    "audioSha256": "13c4a80a97c0e56426154d59bc6321540a62f4ab27bc64279ed4b737afb17c9e",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "f6ba385a251cf7de",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/1feef04e-13dd-4d41-b68c-b28442f3d97c.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/510/1000x0/perfect-10-feat-heather-sommer-1586955170-wRtg5YiQiu.jpg",
+    "originalTitle": "Perfect 10 (feat. Heather Sommer)",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-fceb443e-4f54-4144-af21-d2d63a4e60f2",
+    "title": "Where We Started",
+    "artist": "Lost Sky, Jex",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-where-we-started-feat-jex/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-where-we-started-feat-jex",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 150,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 88,
+        "holds": 5,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 113,
+        "holds": 5,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 311,
+        "holds": 5,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Bass · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/WhereWeStarted",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Where We Started (feat. Jex) — Lost Sky, Jex. Music provided by NoCopyrightSounds. https://ncs.io/WhereWeStarted",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 222.006,
+    "audioSha256": "27d1ca13cd6f346c6bf926cd2dab0e87a10cd1b04decc16900b2bcda07c0b8b4",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "d2acaf74335b7fbb",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/fceb443e-4f54-4144-af21-d2d63a4e60f2.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/671/1000x0/where-we-started-feat-jex-1586959339-BqrS2PV0TI.jpg",
+    "originalTitle": "Where We Started (feat. Jex)",
+    "subgenre": "Bass"
+  },
+  {
+    "id": "ncs-457f751e-98f4-4373-b094-ad6fd8e20e8d",
+    "title": "Tropic Love",
+    "artist": "Diviners, Contacreast",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-tropic-love-feat-contacreast/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-tropic-love-feat-contacreast",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 105,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 139,
+        "holds": 10,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 176,
+        "holds": 10,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 277,
+        "holds": 10,
+        "maxPoints": 3000
+      }
+    },
+    "description": "House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/tropiclove",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Tropic Love (feat. Contacreast) — Diviners, Contacreast. Music provided by NoCopyrightSounds. https://ncs.io/tropiclove",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 281.104,
+    "audioSha256": "d6e3d64ce837c7a409e9e2299e2f9e1d5ae309f12797e9124b6759202ee2a300",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "30cc332007810c24",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/457f751e-98f4-4373-b094-ad6fd8e20e8d.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/120/1000x0/tropic-love-feat-contacreast-1586946709-QYHdlqsmye.jpg",
+    "originalTitle": "Tropic Love (feat. Contacreast)",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-84e61a7b-591a-4158-b04a-df88f429775d",
+    "title": "Willow Tree",
+    "artist": "Rival, CADMIUM, Rosendale",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-willow-tree-feat-rosendale/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-willow-tree-feat-rosendale",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 150,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 89,
+        "holds": 7,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 106,
+        "holds": 7,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 263,
+        "holds": 7,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Future House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/WillowTree",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Willow Tree (feat. Rosendale) — Rival, CADMIUM, Rosendale. Music provided by NoCopyrightSounds. https://ncs.io/WillowTree",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 188.865,
+    "audioSha256": "a1b184b6aee2a6aec436976bade1d9c57edeb298844af72466d9799039ce20c8",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "25b568e581547044",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/84e61a7b-591a-4158-b04a-df88f429775d.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/559/1000x0/willow-tree-feat-rosendale-1586956612-8xElaAWnRE.jpg",
+    "originalTitle": "Willow Tree (feat. Rosendale)",
+    "subgenre": "Future House"
+  },
+  {
+    "id": "ncs-2bd1a391-0ff0-4dac-8484-7248041f1bbc",
+    "title": "No Rival",
+    "artist": "Alaina Cross, Maestro Chives, Egzod",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-no-rival/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-no-rival",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 160,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 97,
+        "holds": 11,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 133,
+        "holds": 11,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 331,
+        "holds": 11,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/NoRival",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "No Rival — Alaina Cross, Maestro Chives, Egzod. Music provided by NoCopyrightSounds. https://ncs.io/NoRival",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 198.165,
+    "audioSha256": "b067bf22f25fa505b5be6a9f73d541df4cc55dee42f9215266b7b3f0762e836e",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "7d03b149b8d27f5f",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/2bd1a391-0ff0-4dac-8484-7248041f1bbc.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/122/1000x0/no-rival-1651226434-NR8lMW0VBn.jpg",
+    "originalTitle": "No Rival",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-e34195eb-5d15-48ad-bcc7-c7502585e57a",
+    "title": "WILDFIRE",
+    "artist": "Jim Yosef, Sara Skinner",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-wildfire/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-wildfire",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 160,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 95,
+        "holds": 13,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 127,
+        "holds": 13,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 334,
+        "holds": 13,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/WILDFIRE",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "WILDFIRE — Jim Yosef, Sara Skinner. Music provided by NoCopyrightSounds. https://ncs.io/WILDFIRE",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 183.798,
+    "audioSha256": "116361657d389220adf6f148d97751a7bdc097ab67c299e907ebec3e535699e7",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "461690afa2d65025",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/e34195eb-5d15-48ad-bcc7-c7502585e57a.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/624/1000x0/wildfire-1586958272-GHAsCyPDHD.jpg",
+    "originalTitle": "WILDFIRE",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-6dda95c1-9400-4a74-a636-285e7b2f5c54",
+    "title": "Bittersweet",
+    "artist": "Roses, Time To Talk",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-bittersweet/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-bittersweet",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 126,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 136,
+        "holds": 6,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 179,
+        "holds": 6,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 265,
+        "holds": 6,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Bittersweet",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Bittersweet — Roses, Time To Talk. Music provided by NoCopyrightSounds. https://ncs.io/Bittersweet",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 211.711,
+    "audioSha256": "c82f8088ad2bca9bc227dfe1260e6f76712b17237a3a6f9d889aa25b899868b8",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "e1464be55a559113",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/6dda95c1-9400-4a74-a636-285e7b2f5c54.png",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/970/1000x0/bittersweet-1625248829-zsyR8EGzX9.png",
+    "originalTitle": "Bittersweet",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-b5dcdae9-5579-4b9e-bb3e-d398e7d099ca",
+    "title": "Go Easy",
+    "artist": "Uplink, Shiah Maisel",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-go-easy/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-go-easy",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 154,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 100,
+        "holds": 14,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 135,
+        "holds": 14,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 396,
+        "holds": 14,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Trap · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/GoEasy",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Go Easy — Uplink, Shiah Maisel. Music provided by NoCopyrightSounds. https://ncs.io/GoEasy",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 158.511,
+    "audioSha256": "782474f374490ef4aa5bd98b0d3433e77ba0fc45ed9aef2d325ebf6a8b6e3514",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "e99e240458ebf105",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/b5dcdae9-5579-4b9e-bb3e-d398e7d099ca.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/257/1000x0/go-easy-1669856445-E7fI3vavqb.jpg",
+    "originalTitle": "Go Easy",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-a3e41d0f-bf83-4cc7-b185-7931eef1be01",
+    "title": "Your Stories",
+    "artist": "Cartoon, Koit Toome, Jéja",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-your-stories-feat-koit-toome/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-your-stories-feat-koit-toome",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 128,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 170,
+        "holds": 8,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 202,
+        "holds": 8,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 304,
+        "holds": 8,
+        "maxPoints": 3500
+      }
+    },
+    "description": "House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/YourStories",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Your Stories (feat. Koit Toome) — Cartoon, Koit Toome, Jéja. Music provided by NoCopyrightSounds. https://ncs.io/YourStories",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 191.27,
+    "audioSha256": "fb045ae82eb15a2af568d6b0499145a67fe750895ca95f47439925878c3208f9",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "817ca383fdedb8d6",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/a3e41d0f-bf83-4cc7-b185-7931eef1be01.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/401/1000x0/your-stories-feat-koit-toome-1586952146-jewPM4Uyxl.jpg",
+    "originalTitle": "Your Stories (feat. Koit Toome)",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-51ef40bd-99b4-4e24-949e-26fb50886633",
+    "title": "You & I",
+    "artist": "Alexis Donn, Culture Code",
+    "genre": "Bass",
+    "audio": "/music/catalog/ncs-you-i/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-you-i",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 142,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 173,
+        "holds": 15,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 212,
+        "holds": 15,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 326,
+        "holds": 15,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Melodic Dubstep · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/CCYouAndI",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "You & I — Alexis Donn, Culture Code. Music provided by NoCopyrightSounds. https://ncs.io/CCYouAndI",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 209.578,
+    "audioSha256": "0ceffe5ee36365cb1ccf57c1d75735a02e31a9c6ccf490c58f84fc438f82201c",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "f45662fa4fc14e79",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/51ef40bd-99b4-4e24-949e-26fb50886633.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/999/1000x0/you-i-1629975632-4tQHYQ06po.jpg",
+    "originalTitle": "You & I",
+    "subgenre": "Melodic Dubstep"
+  },
+  {
+    "id": "ncs-a72ecc3a-08cc-49a7-b29d-27f5f3de2a02",
+    "title": "Candy",
+    "artist": "Linn Sandin, Unknown Brain",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-candy/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-candy",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 100,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 126,
+        "holds": 1,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 168,
+        "holds": 1,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 275,
+        "holds": 1,
+        "maxPoints": 3000
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Candy",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Candy — Linn Sandin, Unknown Brain. Music provided by NoCopyrightSounds. https://ncs.io/Candy",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 166.248,
+    "audioSha256": "373cd0bde1388f7028a8011e4da1ef13bd1635628b7b557c96afe6f0188fc90f",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "adfca336662e768a",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/a72ecc3a-08cc-49a7-b29d-27f5f3de2a02.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/857/1000x0/candy-1606474833-OoLJ9mobR9.jpg",
+    "originalTitle": "Candy",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-e2161222-8b50-45d2-aca6-03d7357141dd",
+    "title": "Vision pt. II",
+    "artist": "She Is Jules, Lost Sky",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-vision-pt-ii/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-vision-pt-ii",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 150,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 98,
+        "holds": 7,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 140,
+        "holds": 7,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 368,
+        "holds": 7,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Vision2",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Vision pt. II — She Is Jules, Lost Sky. Music provided by NoCopyrightSounds. https://ncs.io/Vision2",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 208.021,
+    "audioSha256": "04303e7e4eb5cc86662f7991a147ee87da80aa5c936ddfd6d8880f5429d2f687",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "02de387b69560fb1",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/e2161222-8b50-45d2-aca6-03d7357141dd.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/028/1000x0/vision-pt-ii-1634893231-hnzcHK0aSw.jpg",
+    "originalTitle": "Vision pt. II",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-a95b25be-94e4-4a82-971b-916f572bf296",
+    "title": "Escape",
+    "artist": "Diviners, Rossy",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-escape-feat-rossy/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-escape-feat-rossy",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 125,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 129,
+        "holds": 16,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 154,
+        "holds": 16,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 251,
+        "holds": 16,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Indie · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Escape",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Escape (feat. Rossy) — Diviners, Rossy. Music provided by NoCopyrightSounds. https://ncs.io/Escape",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 220.369,
+    "audioSha256": "725f18b8a7dd0d6afa125a701685f502311dc2978ba634d4484e61f4cef625b2",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "bce26e04c1b103f6",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/a95b25be-94e4-4a82-971b-916f572bf296.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/627/1000x0/escape-feat-rossy-1586958350-YFW52sKBAM.jpg",
+    "originalTitle": "Escape (feat. Rossy)",
+    "subgenre": "Indie"
+  },
+  {
+    "id": "ncs-d2956c3e-0467-4a91-85ba-67020e6debb9",
+    "title": "Superhero In My Sleep",
+    "artist": "Rival, Asketa & Natan Chaim",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-superhero-in-my-sleep/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-superhero-in-my-sleep",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 103,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 127,
+        "holds": 10,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 162,
+        "holds": 10,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 264,
+        "holds": 10,
+        "maxPoints": 3000
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/SuperheroInMySleep",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Superhero In My Sleep — Rival, Asketa & Natan Chaim. Music provided by NoCopyrightSounds. https://ncs.io/SuperheroInMySleep",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 186.72,
+    "audioSha256": "e3bff8bbc7c22e7b7840a7aa9838da4fdb6401f0b4a531012491445588be046e",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "e5327622bcf47044",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/d2956c3e-0467-4a91-85ba-67020e6debb9.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/012/1000x0/superhero-in-my-sleep-1632488432-bXsEaPL4bi.jpg",
+    "originalTitle": "Superhero In My Sleep",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-2df4a153-0d32-44e5-9fa8-f726a2cffa5b",
+    "title": "Paper Crowns",
+    "artist": "Egzod, Leo The Kind",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-paper-crowns-feat-leo-the-kind/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-paper-crowns-feat-leo-the-kind",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 146,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 93,
+        "holds": 9,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 109,
+        "holds": 9,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 303,
+        "holds": 9,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/PaperCrowns",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Paper Crowns (feat. Leo The Kind) — Egzod, Leo The Kind. Music provided by NoCopyrightSounds. https://ncs.io/PaperCrowns",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 164.65,
+    "audioSha256": "a6de75dea1a4656c6aff24ef1af0ebf23d5a3de1a5a8b0ebdd9b7d1ecc88d43e",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "dc162e56d791600f",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/2df4a153-0d32-44e5-9fa8-f726a2cffa5b.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/338/1000x0/paper-crowns-feat-leo-the-kind-1586949995-9JGPLz56yg.jpg",
+    "originalTitle": "Paper Crowns (feat. Leo The Kind)",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-42426bf3-62e6-4530-b310-e0b111b5431f",
+    "title": "Chasing Dreams",
+    "artist": "Jim Yosef, Valentina Franco",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-chasing-dreams/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-chasing-dreams",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 160,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 92,
+        "holds": 18,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 115,
+        "holds": 18,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 302,
+        "holds": 18,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/ChasingDreams",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Chasing Dreams — Jim Yosef, Valentina Franco. Music provided by NoCopyrightSounds. https://ncs.io/ChasingDreams",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 207.36,
+    "audioSha256": "2d095005070053b2464f23cf55e0f034d4edf8dabb154851a24c0cee23723a75",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "ca4248d8a16de23b",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/42426bf3-62e6-4530-b310-e0b111b5431f.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/570/1000x0/chasing-dreams-1586957017-uqPGcIfHqd.jpg",
+    "originalTitle": "Chasing Dreams",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-02355ca5-82c8-4a45-bec9-6dc110bde337",
+    "title": "Found You",
+    "artist": "RYVM, Avaya, Time To Talk",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-found-you/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-found-you",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 122,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 148,
+        "holds": 8,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 196,
+        "holds": 8,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 301,
+        "holds": 8,
+        "maxPoints": 3000
+      }
+    },
+    "description": "House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/FoundYou",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Found You — RYVM, Avaya, Time To Talk. Music provided by NoCopyrightSounds. https://ncs.io/FoundYou",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 163.596,
+    "audioSha256": "ee3714aff697de7bdd68c2ed2ac7358df30d385f6c9a2fe47ba1537b1ac33e72",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "03a94d878b83bda6",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/02355ca5-82c8-4a45-bec9-6dc110bde337.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/949/1000x0/found-you-1621346432-RnS6G01xoa.jpg",
+    "originalTitle": "Found You",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-60c85db9-8d45-4309-a569-68c6e25eb381",
+    "title": "21",
+    "artist": "Shiah Maisel, Arlow",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-21/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-21",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 128,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 153,
+        "holds": 16,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 194,
+        "holds": 16,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 305,
+        "holds": 16,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Indie · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/twentyone",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "21 — Shiah Maisel, Arlow. Music provided by NoCopyrightSounds. https://ncs.io/twentyone",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 210.051,
+    "audioSha256": "5464f0fe33fe65c6f8e16091a486f8fd686cceba9759afa41927fd85df9ffbf4",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "9219b4d67760a711",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/60c85db9-8d45-4309-a569-68c6e25eb381.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/889/1000x0/21-1610028029-cVdnE9jTFZ.jpg",
+    "originalTitle": "21",
+    "subgenre": "Indie"
+  },
+  {
+    "id": "ncs-38d144f5-8df2-40c5-a9b5-e6296b291262",
+    "title": "Running Out Of Time",
+    "artist": "Anna Yvette",
+    "genre": "Drum & Bass",
+    "audio": "/music/catalog/ncs-running-out-of-time/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-running-out-of-time",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 160,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 109,
+        "holds": 13,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 147,
+        "holds": 13,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 440,
+        "holds": 13,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Drum & Bass · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/RunningOutOfTime",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Running Out Of Time — Anna Yvette. Music provided by NoCopyrightSounds. https://ncs.io/RunningOutOfTime",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 206.894,
+    "audioSha256": "9db8000f04da927e4546a8835d4fafa9d0401b17b381620b3ab0cdd2114db92d",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "14f5602f6bb600e2",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/38d144f5-8df2-40c5-a9b5-e6296b291262.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/098/1000x0/running-out-of-time-1646740834-UlwOcervxT.jpg",
+    "originalTitle": "Running Out Of Time",
+    "subgenre": "Drum & Bass"
+  },
+  {
+    "id": "ncs-333b3b65-7b3f-47ac-b6af-abac697b3462",
+    "title": "Fairytale",
+    "artist": "Culture Code",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-fairytale-feat-amanda-collis/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-fairytale-feat-amanda-collis",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 97,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 118,
+        "holds": 10,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 155,
+        "holds": 10,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 252,
+        "holds": 10,
+        "maxPoints": 3000
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Fairytale",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Fairytale (feat. Amanda Collis) — Culture Code. Music provided by NoCopyrightSounds. https://ncs.io/Fairytale",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 193.0,
+    "audioSha256": "13de7d6a52815cb23823e364a351ffc76709a7ee7c9b9b75c32002d47ef2fa0e",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "1f4d1a4073fb9168",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/333b3b65-7b3f-47ac-b6af-abac697b3462.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/675/1000x0/fairytale-feat-amanda-collis-1586959440-AYN5C2Mk5c.jpg",
+    "originalTitle": "Fairytale (feat. Amanda Collis)",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-dbc44ee8-e6a9-49c1-8719-a9ab804aa2aa",
+    "title": "Dancing On the Moon",
+    "artist": "Luke Burr, Unknown Brain",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-dancing-on-the-moon/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-dancing-on-the-moon",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 92,
+    "tempoEstimated": true,
+    "difficulty": 2,
+    "coefficient": 1.25,
+    "modes": {
+      "facile": {
+        "notes": 107,
+        "holds": 11,
+        "maxPoints": 1250
+      },
+      "normal": {
+        "notes": 139,
+        "holds": 11,
+        "maxPoints": 1875
+      },
+      "difficile": {
+        "notes": 225,
+        "holds": 11,
+        "maxPoints": 2500
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/DOTM",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Dancing On the Moon — Luke Burr, Unknown Brain. Music provided by NoCopyrightSounds. https://ncs.io/DOTM",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 220.464,
+    "audioSha256": "6d1be6618a2942913ae8f12f5d8706cc16674aac4a24917978ff0a6a91d48e0b",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "842986f35ed79576",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/dbc44ee8-e6a9-49c1-8719-a9ab804aa2aa.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/820/1000x0/dancing-on-the-moon-1599217225-5lQzAHfpOq.jpg",
+    "originalTitle": "Dancing On the Moon",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-dfcf1c82-2778-4a3d-9ca9-5e7f4f82d44d",
+    "title": "Darkness",
+    "artist": "She Is Jules, Lost Sky",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-darkness/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-darkness",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 150,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 98,
+        "holds": 17,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 126,
+        "holds": 17,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 342,
+        "holds": 17,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Darkness",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Darkness — She Is Jules, Lost Sky. Music provided by NoCopyrightSounds. https://ncs.io/Darkness",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 221.414,
+    "audioSha256": "90a8868a47c37010500e4f53921dd83b3af5169f16240e1fa43393fe01143bfe",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "14382f1b52f1435a",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/dfcf1c82-2778-4a3d-9ca9-5e7f4f82d44d.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/177/1000x0/darkness-1660212039-3lOB1XZUrz.jpg",
+    "originalTitle": "Darkness",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-3f5f0167-a8c5-4e9b-a344-fb4471719594",
+    "title": "Stockholm Lights",
+    "artist": "Diviners",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-stockholm-lights/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-stockholm-lights",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 115,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 125,
+        "holds": 3,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 173,
+        "holds": 3,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 278,
+        "holds": 3,
+        "maxPoints": 3000
+      }
+    },
+    "description": "House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/StockholmLights",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Stockholm Lights — Diviners. Music provided by NoCopyrightSounds. https://ncs.io/StockholmLights",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 173.27,
+    "audioSha256": "747d99c3033ce637f862389ba44cf6c7fab903b7e935af390a47ab42ffd5457d",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "aec5667b6b7abdb7",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/3f5f0167-a8c5-4e9b-a344-fb4471719594.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/742/1000x0/stockholm-lights-1597319140-yPdZJ7Ys47.jpg",
+    "originalTitle": "Stockholm Lights",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-a6c0a98c-462c-43df-a392-ff5f09de1806",
+    "title": "Walls",
+    "artist": "Rival, Bryan Finlay",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-walls-feat-bryan-finlay/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-walls-feat-bryan-finlay",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 180,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 100,
+        "holds": 16,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 124,
+        "holds": 16,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 279,
+        "holds": 16,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Trap · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Walls",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Walls (feat. Bryan Finlay) — Rival, Bryan Finlay. Music provided by NoCopyrightSounds. https://ncs.io/Walls",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 240.065,
+    "audioSha256": "36e0f44200e0b2eb1f2b7c3eeac5a6b1a95c423a5af960c79d6bcfede2bdea9b",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "cf6d780a236a10aa",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/a6c0a98c-462c-43df-a392-ff5f09de1806.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/629/1000x0/walls-feat-bryan-finlay-1586958402-mMcIovunvw.jpg",
+    "originalTitle": "Walls (feat. Bryan Finlay)",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-299f2451-259d-4b42-a72e-bc2ce4296868",
+    "title": "Live A Lie",
+    "artist": "Andreas Stone, Egzod, Rival",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-live-a-lie/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-live-a-lie",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 156,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 91,
+        "holds": 17,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 124,
+        "holds": 17,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 331,
+        "holds": 17,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/LiveALie",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Live A Lie — Andreas Stone, Egzod, Rival. Music provided by NoCopyrightSounds. https://ncs.io/LiveALie",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 212.376,
+    "audioSha256": "c5d7b8b5ff3b9fbdef17ad218bab9b00ac249f83cd2aa47c3d96e58e7bc0c46c",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "3b2d0a35d8167eb6",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/299f2451-259d-4b42-a72e-bc2ce4296868.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/751/1000x0/live-a-lie-1597319207-WXBnxzjsts.jpg",
+    "originalTitle": "Live A Lie",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-69790b4c-cd5e-4803-bff6-45b2a097e9bc",
+    "title": "Slow Down",
+    "artist": "Shiah Maisel, Jim Yosef",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-slow-down/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-slow-down",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 100,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 124,
+        "holds": 9,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 167,
+        "holds": 9,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 258,
+        "holds": 9,
+        "maxPoints": 3000
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/JSSlowDown",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Slow Down — Shiah Maisel, Jim Yosef. Music provided by NoCopyrightSounds. https://ncs.io/JSSlowDown",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 149.525,
+    "audioSha256": "8ef310e606333f3dda70a42cc914fcd984ecb6ab610abd8d7de58be473425587",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "101dd4f3351b9041",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/69790b4c-cd5e-4803-bff6-45b2a097e9bc.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/069/1000x0/slow-down-1641294039-Imxo6qzcGg.jpg",
+    "originalTitle": "Slow Down",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-3342854b-4053-4da6-ba71-3fd83b4ed050",
+    "title": "Say The Words",
+    "artist": "Dave Marriner, Time To Talk",
+    "genre": "Drum & Bass",
+    "audio": "/music/catalog/ncs-say-the-words/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-say-the-words",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 172,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 105,
+        "holds": 13,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 158,
+        "holds": 13,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 412,
+        "holds": 13,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Drum & Bass · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/SayTheWords",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Say The Words — Dave Marriner, Time To Talk. Music provided by NoCopyrightSounds. https://ncs.io/SayTheWords",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 175.856,
+    "audioSha256": "bd609a60dceba0d4c669a690bf4c9997cb0e764f7d76c8da4e952392c9fd4e0c",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "3840987ced63f77d",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/3342854b-4053-4da6-ba71-3fd83b4ed050.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/923/1000x0/1717766683_rEF94BcnQE_Artwork.jpg",
+    "originalTitle": "Say The Words",
+    "subgenre": "Drum & Bass"
+  },
+  {
+    "id": "ncs-06a90914-f66f-4a2a-90cc-5141eb9ee41d",
+    "title": "Ten More Minutes",
+    "artist": "Shiah Maisel, CHENDA",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-ten-more-minutes/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-ten-more-minutes",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 164,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 93,
+        "holds": 13,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 128,
+        "holds": 13,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 318,
+        "holds": 13,
+        "maxPoints": 4000
+      }
+    },
+    "description": "House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/TenMoreMinutes",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Ten More Minutes — Shiah Maisel, CHENDA. Music provided by NoCopyrightSounds. https://ncs.io/TenMoreMinutes",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 222.511,
+    "audioSha256": "776fdbf4921edb0dc622d478bf4f714dae636740f7eafe6c052a81e8c5dd3875",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "4ba2b8e9e7d2cc81",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/06a90914-f66f-4a2a-90cc-5141eb9ee41d.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/953/1000x0/ten-more-minutes-1622116832-rfwiim0zzc.jpg",
+    "originalTitle": "Ten More Minutes",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-dadc085a-43be-4668-ba99-ec7e097005dd",
+    "title": "Echoes",
+    "artist": "Domastic, Anna Yvette",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-echoes/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-echoes",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 128,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 165,
+        "holds": 8,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 212,
+        "holds": 8,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 335,
+        "holds": 8,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Future House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/EchoesD",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Echoes — Domastic, Anna Yvette. Music provided by NoCopyrightSounds. https://ncs.io/EchoesD",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 198.792,
+    "audioSha256": "e1eb05ce6883165063a71dcfaf0690a0d2851a271d22b469529611ca6a9e693b",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "af4c3ef801d1c7f6",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/dadc085a-43be-4668-ba99-ec7e097005dd.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/666/1000x0/echoes-1586959199-6ko9gfQfyb.jpg",
+    "originalTitle": "Echoes",
+    "subgenre": "Future House"
+  },
+  {
+    "id": "ncs-00638f46-bdaf-4f4f-a74d-fbbb7a88a8d7",
+    "title": "Waking Up",
+    "artist": "Culture Code, Regoton, Jonny Rose",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-waking-up/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-waking-up",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 128,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 165,
+        "holds": 11,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 213,
+        "holds": 11,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 332,
+        "holds": 11,
+        "maxPoints": 3500
+      }
+    },
+    "description": "House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/wakingup",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Waking Up — Culture Code, Regoton, Jonny Rose. Music provided by NoCopyrightSounds. https://ncs.io/wakingup",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 262.087,
+    "audioSha256": "31fc9603c8510992e65629b8f94b3050fb2b66d457e9bc388d29d9b64ea97f19",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "2db9e782ceb0e003",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/00638f46-bdaf-4f4f-a74d-fbbb7a88a8d7.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/045/1000x0/waking-up-1586946056-GeCxrxPBLz.jpg",
+    "originalTitle": "Waking Up",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-56facf61-7e12-46ed-a219-a01eedb08ea6",
+    "title": "Superhero",
+    "artist": "Unknown Brain, Chris Linton",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-superhero-feat-chris-linton/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-superhero-feat-chris-linton",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 150,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 94,
+        "holds": 11,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 119,
+        "holds": 11,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 302,
+        "holds": 11,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Trap · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/superhero",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Superhero (feat. Chris Linton) — Unknown Brain, Chris Linton. Music provided by NoCopyrightSounds. https://ncs.io/superhero",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 179.225,
+    "audioSha256": "0b47c8664a24272ee9b2e2072ab749de236ecb384e015579beace8548a4a640c",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "824e0efba95f8805",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/56facf61-7e12-46ed-a219-a01eedb08ea6.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/278/1000x0/superhero-feat-chris-linton-1586948507-HRAmXcSlA5.jpg",
+    "originalTitle": "Superhero (feat. Chris Linton)",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-1255c20b-843a-4add-bf68-7ab6c4f2497e",
+    "title": "Carry On",
+    "artist": "Anna Yvette, Lost Sky",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-carry-on/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-carry-on",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 140,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 172,
+        "holds": 21,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 213,
+        "holds": 21,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 344,
+        "holds": 21,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Trap · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/CarryOn",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Carry On — Anna Yvette, Lost Sky. Music provided by NoCopyrightSounds. https://ncs.io/CarryOn",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 212.611,
+    "audioSha256": "feef6841bfbc720c5d38bab3a1f4c45c8fe18905995548e6ca0ec932d4d1c4ce",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "17c276f5e1da0b96",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/1255c20b-843a-4add-bf68-7ab6c4f2497e.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/865/1000x0/carry-on-1742432455-gDPDd8i5XU.jpg",
+    "originalTitle": "Carry On",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-e21dac3b-bbd1-4472-a3da-2735795435f4",
+    "title": "Change",
+    "artist": "November Lights, Diviners",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-change/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-change",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 127,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 155,
+        "holds": 12,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 200,
+        "holds": 12,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 320,
+        "holds": 12,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Progressive House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Change",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Change — November Lights, Diviners. Music provided by NoCopyrightSounds. https://ncs.io/Change",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 187.873,
+    "audioSha256": "b80e6122c5939fb2026976cc196d0f797ff245a63598b69673234e3d8363c638",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "8e2565b8bdb3b517",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/e21dac3b-bbd1-4472-a3da-2735795435f4.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/846/1000x0/change-1739448053-51CaRYxW3A.jpg",
+    "originalTitle": "Change",
+    "subgenre": "Progressive House"
+  },
+  {
+    "id": "ncs-e65c8a91-e29f-44a7-b8da-aa0718a90f1c",
+    "title": "Lonely Way",
+    "artist": "Rival, Caravn",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-lonely-way/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-lonely-way",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 155,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 82,
+        "holds": 19,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 104,
+        "holds": 19,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 283,
+        "holds": 19,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Bass · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/LonelyWay",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Lonely Way — Rival, Caravn. Music provided by NoCopyrightSounds. https://ncs.io/LonelyWay",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 224.705,
+    "audioSha256": "5ee545c50b7a5e20bd0ec37eaaf05733136c3bb0cb18648417abc839bb531c39",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "ba3bf9f7734433ca",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/e65c8a91-e29f-44a7-b8da-aa0718a90f1c.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/838/1000x0/1602924116_v2O3UoVY11_Artwork.jpg",
+    "originalTitle": "Lonely Way",
+    "subgenre": "Bass"
+  },
+  {
+    "id": "ncs-f16eeb0c-0ab4-4b5c-8bc4-8d703ba7fa6b",
+    "title": "Universe",
+    "artist": "Egzod, Tanjent",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-universe/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-universe",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 145,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 85,
+        "holds": 12,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 119,
+        "holds": 12,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 303,
+        "holds": 12,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Trap · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Universe",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Universe — Egzod, Tanjent. Music provided by NoCopyrightSounds. https://ncs.io/Universe",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 206.952,
+    "audioSha256": "4564c9762328112c01fac09caf65b37523fb266e10064bd7da7e2d9ed015d9be",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "9607b431b1d199a7",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/f16eeb0c-0ab4-4b5c-8bc4-8d703ba7fa6b.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/496/1000x0/universe-1586954830-MdLfwOSd8r.jpg",
+    "originalTitle": "Universe",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-4596757e-fd04-4f6f-8a4b-210c36b3f9c4",
+    "title": "Volcano",
+    "artist": "Jim Yosef, Scarlett",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-volcano/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-volcano",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 100,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 132,
+        "holds": 11,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 160,
+        "holds": 11,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 242,
+        "holds": 11,
+        "maxPoints": 3000
+      }
+    },
+    "description": "House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Volcano",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Volcano — Jim Yosef, Scarlett. Music provided by NoCopyrightSounds. https://ncs.io/Volcano",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 160.34,
+    "audioSha256": "553adac1e72373551f0f50b908500ec734fd7be3b78828da73e9d81c06f3bbd0",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "1e08b77fdecce4d4",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/4596757e-fd04-4f6f-8a4b-210c36b3f9c4.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/300/1000x0/1674813573_SV8zY2ixm7_Jim-Yosef---Volcano-yellow.jpg",
+    "originalTitle": "Volcano",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-a2b35fa5-e822-457e-a558-20c3bb0bb60b",
+    "title": "Time To Talk",
+    "artist": "Time To Talk, Georgia Michel",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-time-to-talk/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-time-to-talk",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 127,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 161,
+        "holds": 6,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 234,
+        "holds": 6,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 335,
+        "holds": 6,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Electronic · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/TTT",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Time To Talk — Time To Talk, Georgia Michel. Music provided by NoCopyrightSounds. https://ncs.io/TTT",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 219.213,
+    "audioSha256": "e11ec457ad989f8e5fe0eb73548ab1825e4a423b6b072cdfa971470cb8d6318d",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "5904e278e1711d1b",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/a2b35fa5-e822-457e-a558-20c3bb0bb60b.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/797/1000x0/time-to-talk-1597410052-d1tzYXJewK.jpg",
+    "originalTitle": "Time To Talk",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-2033800a-4ab3-49a6-8fd3-3f3423ce6f20",
+    "title": "Letter",
+    "artist": "Shiah Maisel, Electro-Light",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-letter/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-letter",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 128,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 153,
+        "holds": 12,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 205,
+        "holds": 12,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 318,
+        "holds": 12,
+        "maxPoints": 3500
+      }
+    },
+    "description": "House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Letter",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Letter — Shiah Maisel, Electro-Light. Music provided by NoCopyrightSounds. https://ncs.io/Letter",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 171.598,
+    "audioSha256": "d756ee56a9fbb905fc36f24b85384db0e604f784fa85ffe1cd735c5edaf2f0ce",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "44b3430515a494bf",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/2033800a-4ab3-49a6-8fd3-3f3423ce6f20.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/907/1000x0/letter-1613149237-GcyfNKUrQh.jpg",
+    "originalTitle": "Letter",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-da6e9448-542f-488f-a1d1-d79a61ab86e1",
+    "title": "Like A Melody",
+    "artist": "Cartoon, JOZELS",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-like-a-melody/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-like-a-melody",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 124,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 158,
+        "holds": 8,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 196,
+        "holds": 8,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 330,
+        "holds": 8,
+        "maxPoints": 3000
+      }
+    },
+    "description": "Future House · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/likeamelody",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Like A Melody — Cartoon, JOZELS. Music provided by NoCopyrightSounds. https://ncs.io/likeamelody",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 203.226,
+    "audioSha256": "870c152822af41b9123c84efae1b1558629c41c34cf1fb331481662f666ebfe3",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "d1ccc17943b070ee",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/da6e9448-542f-488f-a1d1-d79a61ab86e1.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/002/155/1000x0/like-a-melody-1787158864-yh1fQze2ah.jpg",
+    "originalTitle": "Like A Melody",
+    "subgenre": "Future House"
+  },
+  {
+    "id": "ncs-abea262f-ed52-49e7-945d-265eb004a2e7",
+    "title": "Find You There",
+    "artist": "Shiah Maisel, CHENDA",
+    "genre": "Bass",
+    "audio": "/music/catalog/ncs-find-you-there/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-find-you-there",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 115,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 139,
+        "holds": 10,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 171,
+        "holds": 10,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 281,
+        "holds": 10,
+        "maxPoints": 3000
+      }
+    },
+    "description": "Dubstep · Version chantée",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/FindYouThere",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Find You There — Shiah Maisel, CHENDA. Music provided by NoCopyrightSounds. https://ncs.io/FindYouThere",
+    "excerptStartSeconds": 0.0,
+    "originalDurationSeconds": 242.181,
+    "audioSha256": "984f7706a894c4b2064649aa9cec0a816ebaec5bfedaa8b0207b8b11e0d2f24c",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "008fd6189a2c01fe",
+    "rightsStatus": "Local internal evaluation. No game distribution licence obtained.",
+    "cover": "/music/artwork/abea262f-ed52-49e7-945d-265eb004a2e7.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/082/1000x0/find-you-there-1643374835-BfrSH1ZJLM.jpg",
+    "originalTitle": "Find You There",
+    "subgenre": "Dubstep"
+  },
+  {
+    "id": "ncs-84a06f66-d649-4224-b3a3-d35857fcf752",
+    "title": "Why We Lose",
+    "artist": "Cartoon, Coleman Trapp, Jéja",
+    "genre": "Drum & Bass",
+    "audio": "/music/catalog/ncs-why-we-lose-feat-coleman-trapp/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-why-we-lose-feat-coleman-trapp",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 175,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 115,
+        "holds": 9,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 149,
+        "holds": 9,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 394,
+        "holds": 9,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Drum & Bass · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/whywelose",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Why We Lose (feat. Coleman Trapp) — Cartoon, Coleman Trapp, Jéja. Music provided by NoCopyrightSounds. https://ncs.io/whywelose",
+    "excerptStartSeconds": 74.710204,
+    "originalDurationSeconds": 213.055,
+    "audioSha256": "9d61aca5469e72d9a967ea81ce812fa81036954c9d1a4b8e6c4a23ea81afd966",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "f2d68ca77afa506a",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/84a06f66-d649-4224-b3a3-d35857fcf752.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/144/1000x0/1705340920_bPjsNyEzNi_2024---CARTOON-JEYJA---Why-We-Lose-ft.-Coleman-Trapp.jpg",
+    "originalTitle": "Why We Lose (feat. Coleman Trapp)",
+    "subgenre": "Drum & Bass"
+  },
+  {
+    "id": "ncs-a662f254-88bc-44cc-8464-58b430ee98bc",
+    "title": "I Remember U",
+    "artist": "Cartoon, Jéja",
+    "genre": "Drum & Bass",
+    "audio": "/music/catalog/ncs-i-remember-u/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-i-remember-u",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 174,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 108,
+        "holds": 10,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 158,
+        "holds": 10,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 417,
+        "holds": 10,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Drum & Bass · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/irememberu",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "I Remember U — Cartoon, Jéja. Music provided by NoCopyrightSounds. https://ncs.io/irememberu",
+    "excerptStartSeconds": 47.731519,
+    "originalDurationSeconds": 216.111,
+    "audioSha256": "2965bec2a0811d0a0dd9c792b9540c1ac413005f8e7ef27f761ed8840d4197a5",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "f5ab41dc33effec3",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/a662f254-88bc-44cc-8464-58b430ee98bc.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/209/1000x0/1705340698_wqZjt16Oa7_2024---CARTOON-JEYJA---I-Remember-U-ft.-JuYri-Pootsmann.jpg",
+    "originalTitle": "I Remember U",
+    "subgenre": "Drum & Bass"
+  },
+  {
+    "id": "ncs-5dd8a70f-c65c-4cb0-980c-f58c4f999d27",
+    "title": "Immortality",
+    "artist": "Cartoon, Kristel Aaslaid, Jéja",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-immortality-feat-kristel-aaslaid/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-immortality-feat-kristel-aaslaid",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 150,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 85,
+        "holds": 15,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 121,
+        "holds": 15,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 282,
+        "holds": 15,
+        "maxPoints": 3500
+      }
+    },
+    "description": "EDM · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/immortality",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Immortality (feat. Kristel Aaslaid) — Cartoon, Kristel Aaslaid, Jéja. Music provided by NoCopyrightSounds. https://ncs.io/immortality",
+    "excerptStartSeconds": 33.52381,
+    "originalDurationSeconds": 181.002,
+    "audioSha256": "b88724ae59d0b08acc4156c1a82002c3d90287f62b1b8aa9e9a73f4b7ab43bd5",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "59d4cc6ba3ae0d34",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/5dd8a70f-c65c-4cb0-980c-f58c4f999d27.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/186/1000x0/1705340868_AF9Hp4Khza_2024---CARTOON-JEYJA---Immortality-ft.-Kristel-Aaslaid.jpg",
+    "originalTitle": "Immortality (feat. Kristel Aaslaid)",
+    "subgenre": "EDM"
+  },
+  {
+    "id": "ncs-9e45aa62-e6ed-4faa-ad82-967492a35109",
+    "title": "Más Y Más",
+    "artist": "Cartoon, Jéja, Daniel Levi",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-m-s-y-m-s/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-m-s-y-m-s",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 174,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 111,
+        "holds": 12,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 132,
+        "holds": 12,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 353,
+        "holds": 12,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Electronic · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/CMasYMas",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Más Y Más — Cartoon, Jéja, Daniel Levi. Music provided by NoCopyrightSounds. https://ncs.io/CMasYMas",
+    "excerptStartSeconds": 33.204535,
+    "originalDurationSeconds": 207.0,
+    "audioSha256": "9ec25d38ee4678e630cc9a29178ba12aefb3b3312235a2e0016f3e8f80ba5816",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "621e36cbcb746ace",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/9e45aa62-e6ed-4faa-ad82-967492a35109.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/707/1000x0/1705340598_6wMCd3HN6M_2024---CARTOON-JEYJA---MaYs-Y-MaYs-ft.-Daniel-Levi.jpg",
+    "originalTitle": "Más Y Más",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-86546a93-21c6-48ca-aed0-19c652b19ba5",
+    "title": "Made For The Game",
+    "artist": "AC13, KAZHI, Jessee, Cartoon",
+    "genre": "Pop",
+    "audio": "/music/catalog/ncs-made-for-the-game-ft-kazhi/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-made-for-the-game-ft-kazhi",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 174,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 110,
+        "holds": 11,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 149,
+        "holds": 11,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 431,
+        "holds": 11,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Dance-Pop · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/MadeForTheGame",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Made For The Game (ft. Kazhi) — AC13, KAZHI, Jessee, Cartoon. Music provided by NoCopyrightSounds. https://ncs.io/MadeForTheGame",
+    "excerptStartSeconds": 88.830612,
+    "originalDurationSeconds": 179.331,
+    "audioSha256": "182230dba6aa010704980f72a884a30e440cae095b96ba42a7608866138095ca",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "10af3cae10d04744",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/86546a93-21c6-48ca-aed0-19c652b19ba5.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/881/1000x0/1745595149_TUaaccTBtm_final.jpg",
+    "originalTitle": "Made For The Game (ft. Kazhi)",
+    "subgenre": "Dance-Pop"
+  },
+  {
+    "id": "ncs-0efe5667-67dc-4d74-8d40-3b0319354c75",
+    "title": "On The Break Of Dawn",
+    "artist": "Nordic Pulse, Kitty Florentine, Kristjan Järvi, Cartoon",
+    "genre": "Pop",
+    "audio": "/music/catalog/ncs-on-the-break-of-dawn/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-on-the-break-of-dawn",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 174,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 104,
+        "holds": 14,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 145,
+        "holds": 14,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 404,
+        "holds": 14,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Dance-Pop · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/OTBOD",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "On The Break Of Dawn — Nordic Pulse, Kitty Florentine, Kristjan Järvi, Cartoon. Music provided by NoCopyrightSounds. https://ncs.io/OTBOD",
+    "excerptStartSeconds": 53.95737,
+    "originalDurationSeconds": 215.171,
+    "audioSha256": "5dece4b8085496e88082834feab0865e2137c83e65d3ab842786a2ba6eb1e285",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "d1388bdd03fe67e3",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/0efe5667-67dc-4d74-8d40-3b0319354c75.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/827/1000x0/1736168271_iSHCvj2EKC_Final.jpg",
+    "originalTitle": "On The Break Of Dawn",
+    "subgenre": "Dance-Pop"
+  },
+  {
+    "id": "ncs-fa4e9ae4-5a1a-4a41-a808-c88286392d23",
+    "title": "Wait A While",
+    "artist": "m els, Pasha, Leowi, Cartoon",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-wait-a-while-ft-pasha-m-els/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-wait-a-while-ft-pasha-m-els",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 145,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 178,
+        "holds": 7,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 232,
+        "holds": 7,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 366,
+        "holds": 7,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Speed Garage · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/waitawhile",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Wait A While (ft. Pasha & m els) — m els, Pasha, Leowi, Cartoon. Music provided by NoCopyrightSounds. https://ncs.io/waitawhile",
+    "excerptStartSeconds": 33.52381,
+    "originalDurationSeconds": 175.655,
+    "audioSha256": "ac1fa9a389734499650747dbf8f8e5f5da21f6555d19ada1407d31edc10eded4",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "7701418292775363",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/fa4e9ae4-5a1a-4a41-a808-c88286392d23.png",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/914/1000x0/wait-a-while-ft-pasha-m-els-1750377677-2Sr8HAcw4J.png",
+    "originalTitle": "Wait A While (ft. Pasha & m els)",
+    "subgenre": "Speed Garage"
+  },
+  {
+    "id": "ncs-da612e5c-1614-49be-9988-b7c2c6c64bf3",
+    "title": "Around Us",
+    "artist": "Pasha, Carlos Ukareda, VALLO, NCT, Cartoon",
+    "genre": "Drum & Bass",
+    "audio": "/music/catalog/ncs-around-us-ft-pasha-carlos-ukareda/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-around-us-ft-pasha-carlos-ukareda",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 174,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 111,
+        "holds": 8,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 159,
+        "holds": 8,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 470,
+        "holds": 8,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Drum & Bass · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/AroundUs",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Around Us (ft. Pasha & Carlos Ukareda) — Pasha, Carlos Ukareda, VALLO, NCT, Cartoon. Music provided by NoCopyrightSounds. https://ncs.io/AroundUs",
+    "excerptStartSeconds": 16.602268,
+    "originalDurationSeconds": 136.829,
+    "audioSha256": "c93ffc314eb4bc2feca070cd63e4298e7a731cdc99160e76d873424d2e3c546b",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "ff4b947b7f6bd57e",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/da612e5c-1614-49be-9988-b7c2c6c64bf3.png",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/898/1000x0/1747994850_tmS6IgPj5N_Cartoon-NCT-Vallo---Around-Us-ft.-Pasha--Carlos-Ukareda-Cover-Art-PNG.png",
+    "originalTitle": "Around Us (ft. Pasha & Carlos Ukareda)",
+    "subgenre": "Drum & Bass"
+  },
+  {
+    "id": "ncs-5f5d01bc-88b0-4844-b1ee-dbbd902c2965",
+    "title": "Don't Be A Stranger",
+    "artist": "Jason Diaz, Cartoon, Jéja",
+    "genre": "Drum & Bass",
+    "audio": "/music/catalog/ncs-don-t-be-a-stranger/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-don-t-be-a-stranger",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 115,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 148,
+        "holds": 7,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 199,
+        "holds": 7,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 317,
+        "holds": 7,
+        "maxPoints": 3000
+      }
+    },
+    "description": "Drum & Bass · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/DontBeAStranger",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Don't Be A Stranger — Jason Diaz, Cartoon, Jéja. Music provided by NoCopyrightSounds. https://ncs.io/DontBeAStranger",
+    "excerptStartSeconds": 45.656236,
+    "originalDurationSeconds": 179.304,
+    "audioSha256": "30b428bcdf7ed3c168279f8c6510171cd620cbf9e6a6287d1d28502907edc92f",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "aa8e59fd3a735f60",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/5f5d01bc-88b0-4844-b1ee-dbbd902c2965.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/948/1000x0/1705340450_4Gw4ayhS76_2024---CARTOON-JEYJA---Dont-Be-A-Stranger-ft.-Jason-Diaz.jpg",
+    "originalTitle": "Don't Be A Stranger",
+    "subgenre": "Drum & Bass"
+  },
+  {
+    "id": "ncs-1d2d4af2-e9e9-462c-b0e8-18466f03f9ca",
+    "title": "Whatever",
+    "artist": "Andromedik, Cartoon, Jéja",
+    "genre": "Drum & Bass",
+    "audio": "/music/catalog/ncs-whatever/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-whatever",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 174,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 114,
+        "holds": 12,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 157,
+        "holds": 12,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 442,
+        "holds": 12,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Drum & Bass · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Whatever",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Whatever — Andromedik, Cartoon, Jéja. Music provided by NoCopyrightSounds. https://ncs.io/Whatever",
+    "excerptStartSeconds": 46.813605,
+    "originalDurationSeconds": 205.531,
+    "audioSha256": "1d4de72e433cbfb7921dba89b827842f2b5a7336858df84c836fef90c95e59b3",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "97bf5221939dfeec",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/1d2d4af2-e9e9-462c-b0e8-18466f03f9ca.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/106/1000x0/1705340258_keqdW0c8ro_2024---CARTOON-JEYJA-Andromedik---Whatever-ft.-JuYri-Pootsmann.jpg",
+    "originalTitle": "Whatever",
+    "subgenre": "Drum & Bass"
+  },
+  {
+    "id": "ncs-25dc9e59-bfba-4f95-85bd-4f0eed6ea07e",
+    "title": "Euphoria",
+    "artist": "Cartoon, VALLO, KAZHI, Blooom",
+    "genre": "Drum & Bass",
+    "audio": "/music/catalog/ncs-euphoria/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-euphoria",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 175,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 96,
+        "holds": 8,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 125,
+        "holds": 8,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 322,
+        "holds": 8,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Drum & Bass · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/C_euphoria",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Euphoria — Cartoon, VALLO, KAZHI, Blooom. Music provided by NoCopyrightSounds. https://ncs.io/C_euphoria",
+    "excerptStartSeconds": 68.843537,
+    "originalDurationSeconds": 200.229,
+    "audioSha256": "f96777ff0bfca99be9181c986a9abeadf7305138f543de0230c12effa588dc71",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "be6d044d806b779d",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/25dc9e59-bfba-4f95-85bd-4f0eed6ea07e.png",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/929/1000x0/euphoria-1752796862-7bFNs2A8kL.png",
+    "originalTitle": "Euphoria",
+    "subgenre": "Drum & Bass"
+  },
+  {
+    "id": "ncs-df9f697c-2fd3-44bc-bb83-8a46f883d280",
+    "title": "All We've Ever Known",
+    "artist": "Cartoon, Fred V, Immy Odon",
+    "genre": "Drum & Bass",
+    "audio": "/music/catalog/ncs-all-we-ve-ever-known-ft-fred-v-immy-odon/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-all-we-ve-ever-known-ft-fred-v-immy-odon",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 174,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 116,
+        "holds": 13,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 156,
+        "holds": 13,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 457,
+        "holds": 13,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Drum & Bass · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/allweveeverknown",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "All We've Ever Known (ft. Fred V & Immy Odon) — Cartoon, Fred V, Immy Odon. Music provided by NoCopyrightSounds. https://ncs.io/allweveeverknown",
+    "excerptStartSeconds": 35.798639,
+    "originalDurationSeconds": 160.0,
+    "audioSha256": "db738109927f5041bd40edfde44769c4229556920846ff8340dc482045ae14f0",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "78da5149ef1895aa",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/df9f697c-2fd3-44bc-bb83-8a46f883d280.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/959/1000x0/all-weve-ever-known-ft-fred-v-immy-odon-1756476060-mwivC1nnFF.jpg",
+    "originalTitle": "All We've Ever Known (ft. Fred V & Immy Odon)",
+    "subgenre": "Drum & Bass"
+  },
+  {
+    "id": "ncs-ae3edfb0-3ac9-4eb7-8886-46daf164cd16",
+    "title": "Destiny",
+    "artist": "Tobu, DEAF KEV, Anna Yvette, Electro-Light, Jim Yosef",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-destiny/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-destiny",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 128,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 169,
+        "holds": 17,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 215,
+        "holds": 17,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 333,
+        "holds": 17,
+        "maxPoints": 3500
+      }
+    },
+    "description": "House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Destiny",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Destiny — Tobu, DEAF KEV, Anna Yvette, Electro-Light, Jim Yosef. Music provided by NoCopyrightSounds. https://ncs.io/Destiny",
+    "excerptStartSeconds": 28.136054,
+    "originalDurationSeconds": 221.257,
+    "audioSha256": "5526051b2150ad63f9e46683c5e62ce24ef0ba09dea7fb4d700009c1f0f6d1c9",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "c266d0d7d915687b",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/ae3edfb0-3ac9-4eb7-8886-46daf164cd16.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/995/1000x0/destiny-1629208832-IntNECNg4T.jpg",
+    "originalTitle": "Destiny",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-f27e0c33-90d6-41d2-8e04-67f60fd68134",
+    "title": "Linked",
+    "artist": "Jim Yosef, Anna Yvette",
+    "genre": "Drum & Bass",
+    "audio": "/music/catalog/ncs-linked/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-linked",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 100,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 97,
+        "holds": 13,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 153,
+        "holds": 13,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 235,
+        "holds": 13,
+        "maxPoints": 3000
+      }
+    },
+    "description": "Drumstep · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/2017Linked",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Linked — Jim Yosef, Anna Yvette. Music provided by NoCopyrightSounds. https://ncs.io/2017Linked",
+    "excerptStartSeconds": 45.496599,
+    "originalDurationSeconds": 223.219,
+    "audioSha256": "4a4b9b102c2597a668188f2f5e6e08c5a7571c1af3222a467eaab685a92a52d2",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "0429e62dbbe46c62",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/f27e0c33-90d6-41d2-8e04-67f60fd68134.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/434/1000x0/linked-1586953317-0BranYHgw8.jpg",
+    "originalTitle": "Linked",
+    "subgenre": "Drumstep"
+  },
+  {
+    "id": "ncs-8d078b21-0383-43d6-85d5-a4cbba066cb8",
+    "title": "Courage",
+    "artist": "Jim Yosef, Anna Yvette",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-courage/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-courage",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 148,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 88,
+        "holds": 16,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 125,
+        "holds": 16,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 344,
+        "holds": 16,
+        "maxPoints": 3500
+      }
+    },
+    "description": "EDM · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Courage",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Courage — Jim Yosef, Anna Yvette. Music provided by NoCopyrightSounds. https://ncs.io/Courage",
+    "excerptStartSeconds": 46.254875,
+    "originalDurationSeconds": 224.261,
+    "audioSha256": "d6cee23e2806bc7d1a77db94031b580c3e223fd2d61990fbcff7e64b6a0005a6",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "7b2a154a2a8ef271",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/8d078b21-0383-43d6-85d5-a4cbba066cb8.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/382/1000x0/courage-1586951430-eg7qiU2PLA.jpg",
+    "originalTitle": "Courage",
+    "subgenre": "EDM"
+  },
+  {
+    "id": "ncs-5a4371f5-e79a-49f0-85c6-3b6d8e3e5c4f",
+    "title": "Migraine",
+    "artist": "Ellis, Anna Yvette",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-migraine-feat-anna-yvette/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-migraine-feat-anna-yvette",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 126,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 152,
+        "holds": 14,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 194,
+        "holds": 14,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 319,
+        "holds": 14,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Future House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/migraine",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Migraine (feat. Anna Yvette) — Ellis, Anna Yvette. Music provided by NoCopyrightSounds. https://ncs.io/migraine",
+    "excerptStartSeconds": 36.397279,
+    "originalDurationSeconds": 225.258,
+    "audioSha256": "7d0ecbcf47944345cab09f5ff64740815dfbca99d187b0ad940bb4dc15530682",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "f2bbd482a22b388b",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/5a4371f5-e79a-49f0-85c6-3b6d8e3e5c4f.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/264/1000x0/migraine-feat-anna-yvette-1586948227-1T4SPS8jO2.jpg",
+    "originalTitle": "Migraine (feat. Anna Yvette)",
+    "subgenre": "Future House"
+  },
+  {
+    "id": "ncs-25ea9bbd-c623-4809-b637-714812a7a6b6",
+    "title": "Can't Wait",
+    "artist": "Jim Yosef, Anna Yvette",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-can-t-wait/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-can-t-wait",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 128,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 133,
+        "holds": 12,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 172,
+        "holds": 12,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 271,
+        "holds": 12,
+        "maxPoints": 3500
+      }
+    },
+    "description": "House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/cantwait",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Can't Wait — Jim Yosef, Anna Yvette. Music provided by NoCopyrightSounds. https://ncs.io/cantwait",
+    "excerptStartSeconds": 33.763265,
+    "originalDurationSeconds": 207.047,
+    "audioSha256": "f27602a5c7d94bf1464a4bfee9405bdf032b43bcff98648301dec7f4a99125ff",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "62b0be97d34cbb49",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/25ea9bbd-c623-4809-b637-714812a7a6b6.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/239/1000x0/cant-wait-1586947784-aY2sEkeEib.jpg",
+    "originalTitle": "Can't Wait",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-9a16dda4-5b89-47cb-80e3-c9fa7b0d5988",
+    "title": "Wait For You",
+    "artist": "Electro-Light, Jordan Kelvin James, Anna Yvette",
+    "genre": "Drum & Bass",
+    "audio": "/music/catalog/ncs-wait-for-you-feat-anna-yvette/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-wait-for-you-feat-anna-yvette",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 174,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 115,
+        "holds": 10,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 154,
+        "holds": 10,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 454,
+        "holds": 10,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Drum & Bass · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/waitforyou",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Wait For You (feat. Anna Yvette) — Electro-Light, Jordan Kelvin James, Anna Yvette. Music provided by NoCopyrightSounds. https://ncs.io/waitforyou",
+    "excerptStartSeconds": 26.978685,
+    "originalDurationSeconds": 240.029,
+    "audioSha256": "7d61aeee1ebfb233e90dbe0a23da6bda7f784d463dd6f8f6728b35aa91b1c924",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "2fe72fd59ca83e83",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/9a16dda4-5b89-47cb-80e3-c9fa7b0d5988.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/260/1000x0/wait-for-you-feat-anna-yvette-1586948164-ZPIFtdU6DJ.jpg",
+    "originalTitle": "Wait For You (feat. Anna Yvette)",
+    "subgenre": "Drum & Bass"
+  },
+  {
+    "id": "ncs-c1f36eb2-1872-4acd-8b4b-579a9a05c264",
+    "title": "Electricity",
+    "artist": "Culture Code, Michael Zhonga",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-electricity-feat-michael-zhonga/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-electricity-feat-michael-zhonga",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 126,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 149,
+        "holds": 6,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 189,
+        "holds": 6,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 305,
+        "holds": 6,
+        "maxPoints": 3500
+      }
+    },
+    "description": "House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/electricity",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Electricity (feat. Michael Zhonga) — Culture Code, Michael Zhonga. Music provided by NoCopyrightSounds. https://ncs.io/electricity",
+    "excerptStartSeconds": 42.144218,
+    "originalDurationSeconds": 190.041,
+    "audioSha256": "cae1ad5096d6ecaf02862fc171c21ca7b8f9aa603fd4f8b2ec42a6d93ba59bcc",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "2dc33ae170b86ee5",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/c1f36eb2-1872-4acd-8b4b-579a9a05c264.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/156/1000x0/electricity-feat-michael-zhonga-1586947040-iC6PeBNWzS.jpg",
+    "originalTitle": "Electricity (feat. Michael Zhonga)",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-9d158a2d-0e06-4562-a440-d4b56f127c38",
+    "title": "Not Giving In",
+    "artist": "Culture Code",
+    "genre": "Bass",
+    "audio": "/music/catalog/ncs-not-giving-in/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-not-giving-in",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 150,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 99,
+        "holds": 10,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 137,
+        "holds": 10,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 320,
+        "holds": 10,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Melodic Dubstep · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/NotGivingIn",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Not Giving In — Culture Code. Music provided by NoCopyrightSounds. https://ncs.io/NotGivingIn",
+    "excerptStartSeconds": 65.451247,
+    "originalDurationSeconds": 187.2,
+    "audioSha256": "0aaa49b8d6a93549e603bc942f63f9f41039ae5674728d8ceb44fdf5ea5e06a5",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "35516c3d2d858948",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/9d158a2d-0e06-4562-a440-d4b56f127c38.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/246/1000x0/not-giving-in-1668128440-IDlJySNOFp.jpg",
+    "originalTitle": "Not Giving In",
+    "subgenre": "Melodic Dubstep"
+  },
+  {
+    "id": "ncs-95f9174d-8c32-4f8f-80db-883450f2ffb2",
+    "title": "Dance With Me",
+    "artist": "Alexis Donn, Unknown Brain",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-dance-with-me/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-dance-with-me",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 135,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 180,
+        "holds": 2,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 224,
+        "holds": 2,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 361,
+        "holds": 2,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Electronic · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/DanceWithMe",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Dance With Me — Alexis Donn, Unknown Brain. Music provided by NoCopyrightSounds. https://ncs.io/DanceWithMe",
+    "excerptStartSeconds": 37.714286,
+    "originalDurationSeconds": 163.161,
+    "audioSha256": "cab98c1aed58ca6cbddd223c6eecb6ac816d17c5207d7bc349bf650c2fa6c360",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "e934f7d54b936420",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/95f9174d-8c32-4f8f-80db-883450f2ffb2.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/862/1000x0/dance-with-me-1606474870-PSv083F21a.jpg",
+    "originalTitle": "Dance With Me",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-943cf5f4-09e9-4f5b-af18-4f7872200c27",
+    "title": "Don't Bother",
+    "artist": "Emily J, Unknown Brain",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-don-t-bother/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-don-t-bother",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 128,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 166,
+        "holds": 4,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 206,
+        "holds": 4,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 363,
+        "holds": 4,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Future House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/DontBother",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Don't Bother — Emily J, Unknown Brain. Music provided by NoCopyrightSounds. https://ncs.io/DontBother",
+    "excerptStartSeconds": 31.887528,
+    "originalDurationSeconds": 154.728,
+    "audioSha256": "c44b3df3a25a57af149c315578925200f2df90626e45c369be8f2c0bd1b8f09e",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "34a1a04d366f583a",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/943cf5f4-09e9-4f5b-af18-4f7872200c27.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/865/1000x0/dont-bother-1606474889-6B5NtYOK2g.jpg",
+    "originalTitle": "Don't Bother",
+    "subgenre": "Future House"
+  },
+  {
+    "id": "ncs-f38a286c-5947-4ca3-b524-5656bd2170a9",
+    "title": "Hollywood Perfect",
+    "artist": "Unknown Brain, NotEvenTanner",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-hollywood-perfect/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-hollywood-perfect",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 151,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 95,
+        "holds": 5,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 140,
+        "holds": 5,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 381,
+        "holds": 5,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Electronic · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/HollywoodPerfect",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Hollywood Perfect — Unknown Brain, NotEvenTanner. Music provided by NoCopyrightSounds. https://ncs.io/HollywoodPerfect",
+    "excerptStartSeconds": 31.927438,
+    "originalDurationSeconds": 162.96,
+    "audioSha256": "864ba1b519c4b8d90003d7dcd96e606a5839ee82bc7fa6efe2ae8ccbe3804b60",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "1239cbd22eba9123",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/f38a286c-5947-4ca3-b524-5656bd2170a9.png",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/855/1000x0/hollywood-perfect-1606402826-RsouUEyaQh.png",
+    "originalTitle": "Hollywood Perfect",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-0d6db108-ffa8-4ff6-b73b-4e2ebe83ef3f",
+    "title": "Jungle Of Love",
+    "artist": "Unknown Brain, Glaceo",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-jungle-of-love/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-jungle-of-love",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 150,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 91,
+        "holds": 3,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 134,
+        "holds": 3,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 340,
+        "holds": 3,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Trap · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/JungleOfLove",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Jungle Of Love — Unknown Brain, Glaceo. Music provided by NoCopyrightSounds. https://ncs.io/JungleOfLove",
+    "excerptStartSeconds": 35.918367,
+    "originalDurationSeconds": 142.446,
+    "audioSha256": "cfb9f2005c4360f764cb1e799405de48a4a0e7c5bee9db25aa0e19ea512494c5",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "61c613c32c09f362",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/0d6db108-ffa8-4ff6-b73b-4e2ebe83ef3f.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/854/1000x0/jungle-of-love-1606240827-GZiwJlW7yq.jpg",
+    "originalTitle": "Jungle Of Love",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-cb017fb7-0620-4853-b9a9-6a067fb1ec45",
+    "title": "Control",
+    "artist": "Unknown Brain, Rival, Jex",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-control-feat-jex/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-control-feat-jex",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 100,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 119,
+        "holds": 8,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 149,
+        "holds": 8,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 251,
+        "holds": 8,
+        "maxPoints": 3000
+      }
+    },
+    "description": "Trap · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Control",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Control (feat. Jex) — Unknown Brain, Rival, Jex. Music provided by NoCopyrightSounds. https://ncs.io/Control",
+    "excerptStartSeconds": 31.129252,
+    "originalDurationSeconds": 166.844,
+    "audioSha256": "e4968729698ed6f4e66fdfc3d677bcb0c1a3b928d09871d12b3837f636082928",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "745c7c3d292ef7c0",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/cb017fb7-0620-4853-b9a9-6a067fb1ec45.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/545/1000x0/control-feat-jex-1586956161-vTjXxA6m7G.jpg",
+    "originalTitle": "Control (feat. Jex)",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-01247e9c-e60e-4d42-aac7-e288f3f4e144",
+    "title": "Inspiration",
+    "artist": "Unknown Brain, Aviella",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-inspiration-feat-aviella/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-inspiration-feat-aviella",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 150,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 98,
+        "holds": 8,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 138,
+        "holds": 8,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 381,
+        "holds": 8,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Trap · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Inspiration",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Inspiration (feat. Aviella) — Unknown Brain, Aviella. Music provided by NoCopyrightSounds. https://ncs.io/Inspiration",
+    "excerptStartSeconds": 31.129252,
+    "originalDurationSeconds": 182.465,
+    "audioSha256": "b5df572b5ec2e04e25678b05e7b5dd27ed15861b5df78c73699ca182cb927f58",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "d8f1aec876ab325a",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/01247e9c-e60e-4d42-aac7-e288f3f4e144.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/384/1000x0/inspiration-feat-aviella-1586951499-AgTEiBRrD4.jpg",
+    "originalTitle": "Inspiration (feat. Aviella)",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-db9dd340-6c54-41e6-83e4-66f0cb6fc62b",
+    "title": "Perseus",
+    "artist": "Unknown Brain, Chris Linton",
+    "genre": "Bass",
+    "audio": "/music/catalog/ncs-perseus-feat-chris-linton/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-perseus-feat-chris-linton",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 150,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 81,
+        "holds": 12,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 116,
+        "holds": 12,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 291,
+        "holds": 12,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Melodic Dubstep · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Perseus",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Perseus (feat. Chris Linton) — Unknown Brain, Chris Linton. Music provided by NoCopyrightSounds. https://ncs.io/Perseus",
+    "excerptStartSeconds": 26.340136,
+    "originalDurationSeconds": 196.859,
+    "audioSha256": "cbd2c776ba6902ef794ddd19dcaf2d24f9f070d4687742ac469dfa887ad896ce",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "901b69e2c7e8b5c9",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/db9dd340-6c54-41e6-83e4-66f0cb6fc62b.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/331/1000x0/perseus-feat-chris-linton-1586949800-Ynln2PqILF.jpg",
+    "originalTitle": "Perseus (feat. Chris Linton)",
+    "subgenre": "Melodic Dubstep"
+  },
+  {
+    "id": "ncs-b56dbccd-abfb-4701-acb2-01197e4cbd1f",
+    "title": "Saviour",
+    "artist": "Unknown Brain, Chris Linton",
+    "genre": "Drum & Bass",
+    "audio": "/music/catalog/ncs-saviour-feat-chris-linton/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-saviour-feat-chris-linton",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 174,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 114,
+        "holds": 10,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 142,
+        "holds": 10,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 414,
+        "holds": 10,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Drum & Bass · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/saviour",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Saviour (feat. Chris Linton) — Unknown Brain, Chris Linton. Music provided by NoCopyrightSounds. https://ncs.io/saviour",
+    "excerptStartSeconds": 35.279819,
+    "originalDurationSeconds": 160.052,
+    "audioSha256": "86bebf9504c1869001fe3beead7ff7a4848be61aaff85c41c666bebda068fec1",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "f79d3969c88a03ae",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/b56dbccd-abfb-4701-acb2-01197e4cbd1f.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/299/1000x0/saviour-feat-chris-linton-1586948976-tJsBvtQ5qk.jpg",
+    "originalTitle": "Saviour (feat. Chris Linton)",
+    "subgenre": "Drum & Bass"
+  },
+  {
+    "id": "ncs-7c6140ec-164f-4760-84cf-0946a88f66cf",
+    "title": "Heaven & Hell",
+    "artist": "Lost Sky, Chris Linton",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-heaven-hell/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-heaven-hell",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 135,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 152,
+        "holds": 17,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 196,
+        "holds": 17,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 272,
+        "holds": 17,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Alternative Dance · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/heavenandhell",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Heaven & Hell — Lost Sky, Chris Linton. Music provided by NoCopyrightSounds. https://ncs.io/heavenandhell",
+    "excerptStartSeconds": 75.428571,
+    "originalDurationSeconds": 248.477,
+    "audioSha256": "e64f7beb58449dce727dcd0fb74c59a7b7f7b4e1f00228eb608875901be1a5f9",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "6cfe08e7f6bec280",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/7c6140ec-164f-4760-84cf-0946a88f66cf.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/002/160/1000x0/heaven-hell-1787702468-Ixr0VOdbEG.jpg",
+    "originalTitle": "Heaven & Hell",
+    "subgenre": "Alternative Dance"
+  },
+  {
+    "id": "ncs-c91a14ed-6f4f-45d2-b981-46c938dd042e",
+    "title": "Unbreakable",
+    "artist": "Chris Linton, ANGELPLAYA, Lost Sky",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-unbreakable/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-unbreakable",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 100,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 123,
+        "holds": 14,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 155,
+        "holds": 14,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 218,
+        "holds": 14,
+        "maxPoints": 3000
+      }
+    },
+    "description": "Midtempo Bass · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Unbreakable",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Unbreakable — Chris Linton, ANGELPLAYA, Lost Sky. Music provided by NoCopyrightSounds. https://ncs.io/Unbreakable",
+    "excerptStartSeconds": 31.129252,
+    "originalDurationSeconds": 196.885,
+    "audioSha256": "7e1038b82afb46631f987b4661792db98bd0f72d3d1401f5e75d3dc3fc0cee8a",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "733e1c2700c6c4fd",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/c91a14ed-6f4f-45d2-b981-46c938dd042e.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/603/1000x0/unbreakable-1705021258-ylscbmruue.jpg",
+    "originalTitle": "Unbreakable",
+    "subgenre": "Midtempo Bass"
+  },
+  {
+    "id": "ncs-44732c73-f15a-4994-9cad-02c180765a11",
+    "title": "Geometry",
+    "artist": "Diviners, Tobu",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-geometry/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-geometry",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 130,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 173,
+        "holds": 11,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 216,
+        "holds": 11,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 324,
+        "holds": 11,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Progressive House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Geometry",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Geometry — Diviners, Tobu. Music provided by NoCopyrightSounds. https://ncs.io/Geometry",
+    "excerptStartSeconds": 27.537415,
+    "originalDurationSeconds": 155.115,
+    "audioSha256": "799033fd6c2543b4c535c7b3b5c2f2d1084bbe3840f0f7ea7af2545ebd44c0f4",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "5b982570459a8337",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/44732c73-f15a-4994-9cad-02c180765a11.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/803/1000x0/geometry-1731546056-ZRpP9TkxU5.jpg",
+    "originalTitle": "Geometry",
+    "subgenre": "Progressive House"
+  },
+  {
+    "id": "ncs-a4820eb4-169c-43f2-8111-cbde4b8b1f81",
+    "title": "Guide You Home",
+    "artist": "Diviners, Level 8",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-guide-you-home/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-guide-you-home",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 128,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 169,
+        "holds": 7,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 201,
+        "holds": 7,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 331,
+        "holds": 7,
+        "maxPoints": 3500
+      }
+    },
+    "description": "House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/GuideYouHome",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Guide You Home — Diviners, Level 8. Music provided by NoCopyrightSounds. https://ncs.io/GuideYouHome",
+    "excerptStartSeconds": 54.396372,
+    "originalDurationSeconds": 192.366,
+    "audioSha256": "c2807fa4fa267392978ca86e66532da966966dcc16751133c47082e0165b7b01",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "9a89c293cc7e11c8",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/a4820eb4-169c-43f2-8111-cbde4b8b1f81.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/330/1000x0/guide-you-home-1676595642-aLVEeBI2VJ.jpg",
+    "originalTitle": "Guide You Home",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-c10c7608-9e9d-4d0c-8840-80bc24969da8",
+    "title": "Reality",
+    "artist": "Dayce Williams, Azertion, Diviners",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-reality-ft-dayce-williams/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-reality-ft-dayce-williams",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 94,
+    "tempoEstimated": true,
+    "difficulty": 2,
+    "coefficient": 1.25,
+    "modes": {
+      "facile": {
+        "notes": 109,
+        "holds": 8,
+        "maxPoints": 1250
+      },
+      "normal": {
+        "notes": 149,
+        "holds": 8,
+        "maxPoints": 1875
+      },
+      "difficile": {
+        "notes": 218,
+        "holds": 8,
+        "maxPoints": 2500
+      }
+    },
+    "description": "House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/DAReality",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Reality (ft. Dayce Williams) — Dayce Williams, Azertion, Diviners. Music provided by NoCopyrightSounds. https://ncs.io/DAReality",
+    "excerptStartSeconds": 38.312925,
+    "originalDurationSeconds": 160.052,
+    "audioSha256": "6053de57151884571d948578c61af0aea97b7c3c2f40ee8ed2b4725a0c271127",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "9b716ac866abdc38",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/c10c7608-9e9d-4d0c-8840-80bc24969da8.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/094/1000x0/reality-ft-dayce-williams-1645869632-FGvZ4VWaVF.jpg",
+    "originalTitle": "Reality (ft. Dayce Williams)",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-10299eb0-2d41-4642-8caa-301f46dbf29d",
+    "title": "Feelings",
+    "artist": "Azertion, Diviners",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-feelings/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-feelings",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 128,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 165,
+        "holds": 7,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 195,
+        "holds": 7,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 307,
+        "holds": 7,
+        "maxPoints": 3500
+      }
+    },
+    "description": "House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/DAFeelings",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Feelings — Azertion, Diviners. Music provided by NoCopyrightSounds. https://ncs.io/DAFeelings",
+    "excerptStartSeconds": 31.887528,
+    "originalDurationSeconds": 174.42,
+    "audioSha256": "10ef0cdbb473276e46f4ff6f47526daeccfb588d2b1bd7ef87419d2efdf1c02e",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "9a0655e8406401f7",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/10299eb0-2d41-4642-8caa-301f46dbf29d.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/968/1000x0/feelings-1624636843-jwJFZuXA5i.jpg",
+    "originalTitle": "Feelings",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-af593123-9f68-4228-8c57-ab567bd4a4c0",
+    "title": "Falling",
+    "artist": "Diviners, Harley Bird",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-falling-feat-harley-bird/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-falling-feat-harley-bird",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 126,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 165,
+        "holds": 10,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 211,
+        "holds": 10,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 323,
+        "holds": 10,
+        "maxPoints": 3500
+      }
+    },
+    "description": "House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/DHBFalling",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Falling (feat. Harley Bird) — Diviners, Harley Bird. Music provided by NoCopyrightSounds. https://ncs.io/DHBFalling",
+    "excerptStartSeconds": 42.144218,
+    "originalDurationSeconds": 200.098,
+    "audioSha256": "2e1bdade3e50d17ea10baa2ce6217727c0c57b6dcd8817bbd9d051bdd241d6a3",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "5ced4b6c88af76a0",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/af593123-9f68-4228-8c57-ab567bd4a4c0.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/512/1000x0/falling-feat-harley-bird-1586955219-TUjyh8Xy7e.jpg",
+    "originalTitle": "Falling (feat. Harley Bird)",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-a1318551-8d04-43d9-bd74-dc8db0485f09",
+    "title": "Nobody Around",
+    "artist": "Rival, Biometrix",
+    "genre": "Drum & Bass",
+    "audio": "/music/catalog/ncs-nobody-around/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-nobody-around",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 175,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 110,
+        "holds": 9,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 149,
+        "holds": 9,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 360,
+        "holds": 9,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Drum & Bass · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/NobodyAround",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Nobody Around — Rival, Biometrix. Music provided by NoCopyrightSounds. https://ncs.io/NobodyAround",
+    "excerptStartSeconds": 46.813605,
+    "originalDurationSeconds": 198.857,
+    "audioSha256": "bb154b64c9c84dffb20e2f155db69351e20cbdbff50df20e44e1423fa050fd6a",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "b837af5e8520b115",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/a1318551-8d04-43d9-bd74-dc8db0485f09.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/002/157/1000x0/1787214063_BtEO1BLdmQ_Rival-x-Biometrix-x-CRVN---Nobody-Around-Artwork-1.jpg",
+    "originalTitle": "Nobody Around",
+    "subgenre": "Drum & Bass"
+  },
+  {
+    "id": "ncs-54fc6457-1ef5-4798-994c-f3815f1f793c",
+    "title": "Throne",
+    "artist": "Neoni, Rival",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-throne/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-throne",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 154,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 98,
+        "holds": 12,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 140,
+        "holds": 12,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 360,
+        "holds": 12,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Electronic · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Throne",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Throne — Neoni, Rival. Music provided by NoCopyrightSounds. https://ncs.io/Throne",
+    "excerptStartSeconds": 44.738322,
+    "originalDurationSeconds": 212.01,
+    "audioSha256": "cc0a1322b7b343ee3ab702b74483a3ad4bc587f36f8fab605bb68974db3d6820",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "666724d1f1f4766d",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/54fc6457-1ef5-4798-994c-f3815f1f793c.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/928/1000x0/throne-1617350428-1MoBnMcDdg.jpg",
+    "originalTitle": "Throne",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-dd8cf4cc-e0c0-43ec-b37b-5efb43387453",
+    "title": "The Revolution",
+    "artist": "Neoni, Egzod",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-the-revolution/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-the-revolution",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 156,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 101,
+        "holds": 13,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 140,
+        "holds": 13,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 313,
+        "holds": 13,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Trap · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/therevolution",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "The Revolution — Neoni, Egzod. Music provided by NoCopyrightSounds. https://ncs.io/therevolution",
+    "excerptStartSeconds": 43.980045,
+    "originalDurationSeconds": 178.155,
+    "audioSha256": "1adc0241ecb238e6c871b17e2f0af4d2c4bc97a7d5a6fb516b1644ed586bee13",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "6340697fe10d6d5d",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/dd8cf4cc-e0c0-43ec-b37b-5efb43387453.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/819/1000x0/the-revolution-1599123626-LSluxb4hlV.jpg",
+    "originalTitle": "The Revolution",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-4d597bae-af89-429c-863d-39e287a0517a",
+    "title": "Don't Surrender",
+    "artist": "EMM, Egzod",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-don-t-surrender/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-don-t-surrender",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 180,
+    "tempoEstimated": true,
+    "difficulty": 5,
+    "coefficient": 2.0,
+    "modes": {
+      "facile": {
+        "notes": 122,
+        "holds": 12,
+        "maxPoints": 2000
+      },
+      "normal": {
+        "notes": 157,
+        "holds": 12,
+        "maxPoints": 3000
+      },
+      "difficile": {
+        "notes": 362,
+        "holds": 12,
+        "maxPoints": 4000
+      }
+    },
+    "description": "Electronic · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/DontSurrender",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Don't Surrender — EMM, Egzod. Music provided by NoCopyrightSounds. https://ncs.io/DontSurrender",
+    "excerptStartSeconds": 29.413152,
+    "originalDurationSeconds": 165.224,
+    "audioSha256": "858647ee61d3f83cc40ae7d833792eb880cb32e618cc813fd483fb700c85083c",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "11aad16b2f61e78d",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/4d597bae-af89-429c-863d-39e287a0517a.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/828/1000x0/dont-surrender-1600956026-bZdKeg4ew8.jpg",
+    "originalTitle": "Don't Surrender",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-45758491-8f78-45a4-8bdb-10ae61a7f38e",
+    "title": "Rise Up",
+    "artist": "Egzod, Veronica Bravo, M.I.M.E",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-rise-up-ft-veronica-bravo-m-i-m-e/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-rise-up-ft-veronica-bravo-m-i-m-e",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 154,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 92,
+        "holds": 15,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 130,
+        "holds": 15,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 333,
+        "holds": 15,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Trap · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/RiseUp",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Rise Up (ft. Veronica Bravo & M.I.M.E) — Egzod, Veronica Bravo, M.I.M.E. Music provided by NoCopyrightSounds. https://ncs.io/RiseUp",
+    "excerptStartSeconds": 32.685714,
+    "originalDurationSeconds": 188.369,
+    "audioSha256": "5d6269da6c4a7a4334bcae2677067503f16f7d546ab1946807f4df02b290ed28",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "bcfc89d6ef8b589d",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/45758491-8f78-45a4-8bdb-10ae61a7f38e.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/630/1000x0/rise-up-ft-veronica-bravo-mime-1586958437-fn78R1qhUm.jpg",
+    "originalTitle": "Rise Up (ft. Veronica Bravo & M.I.M.E)",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-a297cb41-43fe-405d-95c2-cb1260e1ccea",
+    "title": "Mirage",
+    "artist": "Leo The Kind, Egzod",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-mirage-feat-leo-the-kind/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-mirage-feat-leo-the-kind",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 150,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 89,
+        "holds": 13,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 120,
+        "holds": 13,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 283,
+        "holds": 13,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Trap · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Mirage",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Mirage (feat. Leo The Kind) — Leo The Kind, Egzod. Music provided by NoCopyrightSounds. https://ncs.io/Mirage",
+    "excerptStartSeconds": 23.945578,
+    "originalDurationSeconds": 207.804,
+    "audioSha256": "01574b84a219ae2e7ba809bdf141ca9deacaa858b35f3e903e335748321b6d84",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "1408d622ecd0abb3",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/a297cb41-43fe-405d-95c2-cb1260e1ccea.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/442/1000x0/mirage-feat-leo-the-kind-1586953508-M7DySRNdAQ.jpg",
+    "originalTitle": "Mirage (feat. Leo The Kind)",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-a6068891-12eb-497e-9736-c248805c8093",
+    "title": "Wake Up",
+    "artist": "Egzod, Chris Linton",
+    "genre": "Hip-hop",
+    "audio": "/music/catalog/ncs-wake-up-feat-chris-linton/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-wake-up-feat-chris-linton",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 142,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 170,
+        "holds": 10,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 214,
+        "holds": 10,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 333,
+        "holds": 10,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Trap · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/WakeUp",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Wake Up (feat. Chris Linton) — Egzod, Chris Linton. Music provided by NoCopyrightSounds. https://ncs.io/WakeUp",
+    "excerptStartSeconds": 43.580952,
+    "originalDurationSeconds": 183.014,
+    "audioSha256": "2c6d38b93271737bf531a2fe906e74180aaf07c605e4048dfb03fb32bb70463f",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "7a1cd1281ff2db14",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/a6068891-12eb-497e-9736-c248805c8093.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/386/1000x0/wake-up-feat-chris-linton-1586951573-J5pEAw3eSx.jpg",
+    "originalTitle": "Wake Up (feat. Chris Linton)",
+    "subgenre": "Trap"
+  },
+  {
+    "id": "ncs-efbe170d-c045-4442-a6de-36c5f8793881",
+    "title": "Just Getting Started",
+    "artist": "Shiah Maisel, Jim Yosef",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-just-getting-started/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-just-getting-started",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 100,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 129,
+        "holds": 15,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 168,
+        "holds": 15,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 281,
+        "holds": 15,
+        "maxPoints": 3000
+      }
+    },
+    "description": "Electronic · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/JGS",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Just Getting Started — Shiah Maisel, Jim Yosef. Music provided by NoCopyrightSounds. https://ncs.io/JGS",
+    "excerptStartSeconds": 33.52381,
+    "originalDurationSeconds": 147.722,
+    "audioSha256": "13f7c32c8815940c7b4369e23fa4f349dba6a8c9486e69c3ab70585f8a56333f",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "703c420626de4d5a",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/efbe170d-c045-4442-a6de-36c5f8793881.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/425/1000x0/just-getting-started-1685462452-kcxIjlmqLD.jpg",
+    "originalTitle": "Just Getting Started",
+    "subgenre": "Electronic"
+  },
+  {
+    "id": "ncs-ab11b668-84c6-4297-bb2b-e6adc05bc75a",
+    "title": "Firefly pt. II",
+    "artist": "Jim Yosef",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-firefly-pt-ii/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-firefly-pt-ii",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 130,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 126,
+        "holds": 5,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 170,
+        "holds": 5,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 225,
+        "holds": 5,
+        "maxPoints": 3500
+      }
+    },
+    "description": "House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Fireflypt2",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Firefly pt. II — Jim Yosef. Music provided by NoCopyrightSounds. https://ncs.io/Fireflypt2",
+    "excerptStartSeconds": 45.895692,
+    "originalDurationSeconds": 225.28,
+    "audioSha256": "9f380b2d508de45bda563f0b85948be97ea79a53caed54d51e876110d797003a",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "0e01554acb97351a",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/ab11b668-84c6-4297-bb2b-e6adc05bc75a.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/886/1000x0/1609847592_3Q1SpFgO1S_Artwork.jpg",
+    "originalTitle": "Firefly pt. II",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-fec6a5e4-241c-40dd-88a1-53e71025661b",
+    "title": "Link",
+    "artist": "Jim Yosef",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-link/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-link",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 100,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 93,
+        "holds": 13,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 148,
+        "holds": 13,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 232,
+        "holds": 13,
+        "maxPoints": 3000
+      }
+    },
+    "description": "House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/Link",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Link — Jim Yosef. Music provided by NoCopyrightSounds. https://ncs.io/Link",
+    "excerptStartSeconds": 28.734694,
+    "originalDurationSeconds": 224.444,
+    "audioSha256": "7f4b64b2ce55cbfb938d49688f994f6910c6a50e7b55b37d7b753fb9ffa02076",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "2d15f9f151ac7ad2",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/fec6a5e4-241c-40dd-88a1-53e71025661b.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/356/1000x0/link-1586950568-VcevkSmsFX.jpg",
+    "originalTitle": "Link",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-0280e46e-5acd-4d26-b962-aeaf4271e6b4",
+    "title": "Everlasting",
+    "artist": "Jim Yosef, Ephixa",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-everlasting/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-everlasting",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 150,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 74,
+        "holds": 8,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 101,
+        "holds": 8,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 266,
+        "holds": 8,
+        "maxPoints": 3500
+      }
+    },
+    "description": "EDM · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/everlasting",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Everlasting — Jim Yosef, Ephixa. Music provided by NoCopyrightSounds. https://ncs.io/everlasting",
+    "excerptStartSeconds": 41.505669,
+    "originalDurationSeconds": 237.608,
+    "audioSha256": "43002902d623bd36a12f98c52b835da972a67ad7097bb38704d65b0a501bf4d5",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "bcd59583ca864d1e",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/0280e46e-5acd-4d26-b962-aeaf4271e6b4.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/245/1000x0/everlasting-1586947853-bU8tHRZrwx.jpg",
+    "originalTitle": "Everlasting",
+    "subgenre": "EDM"
+  },
+  {
+    "id": "ncs-2831e1da-7276-4172-8740-2b53fd768058",
+    "title": "Forces",
+    "artist": "Ivan Jamile, Kédo Rebelle, Jim Yosef",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-forces-feat-ivan-jamile-k-do-rebelle/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-forces-feat-ivan-jamile-k-do-rebelle",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 128,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 123,
+        "holds": 10,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 164,
+        "holds": 10,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 238,
+        "holds": 10,
+        "maxPoints": 3500
+      }
+    },
+    "description": "House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/forces",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Forces (feat. Ivan Jamile & Kédo Rebelle) — Ivan Jamile, Kédo Rebelle, Jim Yosef. Music provided by NoCopyrightSounds. https://ncs.io/forces",
+    "excerptStartSeconds": 39.390476,
+    "originalDurationSeconds": 261.042,
+    "audioSha256": "a6f6481806e93fe7850f105f5fd129a1853d2be5a55869534bf8a8de8e149d73",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "62f3495d07ed0eaf",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/2831e1da-7276-4172-8740-2b53fd768058.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/200/1000x0/forces-feat-ivan-jamile-kedo-rebelle-1586947422-5uVG9kfeFO.jpg",
+    "originalTitle": "Forces (feat. Ivan Jamile & Kédo Rebelle)",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-a55dd79b-edc6-4a0e-b906-982317818890",
+    "title": "Street Lights",
+    "artist": "JJD, Azertion, Time To Talk",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-street-lights/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-street-lights",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 124,
+    "tempoEstimated": true,
+    "difficulty": 3,
+    "coefficient": 1.5,
+    "modes": {
+      "facile": {
+        "notes": 144,
+        "holds": 2,
+        "maxPoints": 1500
+      },
+      "normal": {
+        "notes": 182,
+        "holds": 2,
+        "maxPoints": 2250
+      },
+      "difficile": {
+        "notes": 305,
+        "holds": 2,
+        "maxPoints": 3000
+      }
+    },
+    "description": "House · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/StreetLights",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Street Lights — JJD, Azertion, Time To Talk. Music provided by NoCopyrightSounds. https://ncs.io/StreetLights",
+    "excerptStartSeconds": 42.144218,
+    "originalDurationSeconds": 147.429,
+    "audioSha256": "b9f2c53b4f27baf0e18149607bdfb70a5d2d3a9f3ca7f4408692ff829ae3839f",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "d3863a7a4fdec6d8",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/a55dd79b-edc6-4a0e-b906-982317818890.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/020/1000x0/street-lights-1633424430-AMDfPmBiA7.jpg",
+    "originalTitle": "Street Lights",
+    "subgenre": "House"
+  },
+  {
+    "id": "ncs-4b84ca5a-4b1e-4778-aa04-8f47b1784f5a",
+    "title": "Help Me Help You",
+    "artist": "Clarx, Shiah Maisel",
+    "genre": "Électro",
+    "audio": "/music/catalog/ncs-help-me-help-you/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-help-me-help-you",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 145,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 157,
+        "holds": 6,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 190,
+        "holds": 6,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 281,
+        "holds": 6,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Electronic Rock · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/HMHY",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Help Me Help You — Clarx, Shiah Maisel. Music provided by NoCopyrightSounds. https://ncs.io/HMHY",
+    "excerptStartSeconds": 60.87932,
+    "originalDurationSeconds": 151.379,
+    "audioSha256": "7b3000415b00aff1c4f945f398354031c1a687321a17535058b3ec76cc9b9b8e",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "5834a7d16fa2e0f4",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/4b84ca5a-4b1e-4778-aa04-8f47b1784f5a.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/664/1000x0/help-me-help-you-1713484854-0qtgOu0bPa.jpg",
+    "originalTitle": "Help Me Help You",
+    "subgenre": "Electronic Rock"
+  },
+  {
+    "id": "ncs-7d77d163-eb76-4a6c-a75a-09310b49167e",
+    "title": "Pull Me In",
+    "artist": "M.I.M.E, Shiah Maisel, Clarx",
+    "genre": "Dance",
+    "audio": "/music/catalog/ncs-pull-me-in/audio.mp3",
+    "chartRoot": "/music/catalog/ncs-pull-me-in",
+    "duration": "1:31",
+    "durationSeconds": 91.25,
+    "previewAt": 24,
+    "bpm": 154,
+    "tempoEstimated": true,
+    "difficulty": 4,
+    "coefficient": 1.75,
+    "modes": {
+      "facile": {
+        "notes": 100,
+        "holds": 7,
+        "maxPoints": 1750
+      },
+      "normal": {
+        "notes": 135,
+        "holds": 7,
+        "maxPoints": 2625
+      },
+      "difficile": {
+        "notes": 336,
+        "holds": 7,
+        "maxPoints": 3500
+      }
+    },
+    "description": "Alternative Dance · Version de jeu",
+    "hint": "Suivez les attaques de la chanson. Maintenez les rubans dorés jusqu’à leur extrémité.",
+    "sourceUrl": "https://ncs.io/PullMeIn",
+    "license": "NCS — conditions spécifiques",
+    "licenseUrl": "https://ncs.io/usage-policy",
+    "credit": "Pull Me In — M.I.M.E, Shiah Maisel, Clarx. Music provided by NoCopyrightSounds. https://ncs.io/PullMeIn",
+    "excerptStartSeconds": 31.129252,
+    "originalDurationSeconds": 148.052,
+    "audioSha256": "97112bb895e6df3637f5e8ba82bb04c4c7bb4330e95e6f9624be4653ac5b5679",
+    "changes": "Extrait pour le jeu, fondus et silence initial. Arrangement des touches par PromoTiles.",
+    "revision": "2210672033d008b7",
+    "rightsStatus": "Private internal use; no public game distribution licence obtained.",
+    "cover": "/music/artwork/7d77d163-eb76-4a6c-a75a-09310b49167e.jpg",
+    "coverSource": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/616/1000x0/1705921254_WqMGpW5Ncb_new.jpg",
+    "originalTitle": "Pull Me In",
+    "subgenre": "Alternative Dance"
+  }
+]

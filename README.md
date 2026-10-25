@@ -1,58 +1,67 @@
-# Promodev · Piano Challenge
+# PromoTiles · Piano Challenge
 
-Prototype mobile Vue 3 du concours musical de Noël. L’accueil reprend la direction « Nuit polaire » avec un globe photoréaliste animé en 2,5D, de la neige, des reflets et des aurores boréales.
+Jeu de rythme Vue 3 pour mobile et ordinateur, avec accueil de Noël, boule à neige interactive, 100 morceaux NCS et trois niveaux par chanson. Chaque version de jeu contient 90 secondes de musique, précédées de 1,25 seconde de préparation audio.
 
-**Reprise sur un autre Mac : lire [REPRISE.md](REPRISE.md), le dossier complet de contexte, architecture, commandes, audits et prochaines étapes.**
+## Version privée Cloudflare
 
-## Lancer le projet
+Le jeu est déployé sur **https://noel.promo.dev**, avec sa propre connexion par code e-mail, réservée aux adresses `@promo.dev`. Le Worker vérifie la session HttpOnly ; D1 impose une adresse et un pseudo uniques et conserve les parties et meilleurs scores. Cloudflare Access a été retiré.
 
-Prérequis : Node.js 22.12 ou version ultérieure compatible avec Vite 8.
+Commandes, ressources et diagnostic : [CLOUDFLARE.md](CLOUDFLARE.md).
+
+## Lancer en local
+
+Node.js 24 recommandé (SQLite intégré). Sur cette machine, les médias sont déjà présents.
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Ouvrez l’adresse locale affichée dans le terminal. Pour contrôler la PWA et le cache hors connexion, utilisez la version de production :
+Vite sert le jeu sur http://localhost:5173 et transmet les requêtes API au serveur SQLite sur le port 5175. Pour la version de production et le cache PWA :
 
 ```sh
 npm run build
-npm run preview
+npm start
 ```
 
-Le service worker conserve les images, les polices, les partitions et le MP3 après sa première installation complète. Le serveur de développement ne teste pas ce cache.
+Ouvrir http://localhost:5175. `npm run preview` seul ne fournit pas l’API de classement.
 
 ## Jouer
 
-Choisissez un niveau puis lancez la musique. Appuyez sur les quatre touches du bas lorsque le bord inférieur d’une note atteint la ligne dorée. Sur ordinateur, utilisez **D, F, J et K**. Maintenez les notes longues jusqu’à leur fin. La barre espace met en pause ; la reprise revient deux secondes en arrière avec un compte à rebours.
+Choisir un morceau et un niveau. Appuyer sur les touches quand les notes atteignent la ligne dorée ; maintenir les notes longues. Clavier : **D, F, J, K**. Espace met en pause ; la reprise revient deux secondes en arrière. Le profil permet de régler le décalage audio, le son et les animations. Recherche, favoris, extraits et défi du jour sont disponibles dans la collection.
 
-Le morceau fourni, « Dans les yeux d’Émilie » de Joe Dassin, dure 3 min 42. Les trois partitions contiennent 216, 415 et 701 notes. Les plafonds sont de 1 500, 2 250 et 3 000 points. Le coefficient du morceau est de 1,5 et les coefficients des niveaux sont de 1, 1,5 et 2.
+Une connexion, un pseudo unique et un avatar sont requis. En développement, les codes sont écrits dans `data/dev-auth-email.json` sans envoyer de courrier. Le serveur recalcule les scores à partir du journal des gestes. Les anciens morceaux retirés ne contribuent plus au classement actuel.
 
-Le score combine la précision (90 %) et le meilleur combo (10 %), avec une pénalité pour les appuis hors rythme. Le moteur empêche de compter deux fois une note. Les parties interrompues ne sont pas enregistrées.
+L’application installée se nomme **promoTiles**, avec son icône de sapin piano bleu et or. Vingt avatars de Noël et une vue Dotations (trois cadeaux fictifs) complètent le profil et la navigation.
 
-Les réglages du profil permettent de couper la musique et de réduire les animations. L’application respecte également la préférence de mouvement réduit du système.
+Le profil ouvre un guide d’installation en trois étapes pour iPhone/iPad, Android et ordinateur. Le bouton natif est proposé lorsque le navigateur le permet. Le manifeste protégé inclut les informations de session (`use-credentials`).
 
-## Vérifier
+La PWA conserve l’interface et les médias effectivement consultés. Un morceau doit avoir été chargé avant de fonctionner hors connexion. Le classement nécessite le serveur.
+
+## Musique et reconstruction
+
+Le catalogue actif est `src/data/catalog.json`. Les sources, crédits et pochettes sont référencés dans `audio/catalog-ncs/`. Les MP3 et pochettes NCS sont locaux, ignorés par Git. Un nouveau clone exige leur reconstruction :
+
+```sh
+python3 tools/audio/prepare_ncs.py
+python3 tools/audio/expand_ncs.py
+python3 tools/audio/collect_ncs_covers.py
+python3 tools/audio/build_ncs.py
+python3 tools/audio/activate_ncs.py
+```
+
+La génération nécessite FFmpeg, NumPy, SciPy et librosa dans l’environnement Python utilisé. `collect_ncs.py` permet de rafraîchir les métadonnées sources ; les fichiers déjà présents suffisent normalement. `build_ncs.py --reuse-audio` refait les partitions sans réencoder les MP3 existants.
+
+Les notes suivent des attaques mesurées dans l’enregistrement. Le tempo et les tenues sont estimés automatiquement : cela ne constitue pas une transcription instrumentale exacte. Les modes facile et normal utilisent une pulsation plus espacée sur les morceaux rapides.
+
+Musique fournie par NoCopyrightSounds. Cette sélection est une évaluation locale interne ; aucune licence de distribution dans un jeu n’a été obtenue. Les conditions NCS ne sont pas une licence Creative Commons. Le déploiement Cloudflare est privé et limité à l’équipe via la connexion native. L’ancien catalogue instrumental est conservé localement dans `artifacts/catalog/retired/`.
+
+## Vérifier et reprendre
 
 ```sh
 npm test
+npm run test:cloudflare
 npm run build
 ```
 
-Les tests vérifient les plafonds des trois partitions réelles, les notes simultanées, les appuis longs, les erreurs de rythme, la reprise et la conservation des records.
-
-Les captures de contrôle retenues et versionnées se trouvent dans `design/previews/`. Les sorties temporaires restent dans `artifacts/`, ignoré par Git. Les maquettes approuvées et les prompts des images sont dans `design/`. Les scripts de transcription et de création des partitions sont dans `tools/audio/`.
-
-## Hébergement et concours
-
-`wrangler.jsonc` prépare la distribution statique de `dist/` sur Cloudflare Workers. `npm run deploy:check` compile le projet puis valide un déploiement à blanc. Ce contrôle a réussi ; aucun déploiement public n’a été effectué. `npm run deploy` permet ensuite de publier avec un compte Cloudflare configuré.
-
-Cette version conserve les scores sur l’appareil. L’authentification des collègues, l’API de concours, MongoDB et le classement partagé restent à intégrer avant l’ouverture du concours. Le catalogue contient le seul MP3 fourni. Les partitions résultent d’une transcription automatique : leur qualité musicale doit encore être validée par une écoute et des essais humains sur téléphone.
-
-Le globe utilise une image transparente, des particules Canvas et des animations CSS. L’ancienne étude en géométrie Three.js est conservée dans `design/source/`.
-
-## Audits du prototype
-
-Les quatre évaluations indépendantes sont conservées dans `design/reviews/` : fidélité graphique 9,6/10, animations de la home 9/10, fonctionnalités locales 9,5/10 et fun/jouabilité 7,5/10. Ces notes restent distinctes de l’objectif demandé de 10/10 partout.
-
-Une partie complète hors connexion a été testée dans Safari après arrêt du serveur, jusqu’au résultat et à la persistance du record après rechargement. La home a été contrôlée en 320 × 568, 390 × 844 et 1280 × 900. Le rapport d’animation consigne une médiane de 17 ms et un p95 de 18 ms sur Mac. Un essai sur téléphone physique reste nécessaire.
+52 tests couvrent notamment les 300 partitions, les plafonds de score, les tenues, les reprises, la provenance des attaques, l’API partagée et la neige. Captures dans `design/previews/`. Contexte historique et changements récents dans [REPRISE.md](REPRISE.md). Les évaluations des agents ne remplacent pas un essai humain sur téléphone ni la validation du plaisir de jeu.
