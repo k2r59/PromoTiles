@@ -1,12 +1,13 @@
 import { diagnostic } from './diagnostics.js'
 let session, pending
+function expired(code){session=null;window.dispatchEvent(new CustomEvent('promotiles:session-expired',{detail:{code}}))}
 try { localStorage.removeItem('promodev-session') } catch {}
 async function request(path,data,authenticated=true){
  const started=performance.now();diagnostic('api.request',{route:path.split('?')[0]});
  let response;try{response=await fetch('/api/'+path,{method:data?'POST':'GET',headers:{...(data?{'Content-Type':'application/json'}:{}),...(authenticated&&session?.token?{Authorization:'Bearer '+session.token}:{})},body:data?JSON.stringify(data):undefined,signal:AbortSignal.timeout(7000)})}catch(error){diagnostic('api.network-error',{route:path.split('?')[0],code:error.name});throw error}
  diagnostic('api.response',{route:path.split('?')[0],status:response.status,elapsedMs:Math.round(performance.now()-started),redirected:response.redirected})
- if(response.redirected||!response.headers.get('Content-Type')?.includes('application/json'))throw Object.assign(Error('Votre connexion a expiré. Rechargez le jeu pour vous reconnecter.'),{status:401})
- if(!response.ok){let message='Le classement partagé est indisponible.';try{message=(await response.json()).error||message}catch{};throw Object.assign(Error(message),{status:response.status})}
+ if(response.redirected||!response.headers.get('Content-Type')?.includes('application/json')){expired('SESSION_INVALID');throw Object.assign(Error('Votre connexion a expiré. Reconnectez-vous.'),{status:401})}
+ if(!response.ok){let message='Le classement partagé est indisponible.',code;try{const value=await response.json();message=value.error||message;code=value.code}catch{};if(response.status===401)expired(code);throw Object.assign(Error(message),{status:response.status,code})}
  return response.json()
 }
 export async function connect(){

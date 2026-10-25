@@ -140,6 +140,32 @@ test('native email login protects data, consumes OTP once, revokes logout and li
 })
 
 
+test('deleted accounts revoke sessions and pending codes and cannot be recreated by an old cookie',async()=>{
+ let now=1000000;const DB=database(),mail=[],env={DB,AUTH_MODE:'native',AUTH_PEPPER:'test-only-pepper',EMAIL:{send:async m=>mail.push(m)},ASSETS:{fetch:async()=>new Response('private asset')}}
+ const worker=createWorker({now:()=>now})
+ const call=(path,data,cookie)=>worker.fetch(new Request('https://noel.promo.dev'+path,{method:data?'POST':'GET',headers:{'Content-Type':'application/json',...(cookie?{Cookie:cookie}:{})},body:data?JSON.stringify(data):undefined}),env)
+ const code=async()=>{const response=await call('/api/auth/code',{email:'deleted@promo.dev'});assert.equal(response.status,200);return {...await response.json(),code:mail.at(-1).text.match(/\d{6}/)[0]}}
+ try{
+  const proof=await code(),signed=await call('/api/auth/verify',proof)
+  const cookie=signed.headers.get('Set-Cookie').split(';')[0]
+  const first=await(await call('/api/me',undefined,cookie)).json()
+  now+=61000;const pendingCode=await code()
+  DB.raw.prepare('DELETE FROM players WHERE id=?').run(first.id)
+  assert.equal(DB.raw.prepare('SELECT COUNT(*) n FROM auth_sessions').get().n,0)
+  assert.equal(DB.raw.prepare('SELECT COUNT(*) n FROM auth_codes').get().n,0)
+  for(const [path,data] of [['/api/me'],['/api/session',{}],['/api/profile',{name:'Resurrected',avatar:'h-brun'}],['/api/rounds',{songId:'test',mode:'normal'}],['/music/private.mp3']]){
+   const result=await call(path,data,cookie);assert.equal(result.status,401);assert.equal((await result.json()).code,'SESSION_INVALID');assert.ok(result.headers.get('Set-Cookie').includes('Max-Age=0'))
+  }
+  assert.equal(DB.raw.prepare('SELECT COUNT(*) n FROM players').get().n,0)
+  assert.equal((await call('/api/auth/verify',pendingCode)).status,400)
+  now+=61000;const fresh=await call('/api/auth/verify',await code())
+  const freshCookie=fresh.headers.get('Set-Cookie').split(';')[0]
+  const second=await(await call('/api/me',undefined,freshCookie)).json()
+  assert.notEqual(second.id,first.id);assert.equal(second.email,'deleted@promo.dev')
+  assert.equal((await call('/api/me',undefined,cookie)).status,401)
+ }finally{DB.raw.close()}
+})
+
 test('test email delivery alias preserves a separate account and cannot redirect other identities',async()=>{
  const DB=database(),mail=[],env={DB,AUTH_MODE:'native',AUTH_PEPPER:'test-only-pepper',EMAIL:{send:async m=>mail.push(m)}}
  const worker=createWorker({now:()=>1000000})

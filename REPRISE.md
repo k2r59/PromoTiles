@@ -712,3 +712,14 @@ Bouton « Télécharger le diagnostic » retiré des préférences et de l’éc
 - À la demande utilisateur, les codes de `test@promo.dev` sont livrés à `herve.colard@promo.dev`. L’identité persistée demeure `test@promo.dev`, distincte du compte personnel d’Hervé. Comparaison exacte après normalisation ; aucun paramètre client ne peut modifier le destinataire.
 - Test de régression : destinataire redirigé, challenge/session/profil sous la bonne adresse, comptes séparés, limite d’envoi conservée, autres adresses inchangées et paramètres de destinataire injectés ignorés. 53 tests réussis, build réussi.
 - Worker déployé : `bec18872-2e70-46ee-b433-358a26f1c8e5`. Aucun compte de production créé pour ce contrôle ; les tests utilisent une base éphémère.
+
+
+## 28. Suppression de compte et accueil visiteur — 25 octobre 2026
+
+- Défaut corrigé : `playerFor()` recréait automatiquement un profil à partir d’une session valide. Désormais, en mode natif, seul un code nouvellement validé peut créer le compte ; les lectures API ne provisionnent plus de joueur.
+- Migration `0004_session_player.sql` appliquée en production : sessions liées à l’ID de joueur, sessions orphelines purgées, suppression du joueur révoquant sessions et codes. Réinscrire la même adresse ne réactive pas l’ancien cookie.
+- HTTP 401 `SESSION_INVALID` efface le cookie et fait revenir l’application à la connexion. La session est revérifiée à la reprise de visibilité et à `pageshow`, y compris après retour à la PWA.
+- Accueil visiteur identique à l’accueil du jeu, boule interactive conservée, menu inférieur masqué ; « Entrer en scène » ouvre la connexion. Un compte incomplet ouvre toujours la configuration de profil.
+- Vérification production pour l’adresse personnelle d’Hervé : aucun profil ni session ; ancien challenge restant supprimé. Le compte `test@promo.dev` et son alias de livraison ne sont pas modifiés.
+- Validation : 54 tests et intégration D1 réussis ; test réel dans le navigateur local d’une suppression de profil QA suivie d’un accès au classement → connexion. Accueil visiteur mobile 390×844 sans débordement et bouton connexion vérifiés, capture `design/previews/guest-home-mobile.png`.
+- Version Worker déployée : `badc351c-1437-4c00-bbec-a64a25075c99`. Une PWA restée ouverte sur l’ancienne version doit être actualisée une fois pour charger la nouvelle logique client ; le serveur refuse déjà les sessions invalides.

@@ -30,7 +30,7 @@ Ouvrir http://localhost:5175. `npm run preview` seul ne fournit pas l’API de c
 
 Choisir un morceau et un niveau. Appuyer sur les touches quand les notes atteignent la ligne dorée ; maintenir les notes longues. Clavier : **D, F, J, K**. Espace met en pause ; la reprise revient deux secondes en arrière. Le profil permet de régler le décalage audio, le son et les animations. Recherche, favoris, extraits et défi du jour sont disponibles dans la collection.
 
-Une connexion, un pseudo unique et un avatar sont requis. En développement, les codes sont écrits dans `data/dev-auth-email.json` sans envoyer de courrier. Le serveur recalcule les scores à partir du journal des gestes. Les anciens morceaux retirés ne contribuent plus au classement actuel.
+L’accueil est visible sans connexion, avec la même boule à neige et sans navigation inférieure. « Entrer en scène » ouvre la connexion. Une connexion, un pseudo unique et un avatar sont requis pour jouer. En développement, les codes sont écrits dans `data/dev-auth-email.json` sans envoyer de courrier. Le serveur recalcule les scores à partir du journal des gestes. Les anciens morceaux retirés ne contribuent plus au classement actuel.
 
 L’application installée se nomme **promoTiles**, avec son icône de sapin piano bleu et or. Vingt avatars de Noël et une vue Dotations (trois cadeaux fictifs) complètent le profil et la navigation.
 
@@ -64,4 +64,4 @@ npm run test:cloudflare
 npm run build
 ```
 
-53 tests couvrent notamment les 300 partitions, les plafonds de score, les tenues, les reprises, la provenance des attaques, l’API partagée et la neige. Captures dans `design/previews/`. Contexte historique et changements récents dans [REPRISE.md](REPRISE.md). Les évaluations des agents ne remplacent pas un essai humain sur téléphone ni la validation du plaisir de jeu.
+54 tests couvrent notamment les 300 partitions, les plafonds de score, les tenues, les reprises, la provenance des attaques, l’API partagée et la neige. Captures dans `design/previews/`. Contexte historique et changements récents dans [REPRISE.md](REPRISE.md). Les évaluations des agents ne remplacent pas un essai humain sur téléphone ni la validation du plaisir de jeu.

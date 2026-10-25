@@ -11,7 +11,7 @@
 - L’ancienne application Access « PromoTiles Noël » a été supprimée après confirmation utilisateur.
 - Les URLs workers.dev et les previews sont désactivées. Le shell de connexion et les illustrations sont publics ; les médias et API du jeu requièrent une session.
 
-`wrangler.jsonc` ne contient aucun secret. `AUTH_PEPPER` est un secret Worker. Ne pas le régénérer lors d’un déploiement normal. Les codes expirent après 10 minutes et cinq essais ; envoi limité par adresse et IP. Les sessions durent sept jours, sont révoquées à la déconnexion et utilisent un cookie `__Host-`, HttpOnly, Secure, SameSite=Strict. La base conserve uniquement les empreintes des codes et sessions. Les anciennes variables Access restent disponibles pour le code de compatibilité, mais sont inactives avec `AUTH_MODE=native`.
+`wrangler.jsonc` ne contient aucun secret. `AUTH_PEPPER` est un secret Worker. Ne pas le régénérer lors d’un déploiement normal. Les codes expirent après 10 minutes et cinq essais ; envoi limité par adresse et IP. Les sessions sont liées à l’identifiant du joueur et vérifient son existence à chaque requête protégée. Elles durent sept jours, sont révoquées à la suppression du joueur ou à la déconnexion et utilisent un cookie `__Host-`, HttpOnly, Secure, SameSite=Strict. La base conserve uniquement les empreintes des codes et sessions. Les anciennes variables Access restent disponibles pour le code de compatibilité, mais sont inactives avec `AUTH_MODE=native`.
 
 ## Base et scores
 
@@ -55,7 +55,7 @@ Exception demandée par Hervé : une connexion avec `test@promo.dev` envoie son 
 
 ## Profils, avatars et anti-triche
 
-`0002_native_auth.sql` ajoute pseudo unique, codes et sessions. `0003_avatars_anticheat.sql` ajoute l’avatar, les empreintes des performances et le journal anti-triche. Les 20 identifiants d’avatar admis sont définis dans `src/lib/avatars.js` ; le serveur rejette les autres valeurs. Les portraits sont fournis en WebP 256 px.
+`0002_native_auth.sql` ajoute pseudo unique, codes et sessions. `0003_avatars_anticheat.sql` ajoute l’avatar, les empreintes des performances et le journal anti-triche. `0004_session_player.sql` rattache les sessions aux joueurs, purge les sessions orphelines et supprime les preuves de connexion lors d’une suppression de compte. Seule la validation d’un nouveau code peut créer un profil. Les 20 identifiants d’avatar admis sont définis dans `src/lib/avatars.js` ; le serveur rejette les autres valeurs. Les portraits sont fournis en WebP 256 px.
 
 L’anti-triche conserve le gameplay et les fenêtres de jugement. Il recalcule les scores côté serveur, valide la propriété, la durée et la consommation atomique de la partie, rejette un journal long exactement réutilisé et les fréquences d’entrée incohérentes. Des timings systématiquement parfaits génèrent un signal pour examen, sans sanction automatique. Des entrées fabriquées mais plausibles restent possibles : aucune garantie absolue contre les bots.
 

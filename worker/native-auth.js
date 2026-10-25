@@ -10,6 +10,7 @@ function otp(){let n;do{n=crypto.getRandomValues(new Uint32Array(1))[0]}while(n>
 function cookieName(env){return env.LOCAL_AUTH==='true'?'promotiles_session':'__Host-promotiles_session'}
 function cookie(request,env){return request.headers.get('Cookie')?.split(';').map(s=>s.trim()).find(s=>s.startsWith(cookieName(env)+'='))?.split('=')[1]}
 function cookieHeader(value,env,maxAge){return `${cookieName(env)}=${value}; Path=/; HttpOnly; SameSite=Strict; Max-Age=${maxAge}${env.LOCAL_AUTH==='true'?'':'; Secure'}`}
+export const clearSessionCookie=env=>cookieHeader('',env,0)
 const json=(data,status=200,headers={})=>Response.json(data,{status,headers:{'Cache-Control':'no-store',...headers}})
 export function sameOrigin(request){
  const origin=request.headers.get('Origin')
@@ -23,10 +24,11 @@ async function limit(env,key,max,period,now){
 }
 export async function verifySession(request,env,now=Date.now()){
  const token=cookie(request,env)
- if(!token||!/^[a-f0-9]{64}$/.test(token))throw fail(401,'Connectez-vous pour retrouver votre espace.')
- const row=await env.DB.prepare('SELECT email FROM auth_sessions WHERE digest=? AND expires>?').bind(await digest(token),now).first()
- if(!row)throw fail(401,'Votre session a expiré. Reconnectez-vous.')
- return {email:normalizeEmail(row.email,env.ALLOWED_EMAIL_DOMAIN||'promo.dev')}
+ if(!token)throw fail(401,'Connectez-vous pour retrouver votre espace.')
+ if(!/^[a-f0-9]{64}$/.test(token))throw Object.assign(fail(401,'Votre session est invalide. Reconnectez-vous.'),{code:'SESSION_INVALID'})
+ const row=await env.DB.prepare('SELECT s.email,p.id AS playerId FROM auth_sessions s JOIN players p ON p.id=s.player AND p.email=s.email WHERE s.digest=? AND s.expires>?').bind(await digest(token),now).first()
+ if(!row)throw Object.assign(fail(401,'Votre session a expiré ou votre compte n’existe plus. Reconnectez-vous.'),{code:'SESSION_INVALID'})
+ return {email:normalizeEmail(row.email,env.ALLOWED_EMAIL_DOMAIN||'promo.dev'),playerId:row.playerId}
 }
 export async function authRoute(request,env,readBody,now=Date.now()){
  const path=new URL(request.url).pathname
@@ -66,7 +68,11 @@ export async function authRoute(request,env,readBody,now=Date.now()){
   if(!row?.consumed)throw fail(400,'Code incorrect ou expiré. Après 5 essais, demandez un nouveau code.')
   const token=randomToken(),old=cookie(request,env)
   if(old)await env.DB.prepare('DELETE FROM auth_sessions WHERE digest=?').bind(await digest(old)).run()
-  await env.DB.prepare('INSERT INTO auth_sessions(digest,email,created,expires) VALUES(?,?,?,?)').bind(await digest(token),row.email,now,now+SESSION_MS).run()
+  // Provision only after a fresh OTP proof, never when reading an existing session.
+  await env.DB.batch([
+   env.DB.prepare('INSERT INTO players(id,email,name,created) VALUES(?,?,?,?) ON CONFLICT(email) DO NOTHING').bind(crypto.randomUUID(),row.email,'Joueur '+row.email.split('@')[0].slice(0,16),now),
+   env.DB.prepare('INSERT INTO auth_sessions(digest,email,created,expires,player) SELECT ?,email,?,?,id FROM players WHERE email=?').bind(await digest(token),now,now+SESSION_MS,row.email)
+  ])
   return json({ok:true},200,{'Set-Cookie':cookieHeader(token,env,SESSION_MS/1000)})
  }
  throw fail(404,'Route inconnue.')

@@ -47,7 +47,7 @@ function storeSettings(){try{localStorage.setItem('promodev-settings',JSON.strin
 watch(settings,storeSettings,{deep:true})
 watch(()=>settings.value.sound,value=>{if(value)previewError.value='';else stopPreview()})
 function stopPreview(){previewToken++;previewAudio?.pause();audioPreview.value=false;previewLoading.value=false}
-async function go(next){diagnostic('app.navigate',{previous:view.value,next});if(view.value==='catalog')catalogScroll=window.scrollY;stopPreview();view.value=next;window.scrollTo({top:0,behavior:'instant'});await nextTick();if(next==='catalog')window.scrollTo({top:catalogScroll,behavior:'instant'});document.querySelector('main h1')?.focus({preventScroll:true})}
+async function go(next){diagnostic('app.navigate',{previous:view.value,next});if(view.value==='catalog')catalogScroll=window.scrollY;stopPreview();view.value=!authenticated.value&&!['home','login'].includes(next)?'login':next;window.scrollTo({top:0,behavior:'instant'});await nextTick();if(next==='catalog')window.scrollTo({top:catalogScroll,behavior:'instant'});document.querySelector('main h1')?.focus({preventScroll:true})}
 async function preview(){
   previewError.value=''
   if(audioPreview.value||previewLoading.value){stopPreview();return}
@@ -63,18 +63,21 @@ watch(songId,()=>{stopPreview();previewAudio=null;previewError.value=''})
 function modeKeys(e){const ids=baseModes.map(m=>m.id);let index=ids.indexOf(mode.value);if(['ArrowRight','ArrowDown'].includes(e.key))index=(index+1)%ids.length;else if(['ArrowLeft','ArrowUp'].includes(e.key))index=(index+ids.length-1)%ids.length;else if(e.key==='Home')index=0;else if(e.key==='End')index=ids.length-1;else return;e.preventDefault();mode.value=ids[index];nextTick(()=>document.querySelector('[role=radio][aria-checked=true]')?.focus())}
 function chooseSong(id){songId.value=id;go('select')}
 function nextSong(){const index=songs.findIndex(s=>s.id===songId.value);chooseSong(songs[(index+1)%songs.length].id)}
-async function start(){diagnostic('game.selected',{song:song.value.id,mode:mode.value});stopPreview();view.value='game';await nextTick()}
+async function start(){if(!authenticated.value){go('login');return}diagnostic('game.selected',{song:song.value.id,mode:mode.value});stopPreview();view.value='game';await nextTick()}
 function finished(value){result.value=value;records.value=read('promodev-records-v1',[]);go('result')}
-function acceptIdentity(value){account.value=value;if(value?.nicknameReady)settings.value.name=value.name;identityError.value=''}
-async function refreshIdentity(){identityLoading.value=true;identityError.value='';try{acceptIdentity(await loadIdentity())}catch(error){identityError.value=error.status?error.message:'Impossible de vérifier votre connexion. Réessayez.'}finally{identityLoading.value=false}}
+function acceptIdentity(value){account.value=value;if(value?.nicknameReady)settings.value.name=value.name;identityError.value='';if(value&&!authenticated.value)view.value='login';else if(authenticated.value&&view.value==='login')go('home')}
+function sessionExpired(event){const wasConnected=!!account.value;account.value=null;settings.value.name='';stopPreview();showInstall.value=false;if(wasConnected||event.detail?.code==='SESSION_INVALID')view.value='login'}
+let identityPending
+function resumeIdentity(){if(document.visibilityState==='visible')refreshIdentity()}
+function refreshIdentity(){if(identityPending)return identityPending;identityLoading.value=true;identityError.value='';identityPending=(async()=>{try{acceptIdentity(await loadIdentity())}catch(error){account.value=null;stopPreview();view.value='login';identityError.value=error.status?error.message:'Impossible de vérifier votre connexion. Réessayez.'}finally{identityLoading.value=false;identityPending=null}})();return identityPending}
 function askInstall(e){e.preventDefault();installEvent.value=e}
 function install(){showInstall.value=true}
 function installedApp(){installed.value=true;installEvent.value=null}
 function keyboard(e){if(e.key==='Escape'&&showHelp.value){showHelp.value=false;prevFocus?.focus()}}
 function reduction(){systemReduced.value=reduced.matches}
 watch(showHelp,async value=>{if(value){prevFocus=document.activeElement;await nextTick();document.querySelector('.help-dialog')?.showModal()}else document.querySelector('.help-dialog')?.close()})
-onMounted(()=>{refreshIdentity();window.addEventListener('appinstalled',installedApp);window.addEventListener('beforeinstallprompt',askInstall);window.addEventListener('keydown',keyboard);reduced.addEventListener('change',reduction)})
-onUnmounted(()=>{window.removeEventListener('appinstalled',installedApp);stopPreview();window.removeEventListener('beforeinstallprompt',askInstall);window.removeEventListener('keydown',keyboard);reduced.removeEventListener('change',reduction)})
+onMounted(()=>{window.addEventListener('promotiles:session-expired',sessionExpired);window.addEventListener('pageshow',resumeIdentity);document.addEventListener('visibilitychange',resumeIdentity);refreshIdentity();window.addEventListener('appinstalled',installedApp);window.addEventListener('beforeinstallprompt',askInstall);window.addEventListener('keydown',keyboard);reduced.addEventListener('change',reduction)})
+onUnmounted(()=>{window.removeEventListener('promotiles:session-expired',sessionExpired);window.removeEventListener('pageshow',resumeIdentity);document.removeEventListener('visibilitychange',resumeIdentity);window.removeEventListener('appinstalled',installedApp);stopPreview();window.removeEventListener('beforeinstallprompt',askInstall);window.removeEventListener('keydown',keyboard);reduced.removeEventListener('change',reduction)})
 </script>
 
 <template>
@@ -89,7 +92,7 @@ onUnmounted(()=>{window.removeEventListener('appinstalled',installedApp);stopPre
     </header>
 
     <main id="main" :class="['main-content', authenticated?'view-'+view:'view-account']">
-      <AccountGate v-if="!authenticated" :account="account" :loading="identityLoading" :load-error="identityError" @authenticated="acceptIdentity" @retry="refreshIdentity"/>
+      <AccountGate v-if="!authenticated&&view!=='home'" :account="account" :loading="identityLoading" :load-error="identityError" @authenticated="acceptIdentity" @retry="refreshIdentity"/>
       <section v-else-if="view==='home'" class="home-screen page-enter">
         <div class="hero-copy">
           <p class="eyebrow"><span></span> LE CHALLENGE DE NOËL <span></span></p>
@@ -98,7 +101,7 @@ onUnmounted(()=>{window.removeEventListener('appinstalled',installedApp);stopPre
         </div>
         <SnowGlobe class="home-globe" :motion="motion" :active="view==='home'" />
         <div class="home-actions">
-          <div class="home-stats"><div><Music2 :size="23"/><span>À découvrir<strong>{{songs.length}} morceaux · 3 niveaux</strong></span></div><div><Crown :size="23"/><span>Votre record<strong>{{best?best.toLocaleString('fr-FR')+' pts':'À vous de jouer'}}</strong></span></div></div>
+          <div class="home-stats"><div><Music2 :size="23"/><span>À découvrir<strong>{{songs.length}} morceaux · 3 niveaux</strong></span></div><div><Crown :size="23"/><span>Votre record<strong>{{authenticated&&best?best.toLocaleString('fr-FR')+' pts':'À vous de jouer'}}</strong></span></div></div>
           <button class="primary-button hero-cta" @click="go('catalog')">Entrer en scène <ArrowRight :size="22"/></button>
           <p class="small-note"><Headphones :size="13"/> Encore plus magique avec un casque.</p>
         </div>

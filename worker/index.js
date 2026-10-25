@@ -1,7 +1,7 @@
 import catalog from '../src/data/catalog.json' with { type: 'json' }
 import { GameEngine, WINDOWS } from '../src/lib/game-engine.js'
 import { verifyAccess, fail } from './auth.js'
-import { authRoute, verifySession, sameOrigin } from './native-auth.js'
+import { authRoute, verifySession, sameOrigin, clearSessionCookie } from './native-auth.js'
 import { auditReplay } from './anti-cheat.js'
 import { avatars } from '../src/lib/avatars.js'
 import { nickname } from '../src/lib/nickname.js'
@@ -41,9 +41,10 @@ export function createWorker({songs=catalog,identity=null,now=Date.now}={}) {
   }
   return charts.get(key)
  }
- async function playerFor(email,env){
-  await env.DB.prepare('INSERT INTO players(id,email,name,created) VALUES(?,?,?,?) ON CONFLICT(email) DO NOTHING').bind(crypto.randomUUID(),email,'Joueur '+email.split('@')[0].slice(0,16),now()).run()
+ async function playerFor(email,env,provision,playerId){
+  if(provision)await env.DB.prepare('INSERT INTO players(id,email,name,created) VALUES(?,?,?,?) ON CONFLICT(email) DO NOTHING').bind(crypto.randomUUID(),email,'Joueur '+email.split('@')[0].slice(0,16),now()).run()
   const player=await env.DB.prepare('SELECT id,email,name,nickname_key,avatar FROM players WHERE email=?').bind(email).first()
+  if(!player||(playerId&&player.id!==playerId))throw Object.assign(fail(401,'Votre compte n’existe plus. Reconnectez-vous.'),{code:'SESSION_INVALID'})
   return {id:player.id,email:player.email,name:player.name,avatar:player.avatar,nicknameReady:!!player.nickname_key}
  }
  return { async fetch(request,env) {
@@ -65,7 +66,7 @@ export function createWorker({songs=catalog,identity=null,now=Date.now}={}) {
    sameOrigin(request)
    if(request.method==='GET'&&url.pathname==='/api/health')return json({ok:true,songs:songs.length,storage:'D1',auth:native?'email-code':'cloudflare-access'})
    if(!['GET','POST'].includes(request.method))throw fail(405,'Méthode indisponible.')
-   const player=await playerFor(user.email,env)
+   const player=await playerFor(user.email,env,!!identity||!native,user.playerId)
    if(request.method==='GET'){
     if(url.pathname==='/api/me')return json(player)
     if(url.pathname==='/api/history'){
@@ -134,7 +135,12 @@ export function createWorker({songs=catalog,identity=null,now=Date.now}={}) {
     return json({result})
    }
    throw fail(404,'Route inconnue.')
-  }catch(error){console.warn(JSON.stringify({event:'request.failed',requestId,path:url.pathname,status:error.status||500,code:error.name,elapsedMs:Date.now()-requestStarted}));return json({error:error.status?error.message:'Le serveur est momentanément indisponible.'},error.status||500)}
+  }catch(error){
+   console.warn(JSON.stringify({event:'request.failed',requestId,path:url.pathname,status:error.status||500,code:error.name,elapsedMs:Date.now()-requestStarted}))
+   const response=json({error:error.status?error.message:'Le serveur est momentanément indisponible.',...(error.code==='SESSION_INVALID'?{code:error.code}:{})},error.status||500)
+   if(error.code==='SESSION_INVALID'&&env.AUTH_MODE==='native')response.headers.set('Set-Cookie',clearSessionCookie(env))
+   return response
+  }
  }, async scheduled(_event,env){
   await env.DB.batch([
    env.DB.prepare('DELETE FROM rate_limits WHERE expires<?').bind(now()),
