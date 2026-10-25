@@ -11,7 +11,7 @@ import { RangeRequestsPlugin } from 'workbox-range-requests'
 addPlugins([new RangeRequestsPlugin()])
 precacheAndRoute(self.__WB_MANIFEST)
 cleanupOutdatedCaches()
-registerRoute(({url,request})=>url.origin===self.location.origin&&(url.pathname.startsWith('/music/catalog/')||url.pathname.startsWith('/music/artwork/'))&&request.method==='GET',new CacheFirst({cacheName:'promotiles-music-v1',plugins:[new CacheableResponsePlugin({statuses:[200]}),{cacheWillUpdate:async({response})=>response.redirected||response.headers.get('Content-Type')?.includes('text/html')?null:response},new ExpirationPlugin({maxEntries:260,maxAgeSeconds:60*60*24*30}),new RangeRequestsPlugin()]}))
+registerRoute(({url,request})=>url.origin===self.location.origin&&(url.pathname.startsWith('/music/catalog/')||url.pathname.startsWith('/music/artwork/')||url.pathname.startsWith('/music/ambience/'))&&request.method==='GET',new CacheFirst({cacheName:'promotiles-music-v1',plugins:[new CacheableResponsePlugin({statuses:[200]}),{cacheWillUpdate:async({response})=>response.redirected||response.headers.get('Content-Type')?.includes('text/html')?null:response},new ExpirationPlugin({maxEntries:260,maxAgeSeconds:60*60*24*30}),new RangeRequestsPlugin()]}))
 registerRoute(new NavigationRoute(createHandlerBoundToURL('index.html'),{denylist:[/^\/api\//,/^\/cdn-cgi\//]}))
 clientsClaim()
 

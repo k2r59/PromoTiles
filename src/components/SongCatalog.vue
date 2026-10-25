@@ -3,7 +3,7 @@ import { computed, ref, toRef, onUnmounted, watch } from 'vue'
 import { Search, Heart, Headphones, Pause, ArrowRight, Star, Music2, Shuffle, Flame, X } from '@lucide/vue'
 import { songs } from '../lib/songs.js'
 import { progressFor, dailySong, readFavorites } from '../lib/progress.js'
-const props=defineProps({records:Array,sound:Boolean,state:Object}),emit=defineEmits(['choose'])
+const props=defineProps({records:Array,sound:Boolean,state:Object}),emit=defineEmits(['choose','preview-active'])
 const search=toRef(props.state,'search'),genre=toRef(props.state,'genre'),filter=toRef(props.state,'filter'),favorites=ref(readFavorites()),playing=ref(''),loading=ref(''),error=ref('')
 const genres=['Tous',...new Set(songs.map(s=>s.genre))],daily=dailySong(songs)
 const progress=computed(()=>Object.fromEntries(songs.map(s=>[s.id,progressFor(props.records,s.id)])))
@@ -12,15 +12,15 @@ const stars=computed(()=>Object.values(progress.value).reduce((total,p)=>total+p
 const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()
 const visible=computed(()=>songs.filter(s=>(genre.value==='Tous'||s.genre===genre.value)&&normalize(s.title+' '+s.artist).includes(normalize(search.value))&&(filter.value==='Tous'||(filter.value==='Favoris'?favorites.value.includes(s.id):!progress.value[s.id].played))))
 let audio,timer,token=0
-function stop(){token++;audio?.pause();audio=null;clearTimeout(timer);playing.value=loading.value=''}
+function stop(){token++;audio?.pause();audio=null;clearTimeout(timer);playing.value=loading.value='';emit('preview-active',false)}
 async function preview(song){
  if(playing.value===song.id||loading.value===song.id){stop();return}
  stop();error.value=''
  if(!props.sound){error.value='Activez le son pour écouter un extrait.';return}
- const local=++token,player=new Audio(song.audio+'?v='+song.revision);audio=player;loading.value=song.id;player.volume=.55;player.currentTime=song.previewAt
+ const local=++token,player=new Audio(song.audio+'?v='+song.revision);audio=player;loading.value=song.id;emit('preview-active',true);player.volume=.55;player.currentTime=song.previewAt
  try{await player.play();if(local!==token){player.pause();return}playing.value=song.id;timer=setTimeout(stop,15000)}
  catch{if(local===token)error.value='Cet extrait ne se charge pas. Vous pouvez réessayer.'}
- finally{if(local===token)loading.value=''}
+ finally{if(local===token){loading.value='';if(!playing.value)emit('preview-active',false)}}
 }
 function favorite(id){favorites.value=favorites.value.includes(id)?favorites.value.filter(x=>x!==id):[...favorites.value,id];try{localStorage.setItem('promodev-favorites',JSON.stringify(favorites.value))}catch{error.value='Les favoris ne peuvent pas être enregistrés sur cet appareil.'}}
 function choose(song){stop();emit('choose',song.id)}

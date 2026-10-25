@@ -9,7 +9,7 @@
 - Connexion native : code e-mail à usage unique, domaine exact `@promo.dev`.
 - Expéditeur : `connexion@noel.promo.dev`, Cloudflare Email Sending, DNS DKIM/SPF/DMARC configurés.
 - L’ancienne application Access « PromoTiles Noël » a été supprimée après confirmation utilisateur.
-- Les URLs workers.dev et les previews sont désactivées. Le shell de connexion et les illustrations sont publics ; les médias et API du jeu requièrent une session.
+- Les URLs workers.dev et les previews sont désactivées. L’accueil visiteur, le shell de connexion, les illustrations et le seul MP3 d’ambiance fourni sont publics ; les médias et API du jeu requièrent une session.
 
 `wrangler.jsonc` ne contient aucun secret. `AUTH_PEPPER` est un secret Worker. Ne pas le régénérer lors d’un déploiement normal. Les codes expirent après 10 minutes et cinq essais ; envoi limité par adresse et IP. Les sessions sont liées à l’identifiant du joueur et vérifient son existence à chaque requête protégée. Elles durent sept jours, sont révoquées à la suppression du joueur ou à la déconnexion et utilisent un cookie `__Host-`, HttpOnly, Secure, SameSite=Strict. La base conserve uniquement les empreintes des codes et sessions. Les anciennes variables Access restent disponibles pour le code de compatibilité, mais sont inactives avec `AUTH_MODE=native`.
 
@@ -33,7 +33,7 @@ Le test D1 d’intégration utilise le runtime Miniflare/workerd, sans modifier 
 
 Guide d’installation coulissant dans Profil → Application, avec trois étapes adaptées à iOS, Android et ordinateur. iOS utilise Safari puis Partager et Sur l’écran d’accueil. Le manifeste inclut `crossorigin="use-credentials"` pour les ressources protégées. Les routes `/api/` et `/cdn-cgi/` sont exclues du fallback de navigation hors ligne. Les médias sont mis en cache après consultation ; connexion nécessaire pour le classement et le chargement d’un nouveau titre. Une page de connexion HTML redirigée ne doit pas entrer dans le cache musical.
 
-Après une mise à jour, recharger puis accepter **Actualiser** hors partie. La mise à jour n’interrompt jamais automatiquement un jeu en cours.
+Les mises à jour prêtes sont appliquées automatiquement à l’accueil, hors chargement de session. Sur les autres vues hors partie, le bouton **Actualiser** reste disponible. Ni une partie ni la saisie d’un code ne sont interrompues automatiquement. Pour un ancien shell bloqué dans le cache Safari, ouvrir `https://noel.promo.dev/api/app` : ce chemin exclu du fallback historique sert directement le HTML actuel, sans redirection HTTP. L’URL est ensuite normalisée par le client.
 
 ## Diagnostic mobile — build 2026-10-24-mobile-3
 

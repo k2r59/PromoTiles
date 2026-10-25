@@ -723,3 +723,11 @@ Bouton « Télécharger le diagnostic » retiré des préférences et de l’éc
 - Vérification production pour l’adresse personnelle d’Hervé : aucun profil ni session ; ancien challenge restant supprimé. Le compte `test@promo.dev` et son alias de livraison ne sont pas modifiés.
 - Validation : 54 tests et intégration D1 réussis ; test réel dans le navigateur local d’une suppression de profil QA suivie d’un accès au classement → connexion. Accueil visiteur mobile 390×844 sans débordement et bouton connexion vérifiés, capture `design/previews/guest-home-mobile.png`.
 - Version Worker déployée : `badc351c-1437-4c00-bbec-a64a25075c99`. Une PWA restée ouverte sur l’ancienne version doit être actualisée une fois pour charger la nouvelle logique client ; le serveur refuse déjà les sessions invalides.
+
+## 29. Récupération Safari et musique d’ambiance — 25 octobre 2026
+
+- Entrée publique `/api/app` : charge le shell récent par le réseau malgré un ancien service worker, puis normalise l’URL vers `/`. Fonctionnement du lien confirmé par l’utilisateur. Une mise à jour disponible est aussi appliquée automatiquement depuis l’accueil inactif, sans interrompre une partie ou la connexion.
+- Musique fournie par l’utilisateur (« Christmas Background Music For Videos  Royalty Free - Tis the Season.mp3 »), convertie en MP3 128 kb/s avec gain réduit pour iOS : `public/music/ambience/tis-the-season-7eacbcc2.mp3`, durée 95,85 secondes, environ 1,5 Mo. Le titre du fichier ne constitue pas une vérification de licence.
+- Lecture en boucle après le premier geste, sur les vues hors partie, y compris l’accueil visiteur. Pause pendant le jeu et sa préparation, les extraits, la coupure du son et la mise en arrière-plan ; reprise au retour. Ce seul MP3 est public, les morceaux du jeu restent protégés.
+- Validation : 59 tests réussis et build PWA réussi ; navigateur local vérifié pour première interaction, bouton son, extrait, préparation et retour. Aucun nouveau test sur iPhone physique pour cet ajout.
+- Déployé sur https://noel.promo.dev : `23f96fa7-24c7-4edc-94e2-d8a4cdebe238`. Contrôles production : musique HTTP 200, récupération HTTP 200 sans redirection, API de profil sans session HTTP 401.

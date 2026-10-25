@@ -10,4 +10,6 @@ import '@fontsource/manrope/latin-700.css'
 import './style.css'
 import './mobile-layout.css'
 import App from './App.vue'
+// /api/app is a network-only entry point for clients running an older cached shell.
+if(location.pathname==='/api/app')history.replaceState(null,'','/')
 createApp(App).mount('#app')

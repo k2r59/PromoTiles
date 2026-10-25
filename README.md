@@ -34,6 +34,8 @@ L’accueil est visible sans connexion, avec la même boule à neige et sans nav
 
 L’application installée se nomme **promoTiles**, avec son icône de sapin piano bleu et or. Vingt avatars de Noël et une vue Dotations (trois cadeaux fictifs) complètent le profil et la navigation.
 
+Le fond musical de Noël fourni par l’utilisateur boucle hors partie, après le premier geste autorisant le son. Il se coupe pendant les extraits, les parties et en arrière-plan, et respecte le bouton son.
+
 Le profil ouvre un guide d’installation en trois étapes pour iPhone/iPad, Android et ordinateur. Le bouton natif est proposé lorsque le navigateur le permet. Le manifeste protégé inclut les informations de session (`use-credentials`).
 
 La PWA conserve l’interface et les médias effectivement consultés. Un morceau doit avoir été chargé avant de fonctionner hors connexion. Le classement nécessite le serveur.
@@ -64,4 +66,4 @@ npm run test:cloudflare
 npm run build
 ```
 
-54 tests couvrent notamment les 300 partitions, les plafonds de score, les tenues, les reprises, la provenance des attaques, l’API partagée et la neige. Captures dans `design/previews/`. Contexte historique et changements récents dans [REPRISE.md](REPRISE.md). Les évaluations des agents ne remplacent pas un essai humain sur téléphone ni la validation du plaisir de jeu.
+59 tests couvrent notamment les 300 partitions, les plafonds de score, les tenues, les reprises, la provenance des attaques, l’API partagée et la neige. Captures dans `design/previews/`. Contexte historique et changements récents dans [REPRISE.md](REPRISE.md). Les évaluations des agents ne remplacent pas un essai humain sur téléphone ni la validation du plaisir de jeu.

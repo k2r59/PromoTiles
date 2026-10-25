@@ -4,6 +4,7 @@ import { verifyAccess, fail } from './auth.js'
 import { authRoute, verifySession, sameOrigin, clearSessionCookie } from './native-auth.js'
 import { auditReplay } from './anti-cheat.js'
 import { avatars } from '../src/lib/avatars.js'
+import {AMBIENT_TRACK} from '../src/lib/ambient-track.js'
 import { nickname } from '../src/lib/nickname.js'
 import { cleanDiagnostic } from './diagnostics.js'
 const DAY = 86400000
@@ -54,12 +55,15 @@ export function createWorker({songs=catalog,identity=null,now=Date.now}={}) {
    // Only the login shell and its decorative assets are public in native mode.
    const native=env.AUTH_MODE==='native'
    if(native){const response=await authRoute(request,env,body,now());if(response)return response}
-   const publicShell=/^\/(?:$|index\.html$|manifest\.webmanifest$|sw\.js$|icon\.svg$|(?:winter-night|winter-mobile|piano-snowglobe-clear|piano-snowglobe|santa-sleigh|crystal-podium)\.webp$|icons\/[a-zA-Z0-9_-]+\.png$|avatars\/[a-z-]+\.webp$|assets\/[a-zA-Z0-9_.-]+$)/.test(url.pathname)
+   // Existing service workers exclude /api/ navigations. This public shell entry
+   // lets an old installed client load current code without clearing browser data.
+   const freshShell=url.pathname==='/api/app'
+   const publicShell=freshShell||url.pathname===AMBIENT_TRACK||/^\/(?:$|index\.html$|manifest\.webmanifest$|sw\.js$|icon\.svg$|(?:winter-night|winter-mobile|piano-snowglobe-clear|piano-snowglobe|santa-sleigh|crystal-podium)\.webp$|icons\/[a-zA-Z0-9_-]+\.png$|avatars\/[a-z-]+\.webp$|assets\/[a-zA-Z0-9_.-]+$)/.test(url.pathname)
    const protectedPath=!publicShell
    const user=identity?await identity(request,env):native?(protectedPath?await verifySession(request,env,now()):null):await verifyAccess(request,env)
-   if(!url.pathname.startsWith('/api/')){
+   if(!url.pathname.startsWith('/api/')||freshShell){
     if(!['GET','HEAD'].includes(request.method))throw fail(405,'Méthode indisponible.')
-    const response=await env.ASSETS.fetch(request)
+    const response=await env.ASSETS.fetch(freshShell?new Request(new URL('/',request.url),request):request)
     const headers=new Headers(response.headers);headers.set('Cache-Control','private, no-store');headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy','same-origin')
     return new Response(response.body,{status:response.status,headers})
    }

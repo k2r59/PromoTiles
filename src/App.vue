@@ -12,6 +12,8 @@ import NicknameForm from './components/NicknameForm.vue'
 import Prizes from './components/Prizes.vue'
 import { diagnostic } from './lib/diagnostics.js'
 import {avatarFor} from './lib/avatars.js'
+import {AmbientMusic} from './lib/ambient-music.js'
+import {AMBIENT_TRACK} from './lib/ambient-track.js'
 import { starsFor, progressFor } from './lib/progress.js'
 import { loadIdentity, logout } from './lib/community.js'
 import { songs, songRecords } from './lib/songs.js'
@@ -33,6 +35,10 @@ function read(key,fallback){
   }catch{return fallback}
 }
 const view=ref('home'), mode=ref('normal'), settings=ref(read('promodev-settings',{motion:!reduced.matches,sound:true,name:'',offsetMs:0})), records=ref(read('promodev-records-v1',[])), result=ref(null), installEvent=ref(null), showHelp=ref(false), audioPreview=ref(false)
+const ambientElement=ref(null),catalogPreview=ref(false)
+let ambientMusic
+const ambientActive=computed(()=>settings.value.sound&&view.value!=='game'&&!catalogPreview.value&&!audioPreview.value&&!previewLoading.value)
+watch(ambientActive,value=>ambientMusic?.setActive(value),{flush:'sync'})
 let previewAudio,prevFocus,previewToken=0
 const motion=computed(()=>settings.value.motion&&!systemReduced.value)
 const currentRecords=computed(()=>songRecords(records.value,songId.value))
@@ -43,6 +49,8 @@ const collectionStars=computed(()=>songs.reduce((total,s)=>total+progressFor(rec
 const selected=computed(()=>modes.value.find(m=>m.id===mode.value))
 const personalBest=computed(()=>modes.value.map(m=>({...m,score:Math.max(0,...currentRecords.value.filter(r=>r.mode===m.id).map(r=>r.score))})).sort((a,b)=>b.score-a.score))
 const {needRefresh,updateServiceWorker}=useRegisterSW()
+// Apply updates on the idle home screen; never interrupt a game or a login form.
+watch([needRefresh,view,identityLoading],([ready,screen,loading])=>{if(ready&&screen==='home'&&!loading)updateServiceWorker()})
 function storeSettings(){try{localStorage.setItem('promodev-settings',JSON.stringify(settings.value));return true}catch{return false}}
 watch(settings,storeSettings,{deep:true})
 watch(()=>settings.value.sound,value=>{if(value)previewError.value='';else stopPreview()})
@@ -76,12 +84,13 @@ function installedApp(){installed.value=true;installEvent.value=null}
 function keyboard(e){if(e.key==='Escape'&&showHelp.value){showHelp.value=false;prevFocus?.focus()}}
 function reduction(){systemReduced.value=reduced.matches}
 watch(showHelp,async value=>{if(value){prevFocus=document.activeElement;await nextTick();document.querySelector('.help-dialog')?.showModal()}else document.querySelector('.help-dialog')?.close()})
-onMounted(()=>{window.addEventListener('promotiles:session-expired',sessionExpired);window.addEventListener('pageshow',resumeIdentity);document.addEventListener('visibilitychange',resumeIdentity);refreshIdentity();window.addEventListener('appinstalled',installedApp);window.addEventListener('beforeinstallprompt',askInstall);window.addEventListener('keydown',keyboard);reduced.addEventListener('change',reduction)})
-onUnmounted(()=>{window.removeEventListener('promotiles:session-expired',sessionExpired);window.removeEventListener('pageshow',resumeIdentity);document.removeEventListener('visibilitychange',resumeIdentity);window.removeEventListener('appinstalled',installedApp);stopPreview();window.removeEventListener('beforeinstallprompt',askInstall);window.removeEventListener('keydown',keyboard);reduced.removeEventListener('change',reduction)})
+onMounted(()=>{ambientMusic=new AmbientMusic(ambientElement.value);ambientMusic.setActive(ambientActive.value);window.addEventListener('promotiles:session-expired',sessionExpired);window.addEventListener('pageshow',resumeIdentity);document.addEventListener('visibilitychange',resumeIdentity);refreshIdentity();window.addEventListener('appinstalled',installedApp);window.addEventListener('beforeinstallprompt',askInstall);window.addEventListener('keydown',keyboard);reduced.addEventListener('change',reduction)})
+onUnmounted(()=>{ambientMusic?.dispose();window.removeEventListener('promotiles:session-expired',sessionExpired);window.removeEventListener('pageshow',resumeIdentity);document.removeEventListener('visibilitychange',resumeIdentity);window.removeEventListener('appinstalled',installedApp);stopPreview();window.removeEventListener('beforeinstallprompt',askInstall);window.removeEventListener('keydown',keyboard);reduced.removeEventListener('change',reduction)})
 </script>
 
 <template>
   <div class="app-shell" :class="{'catalog-open':view==='catalog','with-navigation':authenticated&&['home','profile','leaderboard','prizes'].includes(view),'motion-off':!motion,'game-open':view==='game','selection-open':['select','catalog','credits'].includes(view),'result-open':view==='result'}">
+    <audio ref="ambientElement" :src="AMBIENT_TRACK" loop preload="none" hidden aria-hidden="true" data-ambient-music></audio>
     <Atmosphere :motion="motion" :quiet="view!=='home'" :catalog="view==='catalog'" :gameplay="view==='game'" />
     <a class="skip-link" href="#main">Aller au contenu</a>
     <header v-if="view!=='game'" class="brand-header">
@@ -108,7 +117,7 @@ onUnmounted(()=>{window.removeEventListener('promotiles:session-expired',session
         <div class="home-side-note"><span class="edition-line"></span><p>NUIT POLAIRE<br><span>Édition de Noël · Promodev</span></p></div>
       </section>
 
-      <SongCatalog v-else-if="view==='catalog'" :records="records" :sound="settings.sound" :state="catalogState" @choose="chooseSong" />
+      <SongCatalog v-else-if="view==='catalog'" :records="records" :sound="settings.sound" :state="catalogState" @choose="chooseSong" @preview-active="catalogPreview=$event" />
 
       <section v-else-if="view==='select'" class="selection-screen narrow-screen page-enter">
 

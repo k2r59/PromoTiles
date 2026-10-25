@@ -6,6 +6,7 @@ import { generateKeyPair, SignJWT } from 'jose'
 import { createWorker } from '../worker/index.js'
 import { cleanDiagnostic } from '../worker/diagnostics.js'
 import { normalizeEmail, verifyAccess, verifyAccessToken, validateIdentity, fail } from '../worker/auth.js'
+import {AMBIENT_TRACK} from '../src/lib/ambient-track.js'
 function database(){
  const db=new DatabaseSync(':memory:');for(const file of readdirSync(new URL('../migrations/',import.meta.url)).filter(f=>f.endsWith('.sql')).sort())db.exec(readFileSync(new URL('../migrations/'+file,import.meta.url),'utf8'))
  const wrap=(sql,args=[])=>({bind:(...values)=>wrap(sql,values),first:async()=>db.prepare(sql).get(...args)||null,all:async()=>({results:db.prepare(sql).all(...args)}),run:async()=>({meta:{changes:Number(db.prepare(sql).run(...args).changes)}})})
@@ -139,6 +140,19 @@ test('native email login protects data, consumes OTP once, revokes logout and li
  }finally{DB.raw.close()}
 })
 
+
+test('fresh app entry bypasses old navigation caches without exposing private routes',async()=>{
+ const DB=database(),paths=[],env={DB,AUTH_MODE:'native',ASSETS:{fetch:async req=>{paths.push(new URL(req.url).pathname);return new Response('<!doctype html><title>promoTiles</title>',{headers:{'Content-Type':'text/html'}})}}}
+ const worker=createWorker()
+ try{
+  const page=await worker.fetch(new Request('https://noel.promo.dev/api/app'),env)
+  assert.equal(page.status,200);assert.equal(page.headers.get('Cache-Control'),'private, no-store');assert.deepEqual(paths,['/'])
+  assert.equal((await worker.fetch(new Request('https://noel.promo.dev'+AMBIENT_TRACK),env)).status,200)
+  for(const path of ['/api/me','/api/app/private','/music/private.mp3'])assert.equal((await worker.fetch(new Request('https://noel.promo.dev'+path),env)).status,401)
+  assert.equal((await worker.fetch(new Request('https://noel.promo.dev/api/app',{method:'POST'}),env)).status,405)
+  assert.equal(DB.raw.prepare('SELECT COUNT(*) n FROM players').get().n,0)
+ }finally{DB.raw.close()}
+})
 
 test('deleted accounts revoke sessions and pending codes and cannot be recreated by an old cookie',async()=>{
  let now=1000000;const DB=database(),mail=[],env={DB,AUTH_MODE:'native',AUTH_PEPPER:'test-only-pepper',EMAIL:{send:async m=>mail.push(m)},ASSETS:{fetch:async()=>new Response('private asset')}}
